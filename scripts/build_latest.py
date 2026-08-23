@@ -1227,46 +1227,67 @@ def main():
 # 书名关键词分析
 # ============================================================
 
-# 书名中高频出现的关键词候选（2-6字，涵盖男频+女频）
-TITLE_KEYWORDS = [
-    # 人物身份
-    "美女", "校花", "女神", "美人", "总裁", "帝", "皇", "仙", "龙", "圣", "尊", "王", "侯",
-    "赘婿", "战神", "兵王", "神医", "少爷", "公主", "王妃", "嫡女", "庶女",
-    "首富", "首辅", "权臣", "魔尊", "帝君", "师尊", "世子", "将军", "摄政王",
-    "太子", "皇子", "皇后", "贵妃", "弃妇", "正妻", "嫡妻", "侧妃",
-    "老婆", "娘子", "夫人", "小姐", "仙子", "妹妹", "师姐", "师妹",
-    "魅魔", "女仆", "女帝", "女魔", "女鬼", "女配", "精灵", "魔王",
-    "老祖", "掌柜", "教主", "宗主", "盟主", "城主", "领主",
-    # 修炼/能力
-    "系统", "重生", "穿越", "签到", "模拟器", "无敌", "升级", "异能",
-    "修仙", "炼丹", "炼器", "御兽", "血脉", "天赋", "金手指",
-    "觉醒", "灵根", "悟性", "词条", "属性", "面板",
-    # 关系/情感
-    "甜宠", "霸总", "宠妻", "追妻", "追夫", "虐恋", "甜文", "甜恋",
-    "先婚", "后爱", "强制", "诱", "撩", "团宠", "独宠", "偏执",
-    "病娇", "腹黑", "傲娇", "清冷",
-    # 设定/场景
-    "空间", "种田", "末世", "废土", "星际", "诸天", "洪荒",
-    "宫斗", "宅斗", "江湖", "校园", "娱乐圈",
-    "年代", "七零", "八零", "民国", "古言", "现言",
-    "快穿", "无限流", "直播", "综艺",
-    "盗墓", "探秘", "诡异", "规则怪谈", "求生",
-    # 热门修饰
-    "满级", "全能", "天才", "废柴", "逆袭", "翻盘", "归来",
-    "开局", "我", "她", "他", "全家", "大佬",
-    "离婚", "退婚", "闪婚", "契约", "替身", "真假",
-    "大唐", "大秦", "大明", "四合院", "全民",
-    "从", "成了", "成为", "我在", "说好", "让你",
+# 无意义的高频停用词（标点、语气词、量词等），提取时排除
+STOP_CHARS = set("，。！？：；、·…—~～()（）【】[]「」\"' \t\n0123456789")
+
+def extract_ngrams(title: str, min_len: int = 2, max_len: int = 6) -> list:
+    """
+    从书名中自动提取所有 2-6 字的连续子串（n-gram），
+    过滤掉含标点/数字的片段和纯停用词。
+    """
+    title = title or ""
+    if len(title) < 2:
+        return []
+
+    # 去掉标点和特殊字符，按标点分段
+    import re
+    segments = re.split(r'[，。！？：；、·…—~～()（）【】\[\]「」""\'\s\d]+', title)
+
+    grams = []
+    for seg in segments:
+        seg = seg.strip()
+        if len(seg) < min_len:
+            continue
+        for length in range(min_len, min(max_len, len(seg)) + 1):
+            for i in range(len(seg) - length + 1):
+                gram = seg[i:i + length]
+                # 跳过含数字或英文字母的（只保留中文字符片段）
+                if not all('\u4e00' <= ch <= '\u9fff' for ch in gram):
+                    continue
+                grams.append(gram)
+
+    return grams
+
+
+# 额外补充的网文专用词（确保不会被 n-gram 漏掉或被短词覆盖）
+EXTRA_KEYWORDS = [
+    "开局", "重生", "穿越", "系统", "无敌", "修仙", "模拟器", "签到",
+    "赘婿", "战神", "兵王", "神医", "团宠", "甜宠", "病娇", "腹黑",
+    "快穿", "无限流", "种田", "末世", "废土", "星际", "诸天",
+    "宫斗", "宅斗", "追妻", "先婚后爱", "真假千金",
+    "全民", "四合院", "大唐", "诡异", "规则怪谈",
 ]
 
+
 def extract_title_keywords(title: str) -> list:
-    """从书名中提取命中的关键词。"""
-    title = title or ""
-    hits = []
-    for kw in TITLE_KEYWORDS:
-        if kw in title:
-            hits.append(kw)
-    return hits
+    """
+    从书名中自动提取关键词。
+    策略：先用 n-gram 提取所有中文连续片段，再补充专用词表。
+    去重后返回。
+    """
+    grams = extract_ngrams(title, min_len=2, max_len=6)
+    # 补充专用词
+    for kw in EXTRA_KEYWORDS:
+        if kw in (title or ""):
+            grams.append(kw)
+    # 去重
+    seen = set()
+    result = []
+    for g in grams:
+        if g not in seen:
+            seen.add(g)
+            result.append(g)
+    return result
 
 
 def parse_reads_value(reads_str: str) -> float:
@@ -1291,7 +1312,11 @@ def build_title_keyword_analysis(output: dict) -> dict:
     - 平均阅读量（含此词的书的平均在读）
     - 涉及分类
     - 频道分布
+
+    使用自动 n-gram 提取，不依赖固定词表。
+    过滤掉过于宽泛的词（出现在 >50% 书名中的词无意义）。
     """
+    total_books = sum(len(c.get("books", [])) for c in output.get("categories", []))
     keyword_map = {}  # kw -> {count, total_reads, categories, channels, books}
 
     for cat in output.get("categories", []):
@@ -1301,7 +1326,8 @@ def build_title_keyword_analysis(output: dict) -> dict:
             title = book.get("title", "")
             reads = parse_reads_value(book.get("reads", ""))
             hits = extract_title_keywords(title)
-            for kw in hits:
+            # 用集合去重（同一书名中多次出现只算一次）
+            for kw in set(hits):
                 if kw not in keyword_map:
                     keyword_map[kw] = {
                         "keyword": kw,
@@ -1327,9 +1353,15 @@ def build_title_keyword_analysis(output: dict) -> dict:
                         "channel": channel,
                     })
 
-    # 转成列表并排序
+    # 转成列表，过滤掉过于宽泛的词（出现在 >50% 书名中）
+    # 和只出现1次的词（统计意义不大）
+    threshold = total_books * 0.5
     result = []
     for kw, entry in keyword_map.items():
+        if entry["count"] < 2:
+            continue
+        if entry["count"] > threshold and len(kw) <= 2:
+            continue  # 2字词出现在超过一半的书名里，太宽泛
         avg_reads = entry["total_reads"] / entry["count"] if entry["count"] else 0
         result.append({
             "keyword": kw,
@@ -1342,6 +1374,24 @@ def build_title_keyword_analysis(output: dict) -> dict:
             "sample_books": entry["sample_books"],
         })
 
+    # 去重子串：如果一个短词和一个长词出现频次完全相同，
+    # 说明短词只是长词的子串，删除短词
+    kw_by_count = {}
+    for r in result:
+        kw_by_count.setdefault(r["count"], []).append(r)
+
+    to_remove = set()
+    for r in result:
+        for longer in result:
+            if longer["keyword"] == r["keyword"]:
+                continue
+            if longer["count"] == r["count"] and r["keyword"] in longer["keyword"] and len(r["keyword"]) < len(longer["keyword"]):
+                # r 是 longer 的子串，且频次相同 → r 只是 longer 的一部分
+                to_remove.add(r["keyword"])
+                break
+
+    result = [r for r in result if r["keyword"] not in to_remove]
+
     # 按出现频次排序
     result.sort(key=lambda x: (x["count"], x["avg_reads"]), reverse=True)
 
@@ -1351,7 +1401,7 @@ def build_title_keyword_analysis(output: dict) -> dict:
 
     return {
         "date": output.get("date", ""),
-        "total_books": sum(len(c.get("books", [])) for c in output.get("categories", [])),
+        "total_books": total_books,
         "total_keywords": len(result),
         "all_keywords": result,
         "female_keywords": sorted(female_kws, key=lambda x: (x["count"], x["avg_reads"]), reverse=True),
