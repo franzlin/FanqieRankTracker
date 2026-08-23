@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开局分析 · 番茄新书榜</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="分析每日新上榜作品的开局模式、金手指和书名红利。">
+</head>
+<body class="trend-page">
+    <div class="trend-shell">
+        <header class="trend-topbar">
+            <div>
+                <a href="index.html" class="back-link">返回榜单</a>
+                <a href="keyword.html" class="back-link">关键词红利</a>
+                <a href="blueocean.html" class="back-link">蓝海探测</a>
+                <h1>新上榜开局分析</h1>
+                <p id="op-subtitle">加载中...</p>
+            </div>
+        </header>
+
+        <main>
+            <section class="market-board">
+                <article class="market-summary-card">
+                    <span class="panel-kicker">AI 开局顾问</span>
+                    <h2>今天什么样的开局在上分？</h2>
+                    <div id="op-ai" class="summary-feed">正在分析...</div>
+                </article>
+            </section>
+
+            <section class="trend-grid">
+                <article class="trend-block trend-block-wide">
+                    <span class="panel-kicker">男频新上榜</span>
+                    <h2 id="op-male-title">男频新上榜作品</h2>
+                    <div id="op-male-list" class="compact-list"></div>
+                </article>
+                <article class="trend-block trend-block-wide">
+                    <span class="panel-kicker">女频新上榜</span>
+                    <h2 id="op-female-title">女频新上榜作品</h2>
+                    <div id="op-female-list" class="compact-list"></div>
+                </article>
+            </section>
+        </main>
+    </div>
+    <script src="js/opening.js"></script>
+</body>
+</html>

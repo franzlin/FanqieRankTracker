@@ -1200,6 +1200,391 @@ def main():
         json.dump({"dates": sorted(date_list)}, f, ensure_ascii=False, indent=2)
     print(f"✅ 日期索引: {dates_path} ({len(date_list)} 个日期)")
 
+    # 生成书名关键词分析
+    keyword_payload = build_title_keyword_analysis(output)
+    keyword_path = os.path.join(data_dir, "title_keywords.json")
+    write_json(keyword_path, keyword_payload)
+    print(f"✅ 书名关键词分析: {keyword_path}")
+
+    # 生成蓝海探测器分析
+    blueocean_payload = build_blueocean_analysis(output)
+    blueocean_path = os.path.join(data_dir, "blueocean.json")
+    write_json(blueocean_path, blueocean_payload)
+    print(f"✅ 蓝海探测分析: {blueocean_path}")
+
+    # 生成新上榜开局分析（AI 优先，规则兜底）
+    opening_payload = build_opening_analysis(output)
+    if api_base_url and api_key and api_model:
+        opening_payload = enrich_opening_analysis_with_ai(
+            opening_payload, api_key, api_base_url, api_model
+        )
+    opening_path = os.path.join(data_dir, "opening_analysis.json")
+    write_json(opening_path, opening_payload)
+    print(f"✅ 新上榜开局分析: {opening_path}")
+
+
+# ============================================================
+# 书名关键词分析
+# ============================================================
+
+# 书名中高频出现的关键词候选（2-6字，涵盖男频+女频）
+TITLE_KEYWORDS = [
+    # 人物身份
+    "美女", "校花", "总裁", "帝", "皇", "仙", "神", "龙", "圣", "尊", "王", "侯",
+    "赘婿", "战神", "兵王", "神医", "少爷", "公主", "王妃", "嫡女", "庶女",
+    "首富", "首辅", "权臣", "魔尊", "帝君", "师尊", "世子", "将军", "摄政王",
+    "太子", "皇子", "皇后", "贵妃", "弃妇", "正妻", "嫡妻", "侧妃",
+    # 修炼/能力
+    "系统", "重生", "穿越", "签到", "模拟器", "无敌", "升级", "异能",
+    "修仙", "炼丹", "炼器", "御兽", "血脉", "天赋", "金手指",
+    # 关系/情感
+    "甜宠", "霸总", "宠妻", "追妻", "追夫", "虐恋", "甜文", "甜恋",
+    "先婚", "后爱", "强制", "诱", "撩", "团宠", "独宠", "偏执",
+    "病娇", "腹黑", "傲娇", "清冷",
+    # 设定/场景
+    "空间", "种田", "末世", "废土", "星际", "诸天", "洪荒",
+    "宫斗", "宅斗", "江湖", "校园", "娱乐圈", "末世",
+    "年代", "七零", "八零", "民国", "古言", "现言",
+    "快穿", "无限流", "直播", "综艺",
+    # 热门修饰
+    "满级", "全能", "天才", "废柴", "逆袭", "翻盘", "归来",
+    "开局", "我", "她", "他", "全家", "大佬",
+    "离婚", "退婚", "闪婚", "契约", "替身", "真假",
+]
+
+def extract_title_keywords(title: str) -> list:
+    """从书名中提取命中的关键词。"""
+    title = title or ""
+    hits = []
+    for kw in TITLE_KEYWORDS:
+        if kw in title:
+            hits.append(kw)
+    return hits
+
+
+def parse_reads_value(reads_str: str) -> float:
+    """将 '15.2万' 转为数值。"""
+    if not reads_str or reads_str == "未知":
+        return 0
+    s = reads_str.strip().replace(",", "")
+    try:
+        if "万" in s:
+            return float(s.replace("万", "")) * 10000
+        if "亿" in s:
+            return float(s.replace("亿", "")) * 100000000
+        return float(s)
+    except ValueError:
+        return 0
+
+
+def build_title_keyword_analysis(output: dict) -> dict:
+    """
+    分析所有上榜书名中的关键词，统计：
+    - 出现频次（多少本上榜书名含此词）
+    - 平均阅读量（含此词的书的平均在读）
+    - 涉及分类
+    - 频道分布
+    """
+    keyword_map = {}  # kw -> {count, total_reads, categories, channels, books}
+
+    for cat in output.get("categories", []):
+        cat_name = cat.get("name", "")
+        channel = cat.get("channel", "female")
+        for book in cat.get("books", []):
+            title = book.get("title", "")
+            reads = parse_reads_value(book.get("reads", ""))
+            hits = extract_title_keywords(title)
+            for kw in hits:
+                if kw not in keyword_map:
+                    keyword_map[kw] = {
+                        "keyword": kw,
+                        "count": 0,
+                        "total_reads": 0,
+                        "max_reads": 0,
+                        "categories": set(),
+                        "channels": set(),
+                        "sample_books": [],
+                    }
+                entry = keyword_map[kw]
+                entry["count"] += 1
+                entry["total_reads"] += reads
+                if reads > entry["max_reads"]:
+                    entry["max_reads"] = reads
+                entry["categories"].add(cat_name)
+                entry["channels"].add(channel)
+                if len(entry["sample_books"]) < 5:
+                    entry["sample_books"].append({
+                        "title": title,
+                        "reads": book.get("reads", "未知"),
+                        "category": cat_name,
+                        "channel": channel,
+                    })
+
+    # 转成列表并排序
+    result = []
+    for kw, entry in keyword_map.items():
+        avg_reads = entry["total_reads"] / entry["count"] if entry["count"] else 0
+        result.append({
+            "keyword": kw,
+            "count": entry["count"],
+            "avg_reads": round(avg_reads),
+            "max_reads": entry["max_reads"],
+            "category_count": len(entry["categories"]),
+            "channels": sorted(entry["channels"]),
+            "categories": sorted(entry["categories"]),
+            "sample_books": entry["sample_books"],
+        })
+
+    # 按出现频次排序
+    result.sort(key=lambda x: (x["count"], x["avg_reads"]), reverse=True)
+
+    # 按频道分组
+    female_kws = [r for r in result if "female" in r["channels"]]
+    male_kws = [r for r in result if "male" in r["channels"]]
+
+    return {
+        "date": output.get("date", ""),
+        "total_books": sum(len(c.get("books", [])) for c in output.get("categories", [])),
+        "total_keywords": len(result),
+        "all_keywords": result,
+        "female_keywords": sorted(female_kws, key=lambda x: (x["count"], x["avg_reads"]), reverse=True),
+        "male_keywords": sorted(male_kws, key=lambda x: (x["count"], x["avg_reads"]), reverse=True),
+    }
+
+
+# ============================================================
+# 蓝海探测器
+# ============================================================
+
+# 题材标签池（从简介中提取）
+BLUEOCEAN_TAGS = [
+    # 男频
+    "系统流", "无敌流", "升级流", "签到流", "模拟器", "诸天", "洪荒",
+    "修仙", "炼丹", "炼器", "御兽", "武道", "剑修", "体修", "血脉",
+    "赘婿", "战神", "兵王", "神医", "特种兵", "鉴宝", "盗墓",
+    "都市异能", "灵气复苏", "诡异", "规则怪谈",
+    "扮猪吃虎", "杀伐果断", "苟道", "横推", "无敌", "签到",
+    "领主", "种田", "基建", "经营", "公会", "副本",
+    "末日", "废土", "天灾", "囤货", "求生",
+    "抗战", "谍战", "历史", "架空历史", "争霸",
+    "动漫", "同人", "衍生",
+    # 女频
+    "重生", "穿越", "快穿", "穿书", "空间", "团宠", "萌宝",
+    "女配", "炮灰", "反派", "权臣", "宅斗", "宫斗", "和离",
+    "替嫁", "逃荒", "种田", "美食", "经商",
+    "年代", "七零", "八零", "军婚", "豪门", "总裁",
+    "真假千金", "先婚后爱", "追妻", "追夫",
+    "甜宠", "双洁", "强制爱", "无CP",
+    "星际", "玄学", "无限流", "悬疑",
+    "直播", "综艺", "娱乐圈", "校园", "暗恋", "青梅竹马",
+    "民国", "兽世", "远古", "基建",
+    "病娇", "偏执", "腹黑", "傲娇", "清冷",
+    "万人迷", "大佬", "全息", "大女主", "群像",
+]
+
+def build_blueocean_analysis(output: dict) -> dict:
+    """
+    蓝海探测器：对每个分类，统计题材词密度。
+    - 红海：该词在该分类出现频率 >= 40%（扎堆）
+    - 蓝海：该词在该分类出现频率 <= 15% 但 > 0（有空间）
+    - 未出现：该分类完全没有
+    """
+    categories_analysis = []
+
+    for cat in output.get("categories", []):
+        cat_name = cat.get("name", "")
+        channel = cat.get("channel", "female")
+        books = cat.get("books", [])
+        total_books = len(books)
+        if total_books == 0:
+            continue
+
+        # 统计每个标签在这个分类中的出现次数
+        tag_stats = []
+        for tag in BLUEOCEAN_TAGS:
+            count = 0
+            total_reads = 0
+            sample_titles = []
+            for book in books:
+                # 在书名+简介中搜索
+                text = f"{book.get('title', '')} {book.get('intro', '')}"
+                if tag in text:
+                    count += 1
+                    total_reads += parse_reads_value(book.get("reads", ""))
+                    if len(sample_titles) < 3:
+                        sample_titles.append(book.get("title", ""))
+
+            if count == 0:
+                continue
+
+            density = count / total_books
+            avg_reads = total_reads / count if count else 0
+
+            if density >= 0.4:
+                level = "red"  # 红海：扎堆
+            elif density <= 0.15:
+                level = "blue"  # 蓝海：有空间
+            else:
+                level = "normal"  # 正常竞争
+
+            tag_stats.append({
+                "tag": tag,
+                "count": count,
+                "density": round(density, 2),
+                "level": level,
+                "avg_reads": round(avg_reads),
+                "sample_titles": sample_titles,
+            })
+
+        # 排序：蓝海优先，然后按阅读量
+        tag_stats.sort(key=lambda x: (
+            0 if x["level"] == "blue" else (1 if x["level"] == "normal" else 2),
+            -x["avg_reads"],
+        ))
+
+        blue_tags = [t for t in tag_stats if t["level"] == "blue"]
+        red_tags = [t for t in tag_stats if t["level"] == "red"]
+
+        categories_analysis.append({
+            "name": cat_name,
+            "channel": channel,
+            "total_books": total_books,
+            "blue_count": len(blue_tags),
+            "red_count": len(red_tags),
+            "tags": tag_stats,
+        })
+
+    return {
+        "date": output.get("date", ""),
+        "categories": categories_analysis,
+    }
+
+
+# ============================================================
+# 新上榜开局分析
+# ============================================================
+
+def build_opening_analysis(output: dict) -> dict:
+    """
+    收集所有新上榜书籍的开局信息，供 AI 分析。
+    规则兜底：按书名+简介提取关键词。
+    """
+    openings = []
+    for cat in output.get("categories", []):
+        cat_name = cat.get("name", "")
+        channel = cat.get("channel", "female")
+        trend = cat.get("trend", {})
+        new_books = trend.get("new_books", [])
+
+        # 建立书名->书的索引
+        book_map = {}
+        for book in cat.get("books", []):
+            book_map[book.get("title", "")] = book
+
+        for title in new_books:
+            book = book_map.get(title, {})
+            openings.append({
+                "title": title,
+                "category": cat_name,
+                "channel": channel,
+                "author": book.get("author", "未知"),
+                "reads": book.get("reads", "未知"),
+                "intro": (book.get("intro", "") or "")[:300],
+                "url": book.get("url", ""),
+            })
+
+    # 按频道分组
+    female_openings = [o for o in openings if o["channel"] == "female"]
+    male_openings = [o for o in openings if o["channel"] == "male"]
+
+    return {
+        "date": output.get("date", ""),
+        "total_new": len(openings),
+        "female_count": len(female_openings),
+        "male_count": len(male_openings),
+        "female_openings": female_openings,
+        "male_openings": male_openings,
+        "all_openings": openings,
+        "ai_analysis": "",  # 由 AI 填充
+    }
+
+
+def build_opening_ai_prompt(payload: dict) -> str:
+    """构建新上榜开局分析的 AI prompt。"""
+    sections = []
+    for channel_label, key in [("男频", "male_openings"), ("女频", "female_openings")]:
+        items = payload.get(key, [])
+        if not items:
+            continue
+        # 每个频道取前 10 本，简介截断到 120 字
+        for item in items[:10]:
+            intro = (item.get("intro", "") or "")[:120]
+            sections.append(
+                f"《{item['title']}》（{channel_label}·{item['category']}）在读{item['reads']}\n{intro}"
+            )
+
+    all_text = "\n\n".join(sections)
+
+    return f"""你是一位网文开书顾问。请根据以下新上榜作品的书名和简介，分析当前什么样的开局模式更容易上分。
+
+## 今日新上榜作品（节选）
+
+{all_text}
+
+## 输出要求（Markdown 格式）
+
+**🎯 男频爆款开局模式**
+总结男频新上榜书的开局共性：什么金手指类型、什么人设、什么开局场景。点明 2-3 个高频模式。
+
+**🎯 女频爆款开局模式**
+同上，针对女频。
+
+**💰 书名关键词红利**
+分析书名中哪些关键词反复出现在上榜书中，哪些可能对搜索和点击有加成。
+
+**🌊 蓝海方向建议**
+指出 2-3 个当前竞争较小但已有上榜书验证的题材方向。
+
+**⚠️ 过热预警**
+指出哪些开局模式已经过度扎堆。
+
+每个板块 2-3 句话，总字数 400 字以内。语言简洁专业，像行业快报。"""
+
+
+def enrich_opening_analysis_with_ai(payload: dict, api_key: str,
+                                   base_url: str, model: str) -> dict:
+    """用 AI 生成新上榜开局分析。"""
+    if not payload.get("all_openings"):
+        payload["ai_analysis"] = "今日无新上榜作品。"
+        return payload
+
+    try:
+        from openai import OpenAI
+    except ImportError:
+        print("⚠️  openai 库未安装，跳过开局分析 AI。")
+        payload["ai_analysis"] = ""
+        return payload
+
+    try:
+        client = OpenAI(api_key=api_key, base_url=base_url, timeout=120.0)
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": build_opening_ai_prompt(payload)}],
+            max_tokens=1000,
+            temperature=0.7,
+        )
+        content = response.choices[0].message.content
+        if content and content.strip():
+            payload["ai_analysis"] = content.strip()
+            print("✅ 新上榜开局 AI 分析已生成")
+        else:
+            payload["ai_analysis"] = ""
+    except Exception as e:
+        print(f"⚠️  新上榜开局 AI 分析失败: {e}")
+        payload["ai_analysis"] = ""
+
+    return payload
+
 
 if __name__ == "__main__":
     main()

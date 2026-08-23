@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蓝海探测器 · 番茄新书榜</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="分析各分类题材密度，发现竞争蓝海方向。">
+</head>
+<body class="trend-page">
+    <div class="trend-shell">
+        <header class="trend-topbar">
+            <div>
+                <a href="index.html" class="back-link">返回榜单</a>
+                <a href="keyword.html" class="back-link">关键词红利</a>
+                <a href="opening.html" class="back-link">开局分析</a>
+                <h1>蓝海探测器</h1>
+                <p id="bo-subtitle">加载中...</p>
+            </div>
+            <div class="trend-controls">
+                <div class="channel-switcher channel-switcher-inline">
+                    <button class="channel-btn active" data-channel="all">全部</button>
+                    <button class="channel-btn" data-channel="female">女频</button>
+                    <button class="channel-btn" data-channel="male">男频</button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="market-board">
+                <article class="market-summary-card">
+                    <span class="panel-kicker">使用说明</span>
+                    <h2>找竞争小、有验证的题材方向</h2>
+                    <p>蓝色 = 该题材在分类中占比 ≤15%，有空间。红色 = 占比 ≥40%，扎堆红海。点击分类查看详细密度。</p>
+                </article>
+            </section>
+
+            <section class="type-filter-panel">
+                <span class="panel-kicker">分类</span>
+                <div id="bo-category-buttons" class="trend-category-buttons"></div>
+            </section>
+
+            <section class="trend-grid">
+                <article class="trend-block trend-block-wide">
+                    <span class="panel-kicker">题材密度</span>
+                    <h2 id="bo-current-cat">请选择分类</h2>
+                    <div id="bo-tag-list" class="compact-list"></div>
+                </article>
+            </section>
+        </main>
+    </div>
+    <script src="js/blueocean.js"></script>
+</body>
+</html>

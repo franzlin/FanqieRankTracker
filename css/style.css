@@ -2650,3 +2650,45 @@ input:focus-visible {
         border-radius: var(--radius-lg);
     }
 }
+
+/* ========== Blue Ocean / Keyword Analysis ========== */
+.bo-blue {
+    border-left: 3px solid #3b82f6;
+    background: rgba(59, 130, 246, 0.08);
+}
+.bo-blue .bo-level {
+    color: #3b82f6;
+    font-weight: 700;
+    font-size: 0.75rem;
+    min-width: 40px;
+}
+.bo-red {
+    border-left: 3px solid #ef4444;
+    background: rgba(239, 68, 68, 0.08);
+}
+.bo-red .bo-level {
+    color: #ef4444;
+    font-weight: 700;
+    font-size: 0.75rem;
+    min-width: 40px;
+}
+.bo-normal {
+    border-left: 3px solid var(--border);
+}
+.bo-normal .bo-level {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    min-width: 40px;
+}
+.bo-blue strong { color: #60a5fa; }
+.bo-red strong { color: #f87171; }
+
+.kw-samples {
+    padding: 8px 0 8px 48px;
+    border-bottom: 1px solid var(--border);
+}
+.kw-samples .compact-row {
+    padding: 4px 0;
+    border: none;
+}
+

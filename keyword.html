@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>书名关键词 · 番茄新书榜</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="分析上榜书名中的高频关键词，发现搜索红利词。">
+</head>
+<body class="trend-page">
+    <div class="trend-shell">
+        <header class="trend-topbar">
+            <div>
+                <a href="index.html" class="back-link">返回榜单</a>
+                <a href="blueocean.html" class="back-link">蓝海探测</a>
+                <a href="opening.html" class="back-link">开局分析</a>
+                <h1>书名关键词红利</h1>
+                <p id="kw-subtitle">加载中...</p>
+            </div>
+            <div class="trend-controls">
+                <div class="channel-switcher channel-switcher-inline">
+                    <button class="channel-btn active" data-channel="all">全部</button>
+                    <button class="channel-btn" data-channel="female">女频</button>
+                    <button class="channel-btn" data-channel="male">男频</button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="market-board">
+                <article class="market-summary-card">
+                    <span class="panel-kicker">关键词分析</span>
+                    <h2>哪些书名词能带来流量？</h2>
+                    <p id="kw-summary">正在读取关键词数据。</p>
+                </article>
+            </section>
+
+            <section class="type-filter-panel">
+                <span class="panel-kicker">书名关键词排行</span>
+                <p style="color:var(--text-muted);font-size:0.85rem;margin:0 0 12px;">按上榜频次排序，点击查看对应书籍</p>
+                <div id="kw-list" class="hot-list"></div>
+            </section>
+        </main>
+    </div>
+    <script src="js/keyword.js"></script>
+</body>
+</html>

@@ -1,0 +1,8272 @@
+{
+  "date": "2026-08-23",
+  "total_books": 740,
+  "total_keywords": 86,
+  "all_keywords": [
+    {
+      "keyword": "我",
+      "count": 233,
+      "avg_reads": 94827,
+      "max_reads": 630000.0,
+      "category_count": 34,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "动漫衍生",
+        "历史古代",
+        "历史脑洞",
+        "古言脑洞",
+        "古风世情",
+        "女频悬疑",
+        "女频衍生",
+        "宫斗宅斗",
+        "年代",
+        "快穿",
+        "悬疑灵异",
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "星光璀璨",
+        "民国言情",
+        "游戏体育",
+        "玄幻脑洞",
+        "玄幻言情",
+        "现言脑洞",
+        "男频衍生",
+        "种田",
+        "科幻末世",
+        "职场婚恋",
+        "西方奇幻",
+        "豪门总裁",
+        "都市修真",
+        "都市日常",
+        "都市种田",
+        "都市脑洞",
+        "都市高武",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "我都中状元了，你说我是公主？",
+          "reads": "5.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "病骨重生十年后，故人子弟皆识我",
+          "reads": "3.9万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "穿成带娃尼姑，渣爹逼我去冲喜",
+          "reads": "1.3万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "穿进末世，我靠装弱，苟成最强",
+          "reads": "29.2万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "糟糕末世：系统给我发了五个疯批",
+          "reads": "8.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "开局",
+      "count": 69,
+      "avg_reads": 103928,
+      "max_reads": 539000.0,
+      "category_count": 19,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "动漫衍生",
+        "历史古代",
+        "历史脑洞",
+        "女频衍生",
+        "悬疑灵异",
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "游戏体育",
+        "玄幻脑洞",
+        "男频衍生",
+        "科幻末世",
+        "西方奇幻",
+        "都市修真",
+        "都市日常",
+        "都市种田",
+        "都市脑洞",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "开局一把扫帚，我是公路求生榜一",
+          "reads": "3.7万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "救命穿越废土，开局通知我去选夫",
+          "reads": "3.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "公路求生：开局抽中旅游餐车",
+          "reads": "4.2万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "全民求生：开局一间茅草棚",
+          "reads": "2.2万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "开局孕妇，在十平米荒岛求生",
+          "reads": "1.4万",
+          "category": "游戏体育",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "神",
+      "count": 48,
+      "avg_reads": 283350,
+      "max_reads": 10226000.0,
+      "category_count": 21,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "动漫衍生",
+        "历史脑洞",
+        "古言脑洞",
+        "女频衍生",
+        "悬疑灵异",
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "星光璀璨",
+        "游戏体育",
+        "玄幻言情",
+        "现言脑洞",
+        "男频衍生",
+        "科幻末世",
+        "西方奇幻",
+        "都市修真",
+        "都市种田",
+        "都市脑洞",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "全息游戏当神偷，偷完他的偷你的",
+          "reads": "4.2万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "地球人，你们逃离原生神明了吗？",
+          "reads": "2.4万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "神级陪玩：电竞少女制霸全场",
+          "reads": "7949",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "斩神：穿越后，我和哪吒恋爱了",
+          "reads": "6.6万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "斩神：无所谓，我会念台词",
+          "reads": "6.3万",
+          "category": "女频衍生",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "重生",
+      "count": 28,
+      "avg_reads": 62357,
+      "max_reads": 180000.0,
+      "category_count": 17,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "古言脑洞",
+        "古风世情",
+        "女频衍生",
+        "宫斗宅斗",
+        "年代",
+        "悬疑脑洞",
+        "战神赘婿",
+        "星光璀璨",
+        "现言脑洞",
+        "种田",
+        "科幻末世",
+        "职场婚恋",
+        "西方奇幻",
+        "都市种田",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "病骨重生十年后，故人子弟皆识我",
+          "reads": "3.9万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "穿成末世炮灰，被重生大哥娇宠了",
+          "reads": "6.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "南部档案：重生后全演上了",
+          "reads": "7万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "重生妹妹抢亲？我换亲嫁糙汉暴富",
+          "reads": "10.5万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "重生新婚夜，和离回娘家发家致富",
+          "reads": "2.6万",
+          "category": "种田",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "末世",
+      "count": 26,
+      "avg_reads": 96692,
+      "max_reads": 339000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "种田",
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "穿进末世，我靠装弱，苟成最强",
+          "reads": "29.2万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "穿进末世，我靠装弱，苟成最强",
+          "reads": "29.2万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "糟糕末世：系统给我发了五个疯批",
+          "reads": "8.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "糟糕末世：系统给我发了五个疯批",
+          "reads": "8.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "穿成末世炮灰，被重生大哥娇宠了",
+          "reads": "6.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "仙",
+      "count": 24,
+      "avg_reads": 79500,
+      "max_reads": 260000.0,
+      "category_count": 10,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "游戏体育",
+        "玄幻脑洞",
+        "玄幻言情",
+        "现言脑洞",
+        "科幻末世",
+        "都市修真",
+        "都市日常",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "8小时修仙，老娘卷哭全世界",
+          "reads": "5.8万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "修仙满级回现代，我让全家横着走",
+          "reads": "8.9万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "捡来的妹妹修仙后，回来抢亲了",
+          "reads": "6.1万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "修仙：从觉醒极品灵根开始",
+          "reads": "6.1万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "刚出江湖，被清冷仙子养成了",
+          "reads": "5.7万",
+          "category": "东方仙侠",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "王",
+      "count": 22,
+      "avg_reads": 65060,
+      "max_reads": 213000.0,
+      "category_count": 15,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史古代",
+        "历史脑洞",
+        "古言脑洞",
+        "古风世情",
+        "宫斗宅斗",
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "游戏体育",
+        "男频衍生",
+        "种田",
+        "科幻末世",
+        "西方奇幻",
+        "都市种田",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "此毒无解，摄政王千里追妻",
+          "reads": "1.3万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "末日死考：七岁丧尸王也要考试？",
+          "reads": "2.5万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "穿成魔王BOSS后我刀哭玩家",
+          "reads": "1.4万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "倒贴崽崽成功后我王炸了",
+          "reads": "2.8万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "被威胁后，我成了摄政王的掌中娇",
+          "reads": "5.5万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "她",
+      "count": 21,
+      "avg_reads": 90000,
+      "max_reads": 451000.0,
+      "category_count": 18,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "古言脑洞",
+        "古风世情",
+        "女频悬疑",
+        "宫斗宅斗",
+        "悬疑脑洞",
+        "星光璀璨",
+        "民国言情",
+        "玄幻脑洞",
+        "玄幻言情",
+        "种田",
+        "科幻末世",
+        "西方奇幻",
+        "豪门总裁",
+        "都市日常",
+        "都市脑洞",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "她冷，他懒，后来都栽了",
+          "reads": "1.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "都是公路求生，凭啥她这么强？",
+          "reads": "2.9万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "抽卡召旧族，炮灰她掀了修真界",
+          "reads": "12.2万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "恶役女配她只想活命",
+          "reads": "9.2万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "不好了！小姑她又又又尿床了！",
+          "reads": "3.3万",
+          "category": "种田",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "帝",
+      "count": 20,
+      "avg_reads": 89750,
+      "max_reads": 428000.0,
+      "category_count": 14,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "动漫衍生",
+        "历史古代",
+        "历史脑洞",
+        "古言脑洞",
+        "宫斗宅斗",
+        "悬疑脑洞",
+        "抗战谍战",
+        "玄幻脑洞",
+        "玄幻言情",
+        "职场婚恋",
+        "西方奇幻",
+        "都市修真",
+        "都市种田"
+      ],
+      "sample_books": [
+        {
+          "title": "危！刚飞升我就杀了天帝？",
+          "reads": "6.8万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "生了皇帝唯一的儿子，我宠冠后宫",
+          "reads": "8.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "亲生不如亲自生：父皇捧我当女帝",
+          "reads": "5.9万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "女配？我爹是皇帝，你最好也是哦",
+          "reads": "4.1万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "流放路上，我带皇帝全家吃瓜",
+          "reads": "2.7万",
+          "category": "古言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "系统",
+      "count": 18,
+      "avg_reads": 85111,
+      "max_reads": 204000.0,
+      "category_count": 10,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史脑洞",
+        "古言脑洞",
+        "快穿",
+        "悬疑脑洞",
+        "抗战谍战",
+        "星光璀璨",
+        "游戏体育",
+        "玄幻言情",
+        "现言脑洞",
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "糟糕末世：系统给我发了五个疯批",
+          "reads": "8.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "当我同时绑定好孕系统和天命系统",
+          "reads": "8.3万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "绑定双修系统后，我躺成宗门团宠",
+          "reads": "4.1万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "神豪系统：伪装有钱人我暴富啦",
+          "reads": "17万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "绑定接吻系统，咋都嘬上瘾了",
+          "reads": "16.7万",
+          "category": "现言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "皇",
+      "count": 18,
+      "avg_reads": 77333,
+      "max_reads": 176000.0,
+      "category_count": 8,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "动漫衍生",
+        "历史古代",
+        "历史脑洞",
+        "古言脑洞",
+        "宫斗宅斗",
+        "抗战谍战",
+        "玄幻脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "生了皇帝唯一的儿子，我宠冠后宫",
+          "reads": "8.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "亲生不如亲自生：父皇捧我当女帝",
+          "reads": "5.9万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "女配？我爹是皇帝，你最好也是哦",
+          "reads": "4.1万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "皇室盼了三百年的小公主竟是神棍",
+          "reads": "3.4万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "流放路上，我带皇帝全家吃瓜",
+          "reads": "2.7万",
+          "category": "古言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "他",
+      "count": 18,
+      "avg_reads": 66666,
+      "max_reads": 206000.0,
+      "category_count": 13,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "古言脑洞",
+        "古风世情",
+        "宫斗宅斗",
+        "快穿",
+        "悬疑脑洞",
+        "民国言情",
+        "游戏体育",
+        "玄幻脑洞",
+        "玄幻言情",
+        "职场婚恋",
+        "豪门总裁",
+        "都市修真",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "她冷，他懒，后来都栽了",
+          "reads": "1.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "全息游戏当神偷，偷完他的偷你的",
+          "reads": "4.2万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "天才剑修说他就喜欢恶毒女配",
+          "reads": "5万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "帐中香：病娇九千岁他又来爬床了",
+          "reads": "12.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "权贵接连入帐，清冷国师他急了",
+          "reads": "5.2万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "穿越",
+      "count": 17,
+      "avg_reads": 53353,
+      "max_reads": 151000.0,
+      "category_count": 14,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "动漫衍生",
+        "历史古代",
+        "古言脑洞",
+        "女频悬疑",
+        "女频衍生",
+        "抗战谍战",
+        "游戏体育",
+        "玄幻言情",
+        "种田",
+        "科幻末世",
+        "西方奇幻",
+        "都市日常",
+        "都市种田"
+      ],
+      "sample_books": [
+        {
+          "title": "救命穿越废土，开局通知我去选夫",
+          "reads": "3.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "游戏穿越：但无限刷新模组",
+          "reads": "1.6万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "斩神：穿越后，我和哪吒恋爱了",
+          "reads": "6.6万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "全班穿越洪荒，唯有我登阶成圣",
+          "reads": "4.6万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "穿越古代逃荒，我被糙汉掐腰狂宠",
+          "reads": "2.1万",
+          "category": "种田",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "龙",
+      "count": 15,
+      "avg_reads": 87553,
+      "max_reads": 207000.0,
+      "category_count": 11,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "游戏体育",
+        "玄幻脑洞",
+        "玄幻言情",
+        "男频衍生",
+        "西方奇幻",
+        "都市修真",
+        "都市种田",
+        "都市脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "全球公路求生，幸运龙崽躺赢啦",
+          "reads": "2.4万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "穿成龙傲天的早逝病弱崽",
+          "reads": "5.2万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "魔龙与地下城：恶龙请求出狱",
+          "reads": "11.2万",
+          "category": "西方奇幻",
+          "channel": "male"
+        },
+        {
+          "title": "暑假兼职龙虎山，你修成仙帝了？",
+          "reads": "7.1万",
+          "category": "都市修真",
+          "channel": "male"
+        },
+        {
+          "title": "报告苏总，您找的赘婿是龙神殿主",
+          "reads": "7075",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "快穿",
+      "count": 13,
+      "avg_reads": 85077,
+      "max_reads": 122000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "快穿",
+        "玄幻脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "快穿：管好自己，莫渡他人",
+          "reads": "12.2万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "快穿：炮灰上位，从抢男主开始",
+          "reads": "11.9万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "快穿：偏偏我过得最好",
+          "reads": "9.7万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "快穿：给各类奇葩男主生下孩子",
+          "reads": "10.6万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "快穿：恶狗又疯又坏总缠着不放",
+          "reads": "10.9万",
+          "category": "快穿",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "大佬",
+      "count": 13,
+      "avg_reads": 74663,
+      "max_reads": 228000.0,
+      "category_count": 8,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "女频悬疑",
+        "年代",
+        "战神赘婿",
+        "种田",
+        "科幻末世",
+        "职场婚恋",
+        "豪门总裁",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "别惹小祖宗！末世大佬是宠妹狂魔",
+          "reads": "3.4万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "盲雌一睁眼，周围全是大佬兽夫",
+          "reads": "5.6万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "末世大佬携带空间穿成首辅恶毒妻",
+          "reads": "2.7万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "重生七零夺回空间被军区大佬娇宠",
+          "reads": "11万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "骗婚捞女？科研大佬独宠丰腴美人",
+          "reads": "6.3万",
+          "category": "年代",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "太子",
+      "count": 10,
+      "avg_reads": 127900,
+      "max_reads": 259000.0,
+      "category_count": 7,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史古代",
+        "女频衍生",
+        "宫斗宅斗",
+        "现言脑洞",
+        "职场婚恋",
+        "豪门总裁",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "哪吒三太子的追妻日常",
+          "reads": "4.1万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "穿成落魄太子爷的作精未婚妻",
+          "reads": "8.6万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "勾了禁欲太子？刚觉醒，被亲哭！",
+          "reads": "6.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "给网恋对象发辣照，京圈太子爷疯",
+          "reads": "8.1万",
+          "category": "青春甜宠",
+          "channel": "female"
+        },
+        {
+          "title": "恶毒女友提分手，太子爷他疯批了",
+          "reads": "20.6万",
+          "category": "职场婚恋",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "尊",
+      "count": 9,
+      "avg_reads": 74444,
+      "max_reads": 197000.0,
+      "category_count": 6,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "古言脑洞",
+        "星光璀璨",
+        "玄幻脑洞",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "女尊：夫郎，他们？玩物罢了",
+          "reads": "2.4万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "女尊：结束剧情的我只想摆烂啊！",
+          "reads": "2.9万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "女尊：但是西天取经",
+          "reads": "5.2万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "女尊：凰子落难记",
+          "reads": "3.3万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "我武道至尊！转生御兽世家？",
+          "reads": "9.3万",
+          "category": "都市高武",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "病娇",
+      "count": 9,
+      "avg_reads": 62444,
+      "max_reads": 121000.0,
+      "category_count": 9,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "历史古代",
+        "古风世情",
+        "宫斗宅斗",
+        "玄幻脑洞",
+        "西方奇幻",
+        "豪门总裁",
+        "都市日常"
+      ],
+      "sample_books": [
+        {
+          "title": "病娇魔教教主的掌心宠",
+          "reads": "1.3万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "帐中香：病娇九千岁他又来爬床了",
+          "reads": "12.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "卡他失忆哄离婚，病娇又又失控了",
+          "reads": "10.1万",
+          "category": "豪门总裁",
+          "channel": "female"
+        },
+        {
+          "title": "变身欢愉魔女，养出病娇女魔王",
+          "reads": "3.7万",
+          "category": "西方奇幻",
+          "channel": "male"
+        },
+        {
+          "title": "不努力就会成为病娇仙子的玩物",
+          "reads": "3.6万",
+          "category": "东方仙侠",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "公主",
+      "count": 9,
+      "avg_reads": 48111,
+      "max_reads": 99000.0,
+      "category_count": 4,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史古代",
+        "古言脑洞",
+        "古风世情",
+        "宫斗宅斗"
+      ],
+      "sample_books": [
+        {
+          "title": "我都中状元了，你说我是公主？",
+          "reads": "5.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "公主，不可以",
+          "reads": "3.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "媚骨：公主她当真祸水！",
+          "reads": "9.9万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "泥腿子水匪被娇气公主哐哐拿捏！",
+          "reads": "6.6万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "我都是公主了，你说我不是女主？",
+          "reads": "5.3万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "修仙",
+      "count": 8,
+      "avg_reads": 76500,
+      "max_reads": 143000.0,
+      "category_count": 6,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "玄幻脑洞",
+        "玄幻言情",
+        "现言脑洞",
+        "都市修真",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "8小时修仙，老娘卷哭全世界",
+          "reads": "5.8万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "修仙满级回现代，我让全家横着走",
+          "reads": "8.9万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "捡来的妹妹修仙后，回来抢亲了",
+          "reads": "6.1万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "修仙：从觉醒极品灵根开始",
+          "reads": "6.1万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "从修仙回到都市，坏消息修为没了",
+          "reads": "4.9万",
+          "category": "都市修真",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "无敌",
+      "count": 7,
+      "avg_reads": 89915,
+      "max_reads": 164000.0,
+      "category_count": 5,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "动漫衍生",
+        "战神赘婿",
+        "玄幻脑洞",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "无敌江湖后，我隐退于世",
+          "reads": "4.3万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "每天十块钱，十八岁举世无敌！",
+          "reads": "10.3万",
+          "category": "都市高武",
+          "channel": "male"
+        },
+        {
+          "title": "一身因果律，这初生竟然无敌了？",
+          "reads": "9.5万",
+          "category": "都市高武",
+          "channel": "male"
+        },
+        {
+          "title": "无敌房东俏房客",
+          "reads": "3408",
+          "category": "战神赘婿",
+          "channel": "male"
+        },
+        {
+          "title": "开局流落皇子，可我已经人间无敌",
+          "reads": "11.1万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "离婚",
+      "count": 7,
+      "avg_reads": 88990,
+      "max_reads": 181000.0,
+      "category_count": 6,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "年代",
+        "战神赘婿",
+        "职场婚恋",
+        "豪门总裁",
+        "都市日常",
+        "都市脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "离婚刚开口，首长掐腰不让走",
+          "reads": "5.3万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "高考出分，女儿第一个劝我离婚",
+          "reads": "4.3万",
+          "category": "职场婚恋",
+          "channel": "female"
+        },
+        {
+          "title": "卡他失忆哄离婚，病娇又又失控了",
+          "reads": "10.1万",
+          "category": "豪门总裁",
+          "channel": "female"
+        },
+        {
+          "title": "离婚后，冰山警花追夫杀疯了！",
+          "reads": "13.6万",
+          "category": "都市日常",
+          "channel": "male"
+        },
+        {
+          "title": "离婚后，九个绝色尤物找上门",
+          "reads": "3927",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "全家",
+      "count": 7,
+      "avg_reads": 63143,
+      "max_reads": 127000.0,
+      "category_count": 6,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史脑洞",
+        "古言脑洞",
+        "现言脑洞",
+        "男频衍生",
+        "种田",
+        "职场婚恋"
+      ],
+      "sample_books": [
+        {
+          "title": "断亲后，三岁萌娃带弟搬空全家",
+          "reads": "5.4万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "修仙满级回现代，我让全家横着走",
+          "reads": "8.9万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "穿成猫后，带反派全家薅秃气运女",
+          "reads": "6.6万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "流放路上，我带皇帝全家吃瓜",
+          "reads": "2.7万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "女儿惨死，我亲手覆灭仇人全家",
+          "reads": "3.3万",
+          "category": "职场婚恋",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "强制",
+      "count": 6,
+      "avg_reads": 70000,
+      "max_reads": 111000.0,
+      "category_count": 5,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "快穿",
+        "悬疑脑洞",
+        "玄幻言情",
+        "科幻末世",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "双修后才知夫君是强制文灭世男主",
+          "reads": "7万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "盗墓：强制诚实的我憋不住了",
+          "reads": "3.5万",
+          "category": "悬疑脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "穿成清水文女配，被男主强制爱了",
+          "reads": "6.9万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "作精女配要分手，疯批男主强制爱",
+          "reads": "5.8万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "厌世农村妹也要被少爷强制爱吗？",
+          "reads": "11.1万",
+          "category": "青春甜宠",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "圣",
+      "count": 5,
+      "avg_reads": 128600,
+      "max_reads": 338000.0,
+      "category_count": 5,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "游戏体育",
+        "玄幻言情",
+        "都市脑洞",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "全班穿越洪荒，唯有我登阶成圣",
+          "reads": "4.6万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "领主：开局一金商店获得丰饶圣女",
+          "reads": "11万",
+          "category": "都市高武",
+          "channel": "male"
+        },
+        {
+          "title": "开局拜入圣地，发现祖上是人皇！",
+          "reads": "9.6万",
+          "category": "传统玄幻",
+          "channel": "male"
+        },
+        {
+          "title": "人在潮汕，开局连抛十八圣杯",
+          "reads": "33.8万",
+          "category": "都市脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "入主湖人助科比，开局先抢圣保罗",
+          "reads": "5.3万",
+          "category": "游戏体育",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "七零",
+      "count": 5,
+      "avg_reads": 97000,
+      "max_reads": 164000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "年代"
+      ],
+      "sample_books": [
+        {
+          "title": "七零：成了农村耀祖亲生的崽",
+          "reads": "16.4万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "重生七零夺回空间被军区大佬娇宠",
+          "reads": "11万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "七零年代病佳人把偏执男哄迷糊了",
+          "reads": "8.4万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "穿书七零：我跟锦鲤女主抢机缘",
+          "reads": "7.7万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "七零，拒绝换亲被疯批糙汉强宠",
+          "reads": "5万",
+          "category": "年代",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "撩",
+      "count": 5,
+      "avg_reads": 73200,
+      "max_reads": 112000.0,
+      "category_count": 4,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "年代",
+        "种田",
+        "都市日常",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "穿成貌美小娘子，撩个族长当靠山",
+          "reads": "2.9万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "丰腴保姆太撩人，科研巨鳄破防了",
+          "reads": "8万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "宝宝乖，轻点撩",
+          "reads": "4.8万",
+          "category": "青春甜宠",
+          "channel": "female"
+        },
+        {
+          "title": "姐姐，轻点撩",
+          "reads": "11.2万",
+          "category": "都市日常",
+          "channel": "male"
+        },
+        {
+          "title": "不娶还敢撩？再跑就把你关起来",
+          "reads": "9.7万",
+          "category": "都市日常",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "直播",
+      "count": 5,
+      "avg_reads": 62400,
+      "max_reads": 118000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史脑洞",
+        "悬疑脑洞",
+        "星光璀璨"
+      ],
+      "sample_books": [
+        {
+          "title": "女装直播后，榜一大哥大姐杀疯了",
+          "reads": "3.6万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "神颜社畜直播爆火，她想挣生活费",
+          "reads": "2.9万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "天幕直播，先辈看我躺平生活",
+          "reads": "11.8万",
+          "category": "历史脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "我在诡异副本女装直播后爆火了",
+          "reads": "8万",
+          "category": "悬疑脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "九叔：我有一个蓝星直播间",
+          "reads": "4.9万",
+          "category": "悬疑脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "少爷",
+      "count": 4,
+      "avg_reads": 131000,
+      "max_reads": 227000.0,
+      "category_count": 4,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "战神赘婿",
+        "现言脑洞",
+        "都市日常",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "炮灰女配勾勾手，血族少爷全当狗",
+          "reads": "22.7万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "厌世农村妹也要被少爷强制爱吗？",
+          "reads": "11.1万",
+          "category": "青春甜宠",
+          "channel": "female"
+        },
+        {
+          "title": "京圈世家小少爷：魔都校园遇群芳",
+          "reads": "13万",
+          "category": "都市日常",
+          "channel": "male"
+        },
+        {
+          "title": "开局四选一，我选成为沪圈少爷！",
+          "reads": "5.6万",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "校花",
+      "count": 4,
+      "avg_reads": 131000,
+      "max_reads": 236000.0,
+      "category_count": 4,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "悬疑脑洞",
+        "科幻末世",
+        "都市日常",
+        "都市脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "末世求生：变身校花觉醒魅魔序列",
+          "reads": "5.5万",
+          "category": "科幻末世",
+          "channel": "male"
+        },
+        {
+          "title": "远离男主保命！校花后宫倒追我？",
+          "reads": "23.6万",
+          "category": "都市日常",
+          "channel": "male"
+        },
+        {
+          "title": "盗墓手法太熟练，惊呆校花学姐！",
+          "reads": "10.6万",
+          "category": "悬疑脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "暑假当雇佣兵，开学扑倒校花",
+          "reads": "12.7万",
+          "category": "都市脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "天才",
+      "count": 4,
+      "avg_reads": 118000,
+      "max_reads": 288000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "女频衍生",
+        "玄幻脑洞",
+        "玄幻言情"
+      ],
+      "sample_books": [
+        {
+          "title": "什么？我不是天才爱豆吗？",
+          "reads": "6.9万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "天才辅灵师在异世大陆挖疯了",
+          "reads": "6.5万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "天才剑修说他就喜欢恶毒女配",
+          "reads": "5万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "我根骨平庸，但分身都是绝世天才",
+          "reads": "28.8万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "洪荒",
+      "count": 4,
+      "avg_reads": 74750,
+      "max_reads": 110000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "玄幻脑洞",
+        "玄幻言情"
+      ],
+      "sample_books": [
+        {
+          "title": "洪荒，阐教小师妹后台太硬",
+          "reads": "9.7万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "全班穿越洪荒，唯有我登阶成圣",
+          "reads": "4.6万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "洪荒：重生红云，人间清醒！",
+          "reads": "4.6万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "洪荒：我先证混元，鸿钧傻眼了",
+          "reads": "11万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "年代",
+      "count": 4,
+      "avg_reads": 60000,
+      "max_reads": 84000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "年代",
+        "快穿"
+      ],
+      "sample_books": [
+        {
+          "title": "七零年代病佳人把偏执男哄迷糊了",
+          "reads": "8.4万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "七十年代：陆老二家的独生女",
+          "reads": "5.6万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "六十年代姜糖",
+          "reads": "5万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "快穿年代：对照组觉醒比极品还疯",
+          "reads": "5万",
+          "category": "快穿",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "空间",
+      "count": 4,
+      "avg_reads": 56500,
+      "max_reads": 110000.0,
+      "category_count": 4,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "年代",
+        "种田",
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "末世大佬携带空间穿成首辅恶毒妻",
+          "reads": "2.7万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "重生七零夺回空间被军区大佬娇宠",
+          "reads": "11万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "开始万倍加速空间，芶在最强宗门",
+          "reads": "3.7万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "公路求生：重生觉醒空间序列",
+          "reads": "5.2万",
+          "category": "科幻末世",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "民国",
+      "count": 4,
+      "avg_reads": 55574,
+      "max_reads": 110000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "抗战谍战",
+        "民国言情"
+      ],
+      "sample_books": [
+        {
+          "title": "民国爱情：烟雨长安渡",
+          "reads": "2.5万",
+          "category": "民国言情",
+          "channel": "female"
+        },
+        {
+          "title": "小吃店通民国：我用预制菜干鬼子",
+          "reads": "6297",
+          "category": "民国言情",
+          "channel": "female"
+        },
+        {
+          "title": "民国：张家逆子，我才是东北王",
+          "reads": "11万",
+          "category": "抗战谍战",
+          "channel": "male"
+        },
+        {
+          "title": "魂穿民国成为教导总队中校参谋",
+          "reads": "8.1万",
+          "category": "抗战谍战",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "江湖",
+      "count": 4,
+      "avg_reads": 42250,
+      "max_reads": 58000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "古风世情"
+      ],
+      "sample_books": [
+        {
+          "title": "宅斗文女配脱离剧情，跑去江湖后",
+          "reads": "1.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "我，当铺掌柜，曾打穿整个江湖",
+          "reads": "5.8万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "刚出江湖，被清冷仙子养成了",
+          "reads": "5.7万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "无敌江湖后，我隐退于世",
+          "reads": "4.3万",
+          "category": "东方仙侠",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "师尊",
+      "count": 3,
+      "avg_reads": 139333,
+      "max_reads": 197000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "玄幻脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "九门：刚混成副官，师尊找来了？",
+          "reads": "7.3万",
+          "category": "传统玄幻",
+          "channel": "male"
+        },
+        {
+          "title": "师尊嫌我肮脏？反手退师帖送上",
+          "reads": "19.7万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "玄幻：我堕魔后把绝美师尊抓回来",
+          "reads": "14.8万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "娱乐圈",
+      "count": 3,
+      "avg_reads": 76333,
+      "max_reads": 89000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "星光璀璨",
+        "都市种田"
+      ],
+      "sample_books": [
+        {
+          "title": "当高考状元穿成娱乐圈黑红女星",
+          "reads": "8.9万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "全能顶流女星重生，卷疯娱乐圈",
+          "reads": "6.9万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "重生：开局拿下杨老板进军娱乐圈",
+          "reads": "7.1万",
+          "category": "都市种田",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "清冷",
+      "count": 3,
+      "avg_reads": 63000,
+      "max_reads": 80000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "宫斗宅斗",
+        "现言脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "惊！穿成清冷校草的粘人精前女友",
+          "reads": "8万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "权贵接连入帐，清冷国师他急了",
+          "reads": "5.2万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "刚出江湖，被清冷仙子养成了",
+          "reads": "5.7万",
+          "category": "东方仙侠",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "满级",
+      "count": 3,
+      "avg_reads": 46000,
+      "max_reads": 89000.0,
+      "category_count": 3,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古风世情",
+        "玄幻言情",
+        "现言脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "满级名媛在古代靠茶艺复仇",
+          "reads": "1.2万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "盗墓，满级古武麒麟女杀疯了",
+          "reads": "3.7万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "修仙满级回现代，我让全家横着走",
+          "reads": "8.9万",
+          "category": "现言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "星际",
+      "count": 3,
+      "avg_reads": 40000,
+      "max_reads": 51000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "悬疑脑洞",
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "全星际都知道我们小队很有钱",
+          "reads": "5.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "星际第一躺平学大师",
+          "reads": "3.9万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "盗墓：被星际生子系统绑定了",
+          "reads": "3万",
+          "category": "悬疑脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "归来",
+      "count": 3,
+      "avg_reads": 38732,
+      "max_reads": 82000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "战神赘婿",
+        "种田",
+        "都市修真"
+      ],
+      "sample_books": [
+        {
+          "title": "夫君战死五年归来：我携婆家出族",
+          "reads": "2.9万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "暑假失踪，开学归来成元婴老祖！",
+          "reads": "8.2万",
+          "category": "都市修真",
+          "channel": "male"
+        },
+        {
+          "title": "战神归来：女总裁的贴身兵王",
+          "reads": "5195",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "总裁",
+      "count": 3,
+      "avg_reads": 37701,
+      "max_reads": 105000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "战神赘婿",
+        "都市脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "战神归来：女总裁的贴身兵王",
+          "reads": "5195",
+          "category": "战神赘婿",
+          "channel": "male"
+        },
+        {
+          "title": "护花兵王：高冷总裁俏阿姨",
+          "reads": "2909",
+          "category": "战神赘婿",
+          "channel": "male"
+        },
+        {
+          "title": "霸道女总裁爱上离婚带娃的我",
+          "reads": "10.5万",
+          "category": "都市脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "兵王",
+      "count": 3,
+      "avg_reads": 4777,
+      "max_reads": 6226.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "战神赘婿"
+      ],
+      "sample_books": [
+        {
+          "title": "战神归来：女总裁的贴身兵王",
+          "reads": "5195",
+          "category": "战神赘婿",
+          "channel": "male"
+        },
+        {
+          "title": "都市兵王：龙隐邕城",
+          "reads": "6226",
+          "category": "战神赘婿",
+          "channel": "male"
+        },
+        {
+          "title": "护花兵王：高冷总裁俏阿姨",
+          "reads": "2909",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "皇后",
+      "count": 2,
+      "avg_reads": 114500,
+      "max_reads": 169000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "历史古代",
+        "历史脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "穿成大周宰相，皇后腰疼关我啥事",
+          "reads": "16.9万",
+          "category": "历史古代",
+          "channel": "male"
+        },
+        {
+          "title": "大明异姓王：开局复活马皇后！",
+          "reads": "6万",
+          "category": "历史脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "血脉",
+      "count": 2,
+      "avg_reads": 112000,
+      "max_reads": 149000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "悬疑脑洞",
+        "西方奇幻"
+      ],
+      "sample_books": [
+        {
+          "title": "怪物图鉴：从哥布林血脉开始",
+          "reads": "14.9万",
+          "category": "西方奇幻",
+          "channel": "male"
+        },
+        {
+          "title": "觉醒麒麟血脉，我隔空指点考古队",
+          "reads": "7.5万",
+          "category": "悬疑脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "天赋",
+      "count": 2,
+      "avg_reads": 98000,
+      "max_reads": 107000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "游戏体育",
+        "玄幻脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "词条：开局万倍天赋，你要退婚？",
+          "reads": "8.9万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "王者：你的天赋很好现在我也有了",
+          "reads": "10.7万",
+          "category": "游戏体育",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "偏执",
+      "count": 2,
+      "avg_reads": 79500,
+      "max_reads": 84000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "年代",
+        "快穿"
+      ],
+      "sample_books": [
+        {
+          "title": "七零年代病佳人把偏执男哄迷糊了",
+          "reads": "8.4万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "诱哄！每个世界被偏执系统吻到哭",
+          "reads": "7.5万",
+          "category": "快穿",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "皇子",
+      "count": 2,
+      "avg_reads": 78500,
+      "max_reads": 111000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "历史脑洞",
+        "玄幻脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "这个皇子有点颠！要把全家送上天",
+          "reads": "4.6万",
+          "category": "历史脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "开局流落皇子，可我已经人间无敌",
+          "reads": "11.1万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "契约",
+      "count": 2,
+      "avg_reads": 71000,
+      "max_reads": 77000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "游戏体育",
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "求生：变身萝莉，开局被强制契约",
+          "reads": "7.7万",
+          "category": "科幻末世",
+          "channel": "male"
+        },
+        {
+          "title": "年龄差契约系统？补药电我啊啊啊",
+          "reads": "6.5万",
+          "category": "游戏体育",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "签到",
+      "count": 2,
+      "avg_reads": 60036,
+      "max_reads": 113000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史脑洞",
+        "民国言情"
+      ],
+      "sample_books": [
+        {
+          "title": "丑村姑靠签到积分提升美貌",
+          "reads": "7073",
+          "category": "民国言情",
+          "channel": "female"
+        },
+        {
+          "title": "开局签到常务副皇帝，权倾朝野！",
+          "reads": "11.3万",
+          "category": "历史脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "御兽",
+      "count": 2,
+      "avg_reads": 59000,
+      "max_reads": 93000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "我武道至尊！转生御兽世家？",
+          "reads": "9.3万",
+          "category": "都市高武",
+          "channel": "male"
+        },
+        {
+          "title": "剑仙也要御兽？剑娘了解一下！",
+          "reads": "2.5万",
+          "category": "传统玄幻",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "团宠",
+      "count": 2,
+      "avg_reads": 44500,
+      "max_reads": 48000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古言脑洞",
+        "玄幻言情"
+      ],
+      "sample_books": [
+        {
+          "title": "绑定双修系统后，我躺成宗门团宠",
+          "reads": "4.1万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "被诊出喜脉后，朕成了病弱团宠",
+          "reads": "4.8万",
+          "category": "古言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "八零",
+      "count": 2,
+      "avg_reads": 44000,
+      "max_reads": 47000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "年代",
+        "都市种田"
+      ],
+      "sample_books": [
+        {
+          "title": "八零军婚：陆首长被前妻踢出门了",
+          "reads": "4.7万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "丰腴美媳龙凤胎，重生八零闯天家",
+          "reads": "4.1万",
+          "category": "都市种田",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "将军",
+      "count": 2,
+      "avg_reads": 40500,
+      "max_reads": 49000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古言脑洞",
+        "宫斗宅斗"
+      ],
+      "sample_books": [
+        {
+          "title": "奉旨成婚后，糙汉将军日日洗床单",
+          "reads": "4.9万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "天幕曝光，朕的四哥是征北大将军",
+          "reads": "3.2万",
+          "category": "古言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "摄政王",
+      "count": 2,
+      "avg_reads": 34000,
+      "max_reads": 55000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古风世情",
+        "宫斗宅斗"
+      ],
+      "sample_books": [
+        {
+          "title": "此毒无解，摄政王千里追妻",
+          "reads": "1.3万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "被威胁后，我成了摄政王的掌中娇",
+          "reads": "5.5万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "废土",
+      "count": 2,
+      "avg_reads": 31000,
+      "max_reads": 31000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "救命穿越废土，开局通知我去选夫",
+          "reads": "3.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "废土？兽世？不给金手指不活了",
+          "reads": "3.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "追妻",
+      "count": 2,
+      "avg_reads": 27000,
+      "max_reads": 41000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古风世情",
+        "女频衍生"
+      ],
+      "sample_books": [
+        {
+          "title": "此毒无解，摄政王千里追妻",
+          "reads": "1.3万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "哪吒三太子的追妻日常",
+          "reads": "4.1万",
+          "category": "女频衍生",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "升级",
+      "count": 2,
+      "avg_reads": 16496,
+      "max_reads": 23000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古言脑洞",
+        "游戏体育"
+      ],
+      "sample_books": [
+        {
+          "title": "公路求生，先升级后复制",
+          "reads": "9992",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "系统升级后，百官听见了我的心声",
+          "reads": "2.3万",
+          "category": "古言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "战神",
+      "count": 2,
+      "avg_reads": 10598,
+      "max_reads": 16000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "战神赘婿"
+      ],
+      "sample_books": [
+        {
+          "title": "战神归乡，才发现家没了",
+          "reads": "1.6万",
+          "category": "战神赘婿",
+          "channel": "male"
+        },
+        {
+          "title": "战神归来：女总裁的贴身兵王",
+          "reads": "5195",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "赘婿",
+      "count": 2,
+      "avg_reads": 5348,
+      "max_reads": 7075.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "战神赘婿"
+      ],
+      "sample_books": [
+        {
+          "title": "报告苏总，您找的赘婿是龙神殿主",
+          "reads": "7075",
+          "category": "战神赘婿",
+          "channel": "male"
+        },
+        {
+          "title": "废物赘婿：原来是隐藏大佬",
+          "reads": "3620",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "霸总",
+      "count": 1,
+      "avg_reads": 139000,
+      "max_reads": 139000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "现言脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "阴湿霸总别黑化，恶毒前妻来贴贴",
+          "reads": "13.9万",
+          "category": "现言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "追夫",
+      "count": 1,
+      "avg_reads": 136000,
+      "max_reads": 136000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "都市日常"
+      ],
+      "sample_books": [
+        {
+          "title": "离婚后，冰山警花追夫杀疯了！",
+          "reads": "13.6万",
+          "category": "都市日常",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "校园",
+      "count": 1,
+      "avg_reads": 130000,
+      "max_reads": 130000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "都市日常"
+      ],
+      "sample_books": [
+        {
+          "title": "京圈世家小少爷：魔都校园遇群芳",
+          "reads": "13万",
+          "category": "都市日常",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "替身",
+      "count": 1,
+      "avg_reads": 112000,
+      "max_reads": 112000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "都市日常"
+      ],
+      "sample_books": [
+        {
+          "title": "我是替身？你问我老婆知道这事吗",
+          "reads": "11.2万",
+          "category": "都市日常",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "嫡女",
+      "count": 1,
+      "avg_reads": 94000,
+      "max_reads": 94000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "宫斗宅斗"
+      ],
+      "sample_books": [
+        {
+          "title": "玲珑劫：和离嫡女，二嫁执掌山河",
+          "reads": "9.4万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "宠妻",
+      "count": 1,
+      "avg_reads": 94000,
+      "max_reads": 94000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "快穿"
+      ],
+      "sample_books": [
+        {
+          "title": "快穿之人渣的宠妻洗白攻略",
+          "reads": "9.4万",
+          "category": "快穿",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "异能",
+      "count": 1,
+      "avg_reads": 93000,
+      "max_reads": 93000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "异能是化身魔法亡母怎么办！？",
+          "reads": "9.3万",
+          "category": "都市高武",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "退婚",
+      "count": 1,
+      "avg_reads": 89000,
+      "max_reads": 89000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "玄幻脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "词条：开局万倍天赋，你要退婚？",
+          "reads": "8.9万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "诱",
+      "count": 1,
+      "avg_reads": 75000,
+      "max_reads": 75000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "快穿"
+      ],
+      "sample_books": [
+        {
+          "title": "诱哄！每个世界被偏执系统吻到哭",
+          "reads": "7.5万",
+          "category": "快穿",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "闪婚",
+      "count": 1,
+      "avg_reads": 74000,
+      "max_reads": 74000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "职场婚恋"
+      ],
+      "sample_books": [
+        {
+          "title": "网聊翻车！闪婚前发现竟是死对头",
+          "reads": "7.4万",
+          "category": "职场婚恋",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "全能",
+      "count": 1,
+      "avg_reads": 69000,
+      "max_reads": 69000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "星光璀璨"
+      ],
+      "sample_books": [
+        {
+          "title": "全能顶流女星重生，卷疯娱乐圈",
+          "reads": "6.9万",
+          "category": "星光璀璨",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "诸天",
+      "count": 1,
+      "avg_reads": 66000,
+      "max_reads": 66000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "悬疑脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "诸天渡厄：九叔带我闯诸天",
+          "reads": "6.6万",
+          "category": "悬疑脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "独宠",
+      "count": 1,
+      "avg_reads": 63000,
+      "max_reads": 63000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "年代"
+      ],
+      "sample_books": [
+        {
+          "title": "骗婚捞女？科研大佬独宠丰腴美人",
+          "reads": "6.3万",
+          "category": "年代",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "先婚",
+      "count": 1,
+      "avg_reads": 56000,
+      "max_reads": 56000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "年代"
+      ],
+      "sample_books": [
+        {
+          "title": "先婚后爱：大小姐被糙汉狠狠宠爱",
+          "reads": "5.6万",
+          "category": "年代",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "后爱",
+      "count": 1,
+      "avg_reads": 56000,
+      "max_reads": 56000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "年代"
+      ],
+      "sample_books": [
+        {
+          "title": "先婚后爱：大小姐被糙汉狠狠宠爱",
+          "reads": "5.6万",
+          "category": "年代",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "世子",
+      "count": 1,
+      "avg_reads": 52000,
+      "max_reads": 52000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "宫斗宅斗"
+      ],
+      "sample_books": [
+        {
+          "title": "撤回圆房请求后，世子他急红了眼",
+          "reads": "5.2万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "腹黑",
+      "count": 1,
+      "avg_reads": 50000,
+      "max_reads": 50000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "劝分八百次，我和腹黑军师演情侣",
+          "reads": "5万",
+          "category": "青春甜宠",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "逆袭",
+      "count": 1,
+      "avg_reads": 43000,
+      "max_reads": 43000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "都市种田"
+      ],
+      "sample_books": [
+        {
+          "title": "重生81从保下超生儿子开始逆袭",
+          "reads": "4.3万",
+          "category": "都市种田",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "综艺",
+      "count": 1,
+      "avg_reads": 34000,
+      "max_reads": 34000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "悬疑灵异"
+      ],
+      "sample_books": [
+        {
+          "title": "上综艺，你成犯罪教科书了？",
+          "reads": "3.4万",
+          "category": "悬疑灵异",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "金手指",
+      "count": 1,
+      "avg_reads": 31000,
+      "max_reads": 31000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "废土？兽世？不给金手指不活了",
+          "reads": "3.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "首辅",
+      "count": 1,
+      "avg_reads": 27000,
+      "max_reads": 27000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "种田"
+      ],
+      "sample_books": [
+        {
+          "title": "末世大佬携带空间穿成首辅恶毒妻",
+          "reads": "2.7万",
+          "category": "种田",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "侯",
+      "count": 1,
+      "avg_reads": 26000,
+      "max_reads": 26000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古言脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "媚骨生香多位王爷诸侯皆裙下臣",
+          "reads": "2.6万",
+          "category": "古言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "宅斗",
+      "count": 1,
+      "avg_reads": 11000,
+      "max_reads": 11000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古风世情"
+      ],
+      "sample_books": [
+        {
+          "title": "宅斗文女配脱离剧情，跑去江湖后",
+          "reads": "1.1万",
+          "category": "古风世情",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "废柴",
+      "count": 1,
+      "avg_reads": 3394,
+      "max_reads": 3394.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "战神赘婿"
+      ],
+      "sample_books": [
+        {
+          "title": "废柴女婿靠祖传医术炸翻豪门",
+          "reads": "3394",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    }
+  ],
+  "female_keywords": [
+    {
+      "keyword": "我",
+      "count": 233,
+      "avg_reads": 94827,
+      "max_reads": 630000.0,
+      "category_count": 34,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "动漫衍生",
+        "历史古代",
+        "历史脑洞",
+        "古言脑洞",
+        "古风世情",
+        "女频悬疑",
+        "女频衍生",
+        "宫斗宅斗",
+        "年代",
+        "快穿",
+        "悬疑灵异",
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "星光璀璨",
+        "民国言情",
+        "游戏体育",
+        "玄幻脑洞",
+        "玄幻言情",
+        "现言脑洞",
+        "男频衍生",
+        "种田",
+        "科幻末世",
+        "职场婚恋",
+        "西方奇幻",
+        "豪门总裁",
+        "都市修真",
+        "都市日常",
+        "都市种田",
+        "都市脑洞",
+        "都市高武",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "我都中状元了，你说我是公主？",
+          "reads": "5.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "病骨重生十年后，故人子弟皆识我",
+          "reads": "3.9万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "穿成带娃尼姑，渣爹逼我去冲喜",
+          "reads": "1.3万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "穿进末世，我靠装弱，苟成最强",
+          "reads": "29.2万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "糟糕末世：系统给我发了五个疯批",
+          "reads": "8.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "开局",
+      "count": 69,
+      "avg_reads": 103928,
+      "max_reads": 539000.0,
+      "category_count": 19,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "动漫衍生",
+        "历史古代",
+        "历史脑洞",
+        "女频衍生",
+        "悬疑灵异",
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "游戏体育",
+        "玄幻脑洞",
+        "男频衍生",
+        "科幻末世",
+        "西方奇幻",
+        "都市修真",
+        "都市日常",
+        "都市种田",
+        "都市脑洞",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "开局一把扫帚，我是公路求生榜一",
+          "reads": "3.7万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "救命穿越废土，开局通知我去选夫",
+          "reads": "3.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "公路求生：开局抽中旅游餐车",
+          "reads": "4.2万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "全民求生：开局一间茅草棚",
+          "reads": "2.2万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "开局孕妇，在十平米荒岛求生",
+          "reads": "1.4万",
+          "category": "游戏体育",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "神",
+      "count": 48,
+      "avg_reads": 283350,
+      "max_reads": 10226000.0,
+      "category_count": 21,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "动漫衍生",
+        "历史脑洞",
+        "古言脑洞",
+        "女频衍生",
+        "悬疑灵异",
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "星光璀璨",
+        "游戏体育",
+        "玄幻言情",
+        "现言脑洞",
+        "男频衍生",
+        "科幻末世",
+        "西方奇幻",
+        "都市修真",
+        "都市种田",
+        "都市脑洞",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "全息游戏当神偷，偷完他的偷你的",
+          "reads": "4.2万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "地球人，你们逃离原生神明了吗？",
+          "reads": "2.4万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "神级陪玩：电竞少女制霸全场",
+          "reads": "7949",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "斩神：穿越后，我和哪吒恋爱了",
+          "reads": "6.6万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "斩神：无所谓，我会念台词",
+          "reads": "6.3万",
+          "category": "女频衍生",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "重生",
+      "count": 28,
+      "avg_reads": 62357,
+      "max_reads": 180000.0,
+      "category_count": 17,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "古言脑洞",
+        "古风世情",
+        "女频衍生",
+        "宫斗宅斗",
+        "年代",
+        "悬疑脑洞",
+        "战神赘婿",
+        "星光璀璨",
+        "现言脑洞",
+        "种田",
+        "科幻末世",
+        "职场婚恋",
+        "西方奇幻",
+        "都市种田",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "病骨重生十年后，故人子弟皆识我",
+          "reads": "3.9万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "穿成末世炮灰，被重生大哥娇宠了",
+          "reads": "6.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "南部档案：重生后全演上了",
+          "reads": "7万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "重生妹妹抢亲？我换亲嫁糙汉暴富",
+          "reads": "10.5万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "重生新婚夜，和离回娘家发家致富",
+          "reads": "2.6万",
+          "category": "种田",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "末世",
+      "count": 26,
+      "avg_reads": 96692,
+      "max_reads": 339000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "种田",
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "穿进末世，我靠装弱，苟成最强",
+          "reads": "29.2万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "穿进末世，我靠装弱，苟成最强",
+          "reads": "29.2万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "糟糕末世：系统给我发了五个疯批",
+          "reads": "8.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "糟糕末世：系统给我发了五个疯批",
+          "reads": "8.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "穿成末世炮灰，被重生大哥娇宠了",
+          "reads": "6.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "仙",
+      "count": 24,
+      "avg_reads": 79500,
+      "max_reads": 260000.0,
+      "category_count": 10,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "游戏体育",
+        "玄幻脑洞",
+        "玄幻言情",
+        "现言脑洞",
+        "科幻末世",
+        "都市修真",
+        "都市日常",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "8小时修仙，老娘卷哭全世界",
+          "reads": "5.8万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "修仙满级回现代，我让全家横着走",
+          "reads": "8.9万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "捡来的妹妹修仙后，回来抢亲了",
+          "reads": "6.1万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "修仙：从觉醒极品灵根开始",
+          "reads": "6.1万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "刚出江湖，被清冷仙子养成了",
+          "reads": "5.7万",
+          "category": "东方仙侠",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "王",
+      "count": 22,
+      "avg_reads": 65060,
+      "max_reads": 213000.0,
+      "category_count": 15,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史古代",
+        "历史脑洞",
+        "古言脑洞",
+        "古风世情",
+        "宫斗宅斗",
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "游戏体育",
+        "男频衍生",
+        "种田",
+        "科幻末世",
+        "西方奇幻",
+        "都市种田",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "此毒无解，摄政王千里追妻",
+          "reads": "1.3万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "末日死考：七岁丧尸王也要考试？",
+          "reads": "2.5万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "穿成魔王BOSS后我刀哭玩家",
+          "reads": "1.4万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "倒贴崽崽成功后我王炸了",
+          "reads": "2.8万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "被威胁后，我成了摄政王的掌中娇",
+          "reads": "5.5万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "她",
+      "count": 21,
+      "avg_reads": 90000,
+      "max_reads": 451000.0,
+      "category_count": 18,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "古言脑洞",
+        "古风世情",
+        "女频悬疑",
+        "宫斗宅斗",
+        "悬疑脑洞",
+        "星光璀璨",
+        "民国言情",
+        "玄幻脑洞",
+        "玄幻言情",
+        "种田",
+        "科幻末世",
+        "西方奇幻",
+        "豪门总裁",
+        "都市日常",
+        "都市脑洞",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "她冷，他懒，后来都栽了",
+          "reads": "1.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "都是公路求生，凭啥她这么强？",
+          "reads": "2.9万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "抽卡召旧族，炮灰她掀了修真界",
+          "reads": "12.2万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "恶役女配她只想活命",
+          "reads": "9.2万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "不好了！小姑她又又又尿床了！",
+          "reads": "3.3万",
+          "category": "种田",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "帝",
+      "count": 20,
+      "avg_reads": 89750,
+      "max_reads": 428000.0,
+      "category_count": 14,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "动漫衍生",
+        "历史古代",
+        "历史脑洞",
+        "古言脑洞",
+        "宫斗宅斗",
+        "悬疑脑洞",
+        "抗战谍战",
+        "玄幻脑洞",
+        "玄幻言情",
+        "职场婚恋",
+        "西方奇幻",
+        "都市修真",
+        "都市种田"
+      ],
+      "sample_books": [
+        {
+          "title": "危！刚飞升我就杀了天帝？",
+          "reads": "6.8万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "生了皇帝唯一的儿子，我宠冠后宫",
+          "reads": "8.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "亲生不如亲自生：父皇捧我当女帝",
+          "reads": "5.9万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "女配？我爹是皇帝，你最好也是哦",
+          "reads": "4.1万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "流放路上，我带皇帝全家吃瓜",
+          "reads": "2.7万",
+          "category": "古言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "系统",
+      "count": 18,
+      "avg_reads": 85111,
+      "max_reads": 204000.0,
+      "category_count": 10,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史脑洞",
+        "古言脑洞",
+        "快穿",
+        "悬疑脑洞",
+        "抗战谍战",
+        "星光璀璨",
+        "游戏体育",
+        "玄幻言情",
+        "现言脑洞",
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "糟糕末世：系统给我发了五个疯批",
+          "reads": "8.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "当我同时绑定好孕系统和天命系统",
+          "reads": "8.3万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "绑定双修系统后，我躺成宗门团宠",
+          "reads": "4.1万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "神豪系统：伪装有钱人我暴富啦",
+          "reads": "17万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "绑定接吻系统，咋都嘬上瘾了",
+          "reads": "16.7万",
+          "category": "现言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "皇",
+      "count": 18,
+      "avg_reads": 77333,
+      "max_reads": 176000.0,
+      "category_count": 8,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "动漫衍生",
+        "历史古代",
+        "历史脑洞",
+        "古言脑洞",
+        "宫斗宅斗",
+        "抗战谍战",
+        "玄幻脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "生了皇帝唯一的儿子，我宠冠后宫",
+          "reads": "8.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "亲生不如亲自生：父皇捧我当女帝",
+          "reads": "5.9万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "女配？我爹是皇帝，你最好也是哦",
+          "reads": "4.1万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "皇室盼了三百年的小公主竟是神棍",
+          "reads": "3.4万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "流放路上，我带皇帝全家吃瓜",
+          "reads": "2.7万",
+          "category": "古言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "他",
+      "count": 18,
+      "avg_reads": 66666,
+      "max_reads": 206000.0,
+      "category_count": 13,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "古言脑洞",
+        "古风世情",
+        "宫斗宅斗",
+        "快穿",
+        "悬疑脑洞",
+        "民国言情",
+        "游戏体育",
+        "玄幻脑洞",
+        "玄幻言情",
+        "职场婚恋",
+        "豪门总裁",
+        "都市修真",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "她冷，他懒，后来都栽了",
+          "reads": "1.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "全息游戏当神偷，偷完他的偷你的",
+          "reads": "4.2万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "天才剑修说他就喜欢恶毒女配",
+          "reads": "5万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "帐中香：病娇九千岁他又来爬床了",
+          "reads": "12.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "权贵接连入帐，清冷国师他急了",
+          "reads": "5.2万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "穿越",
+      "count": 17,
+      "avg_reads": 53353,
+      "max_reads": 151000.0,
+      "category_count": 14,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "动漫衍生",
+        "历史古代",
+        "古言脑洞",
+        "女频悬疑",
+        "女频衍生",
+        "抗战谍战",
+        "游戏体育",
+        "玄幻言情",
+        "种田",
+        "科幻末世",
+        "西方奇幻",
+        "都市日常",
+        "都市种田"
+      ],
+      "sample_books": [
+        {
+          "title": "救命穿越废土，开局通知我去选夫",
+          "reads": "3.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "游戏穿越：但无限刷新模组",
+          "reads": "1.6万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "斩神：穿越后，我和哪吒恋爱了",
+          "reads": "6.6万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "全班穿越洪荒，唯有我登阶成圣",
+          "reads": "4.6万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "穿越古代逃荒，我被糙汉掐腰狂宠",
+          "reads": "2.1万",
+          "category": "种田",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "龙",
+      "count": 15,
+      "avg_reads": 87553,
+      "max_reads": 207000.0,
+      "category_count": 11,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "游戏体育",
+        "玄幻脑洞",
+        "玄幻言情",
+        "男频衍生",
+        "西方奇幻",
+        "都市修真",
+        "都市种田",
+        "都市脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "全球公路求生，幸运龙崽躺赢啦",
+          "reads": "2.4万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "穿成龙傲天的早逝病弱崽",
+          "reads": "5.2万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "魔龙与地下城：恶龙请求出狱",
+          "reads": "11.2万",
+          "category": "西方奇幻",
+          "channel": "male"
+        },
+        {
+          "title": "暑假兼职龙虎山，你修成仙帝了？",
+          "reads": "7.1万",
+          "category": "都市修真",
+          "channel": "male"
+        },
+        {
+          "title": "报告苏总，您找的赘婿是龙神殿主",
+          "reads": "7075",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "快穿",
+      "count": 13,
+      "avg_reads": 85077,
+      "max_reads": 122000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "快穿",
+        "玄幻脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "快穿：管好自己，莫渡他人",
+          "reads": "12.2万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "快穿：炮灰上位，从抢男主开始",
+          "reads": "11.9万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "快穿：偏偏我过得最好",
+          "reads": "9.7万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "快穿：给各类奇葩男主生下孩子",
+          "reads": "10.6万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "快穿：恶狗又疯又坏总缠着不放",
+          "reads": "10.9万",
+          "category": "快穿",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "大佬",
+      "count": 13,
+      "avg_reads": 74663,
+      "max_reads": 228000.0,
+      "category_count": 8,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "女频悬疑",
+        "年代",
+        "战神赘婿",
+        "种田",
+        "科幻末世",
+        "职场婚恋",
+        "豪门总裁",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "别惹小祖宗！末世大佬是宠妹狂魔",
+          "reads": "3.4万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "盲雌一睁眼，周围全是大佬兽夫",
+          "reads": "5.6万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "末世大佬携带空间穿成首辅恶毒妻",
+          "reads": "2.7万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "重生七零夺回空间被军区大佬娇宠",
+          "reads": "11万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "骗婚捞女？科研大佬独宠丰腴美人",
+          "reads": "6.3万",
+          "category": "年代",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "太子",
+      "count": 10,
+      "avg_reads": 127900,
+      "max_reads": 259000.0,
+      "category_count": 7,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史古代",
+        "女频衍生",
+        "宫斗宅斗",
+        "现言脑洞",
+        "职场婚恋",
+        "豪门总裁",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "哪吒三太子的追妻日常",
+          "reads": "4.1万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "穿成落魄太子爷的作精未婚妻",
+          "reads": "8.6万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "勾了禁欲太子？刚觉醒，被亲哭！",
+          "reads": "6.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "给网恋对象发辣照，京圈太子爷疯",
+          "reads": "8.1万",
+          "category": "青春甜宠",
+          "channel": "female"
+        },
+        {
+          "title": "恶毒女友提分手，太子爷他疯批了",
+          "reads": "20.6万",
+          "category": "职场婚恋",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "尊",
+      "count": 9,
+      "avg_reads": 74444,
+      "max_reads": 197000.0,
+      "category_count": 6,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "古言脑洞",
+        "星光璀璨",
+        "玄幻脑洞",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "女尊：夫郎，他们？玩物罢了",
+          "reads": "2.4万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "女尊：结束剧情的我只想摆烂啊！",
+          "reads": "2.9万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "女尊：但是西天取经",
+          "reads": "5.2万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "女尊：凰子落难记",
+          "reads": "3.3万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "我武道至尊！转生御兽世家？",
+          "reads": "9.3万",
+          "category": "都市高武",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "病娇",
+      "count": 9,
+      "avg_reads": 62444,
+      "max_reads": 121000.0,
+      "category_count": 9,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "历史古代",
+        "古风世情",
+        "宫斗宅斗",
+        "玄幻脑洞",
+        "西方奇幻",
+        "豪门总裁",
+        "都市日常"
+      ],
+      "sample_books": [
+        {
+          "title": "病娇魔教教主的掌心宠",
+          "reads": "1.3万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "帐中香：病娇九千岁他又来爬床了",
+          "reads": "12.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "卡他失忆哄离婚，病娇又又失控了",
+          "reads": "10.1万",
+          "category": "豪门总裁",
+          "channel": "female"
+        },
+        {
+          "title": "变身欢愉魔女，养出病娇女魔王",
+          "reads": "3.7万",
+          "category": "西方奇幻",
+          "channel": "male"
+        },
+        {
+          "title": "不努力就会成为病娇仙子的玩物",
+          "reads": "3.6万",
+          "category": "东方仙侠",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "公主",
+      "count": 9,
+      "avg_reads": 48111,
+      "max_reads": 99000.0,
+      "category_count": 4,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史古代",
+        "古言脑洞",
+        "古风世情",
+        "宫斗宅斗"
+      ],
+      "sample_books": [
+        {
+          "title": "我都中状元了，你说我是公主？",
+          "reads": "5.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "公主，不可以",
+          "reads": "3.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "媚骨：公主她当真祸水！",
+          "reads": "9.9万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "泥腿子水匪被娇气公主哐哐拿捏！",
+          "reads": "6.6万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "我都是公主了，你说我不是女主？",
+          "reads": "5.3万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "修仙",
+      "count": 8,
+      "avg_reads": 76500,
+      "max_reads": 143000.0,
+      "category_count": 6,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "玄幻脑洞",
+        "玄幻言情",
+        "现言脑洞",
+        "都市修真",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "8小时修仙，老娘卷哭全世界",
+          "reads": "5.8万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "修仙满级回现代，我让全家横着走",
+          "reads": "8.9万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "捡来的妹妹修仙后，回来抢亲了",
+          "reads": "6.1万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "修仙：从觉醒极品灵根开始",
+          "reads": "6.1万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "从修仙回到都市，坏消息修为没了",
+          "reads": "4.9万",
+          "category": "都市修真",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "离婚",
+      "count": 7,
+      "avg_reads": 88990,
+      "max_reads": 181000.0,
+      "category_count": 6,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "年代",
+        "战神赘婿",
+        "职场婚恋",
+        "豪门总裁",
+        "都市日常",
+        "都市脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "离婚刚开口，首长掐腰不让走",
+          "reads": "5.3万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "高考出分，女儿第一个劝我离婚",
+          "reads": "4.3万",
+          "category": "职场婚恋",
+          "channel": "female"
+        },
+        {
+          "title": "卡他失忆哄离婚，病娇又又失控了",
+          "reads": "10.1万",
+          "category": "豪门总裁",
+          "channel": "female"
+        },
+        {
+          "title": "离婚后，冰山警花追夫杀疯了！",
+          "reads": "13.6万",
+          "category": "都市日常",
+          "channel": "male"
+        },
+        {
+          "title": "离婚后，九个绝色尤物找上门",
+          "reads": "3927",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "全家",
+      "count": 7,
+      "avg_reads": 63143,
+      "max_reads": 127000.0,
+      "category_count": 6,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史脑洞",
+        "古言脑洞",
+        "现言脑洞",
+        "男频衍生",
+        "种田",
+        "职场婚恋"
+      ],
+      "sample_books": [
+        {
+          "title": "断亲后，三岁萌娃带弟搬空全家",
+          "reads": "5.4万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "修仙满级回现代，我让全家横着走",
+          "reads": "8.9万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "穿成猫后，带反派全家薅秃气运女",
+          "reads": "6.6万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "流放路上，我带皇帝全家吃瓜",
+          "reads": "2.7万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "女儿惨死，我亲手覆灭仇人全家",
+          "reads": "3.3万",
+          "category": "职场婚恋",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "强制",
+      "count": 6,
+      "avg_reads": 70000,
+      "max_reads": 111000.0,
+      "category_count": 5,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "快穿",
+        "悬疑脑洞",
+        "玄幻言情",
+        "科幻末世",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "双修后才知夫君是强制文灭世男主",
+          "reads": "7万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "盗墓：强制诚实的我憋不住了",
+          "reads": "3.5万",
+          "category": "悬疑脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "穿成清水文女配，被男主强制爱了",
+          "reads": "6.9万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "作精女配要分手，疯批男主强制爱",
+          "reads": "5.8万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "厌世农村妹也要被少爷强制爱吗？",
+          "reads": "11.1万",
+          "category": "青春甜宠",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "圣",
+      "count": 5,
+      "avg_reads": 128600,
+      "max_reads": 338000.0,
+      "category_count": 5,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "游戏体育",
+        "玄幻言情",
+        "都市脑洞",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "全班穿越洪荒，唯有我登阶成圣",
+          "reads": "4.6万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "领主：开局一金商店获得丰饶圣女",
+          "reads": "11万",
+          "category": "都市高武",
+          "channel": "male"
+        },
+        {
+          "title": "开局拜入圣地，发现祖上是人皇！",
+          "reads": "9.6万",
+          "category": "传统玄幻",
+          "channel": "male"
+        },
+        {
+          "title": "人在潮汕，开局连抛十八圣杯",
+          "reads": "33.8万",
+          "category": "都市脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "入主湖人助科比，开局先抢圣保罗",
+          "reads": "5.3万",
+          "category": "游戏体育",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "七零",
+      "count": 5,
+      "avg_reads": 97000,
+      "max_reads": 164000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "年代"
+      ],
+      "sample_books": [
+        {
+          "title": "七零：成了农村耀祖亲生的崽",
+          "reads": "16.4万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "重生七零夺回空间被军区大佬娇宠",
+          "reads": "11万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "七零年代病佳人把偏执男哄迷糊了",
+          "reads": "8.4万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "穿书七零：我跟锦鲤女主抢机缘",
+          "reads": "7.7万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "七零，拒绝换亲被疯批糙汉强宠",
+          "reads": "5万",
+          "category": "年代",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "撩",
+      "count": 5,
+      "avg_reads": 73200,
+      "max_reads": 112000.0,
+      "category_count": 4,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "年代",
+        "种田",
+        "都市日常",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "穿成貌美小娘子，撩个族长当靠山",
+          "reads": "2.9万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "丰腴保姆太撩人，科研巨鳄破防了",
+          "reads": "8万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "宝宝乖，轻点撩",
+          "reads": "4.8万",
+          "category": "青春甜宠",
+          "channel": "female"
+        },
+        {
+          "title": "姐姐，轻点撩",
+          "reads": "11.2万",
+          "category": "都市日常",
+          "channel": "male"
+        },
+        {
+          "title": "不娶还敢撩？再跑就把你关起来",
+          "reads": "9.7万",
+          "category": "都市日常",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "直播",
+      "count": 5,
+      "avg_reads": 62400,
+      "max_reads": 118000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史脑洞",
+        "悬疑脑洞",
+        "星光璀璨"
+      ],
+      "sample_books": [
+        {
+          "title": "女装直播后，榜一大哥大姐杀疯了",
+          "reads": "3.6万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "神颜社畜直播爆火，她想挣生活费",
+          "reads": "2.9万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "天幕直播，先辈看我躺平生活",
+          "reads": "11.8万",
+          "category": "历史脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "我在诡异副本女装直播后爆火了",
+          "reads": "8万",
+          "category": "悬疑脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "九叔：我有一个蓝星直播间",
+          "reads": "4.9万",
+          "category": "悬疑脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "少爷",
+      "count": 4,
+      "avg_reads": 131000,
+      "max_reads": 227000.0,
+      "category_count": 4,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "战神赘婿",
+        "现言脑洞",
+        "都市日常",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "炮灰女配勾勾手，血族少爷全当狗",
+          "reads": "22.7万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "厌世农村妹也要被少爷强制爱吗？",
+          "reads": "11.1万",
+          "category": "青春甜宠",
+          "channel": "female"
+        },
+        {
+          "title": "京圈世家小少爷：魔都校园遇群芳",
+          "reads": "13万",
+          "category": "都市日常",
+          "channel": "male"
+        },
+        {
+          "title": "开局四选一，我选成为沪圈少爷！",
+          "reads": "5.6万",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "天才",
+      "count": 4,
+      "avg_reads": 118000,
+      "max_reads": 288000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "女频衍生",
+        "玄幻脑洞",
+        "玄幻言情"
+      ],
+      "sample_books": [
+        {
+          "title": "什么？我不是天才爱豆吗？",
+          "reads": "6.9万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "天才辅灵师在异世大陆挖疯了",
+          "reads": "6.5万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "天才剑修说他就喜欢恶毒女配",
+          "reads": "5万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "我根骨平庸，但分身都是绝世天才",
+          "reads": "28.8万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "洪荒",
+      "count": 4,
+      "avg_reads": 74750,
+      "max_reads": 110000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "玄幻脑洞",
+        "玄幻言情"
+      ],
+      "sample_books": [
+        {
+          "title": "洪荒，阐教小师妹后台太硬",
+          "reads": "9.7万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "全班穿越洪荒，唯有我登阶成圣",
+          "reads": "4.6万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "洪荒：重生红云，人间清醒！",
+          "reads": "4.6万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "洪荒：我先证混元，鸿钧傻眼了",
+          "reads": "11万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "年代",
+      "count": 4,
+      "avg_reads": 60000,
+      "max_reads": 84000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "年代",
+        "快穿"
+      ],
+      "sample_books": [
+        {
+          "title": "七零年代病佳人把偏执男哄迷糊了",
+          "reads": "8.4万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "七十年代：陆老二家的独生女",
+          "reads": "5.6万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "六十年代姜糖",
+          "reads": "5万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "快穿年代：对照组觉醒比极品还疯",
+          "reads": "5万",
+          "category": "快穿",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "空间",
+      "count": 4,
+      "avg_reads": 56500,
+      "max_reads": 110000.0,
+      "category_count": 4,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "年代",
+        "种田",
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "末世大佬携带空间穿成首辅恶毒妻",
+          "reads": "2.7万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "重生七零夺回空间被军区大佬娇宠",
+          "reads": "11万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "开始万倍加速空间，芶在最强宗门",
+          "reads": "3.7万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "公路求生：重生觉醒空间序列",
+          "reads": "5.2万",
+          "category": "科幻末世",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "民国",
+      "count": 4,
+      "avg_reads": 55574,
+      "max_reads": 110000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "抗战谍战",
+        "民国言情"
+      ],
+      "sample_books": [
+        {
+          "title": "民国爱情：烟雨长安渡",
+          "reads": "2.5万",
+          "category": "民国言情",
+          "channel": "female"
+        },
+        {
+          "title": "小吃店通民国：我用预制菜干鬼子",
+          "reads": "6297",
+          "category": "民国言情",
+          "channel": "female"
+        },
+        {
+          "title": "民国：张家逆子，我才是东北王",
+          "reads": "11万",
+          "category": "抗战谍战",
+          "channel": "male"
+        },
+        {
+          "title": "魂穿民国成为教导总队中校参谋",
+          "reads": "8.1万",
+          "category": "抗战谍战",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "江湖",
+      "count": 4,
+      "avg_reads": 42250,
+      "max_reads": 58000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "古风世情"
+      ],
+      "sample_books": [
+        {
+          "title": "宅斗文女配脱离剧情，跑去江湖后",
+          "reads": "1.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "我，当铺掌柜，曾打穿整个江湖",
+          "reads": "5.8万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "刚出江湖，被清冷仙子养成了",
+          "reads": "5.7万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "无敌江湖后，我隐退于世",
+          "reads": "4.3万",
+          "category": "东方仙侠",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "娱乐圈",
+      "count": 3,
+      "avg_reads": 76333,
+      "max_reads": 89000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "星光璀璨",
+        "都市种田"
+      ],
+      "sample_books": [
+        {
+          "title": "当高考状元穿成娱乐圈黑红女星",
+          "reads": "8.9万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "全能顶流女星重生，卷疯娱乐圈",
+          "reads": "6.9万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "重生：开局拿下杨老板进军娱乐圈",
+          "reads": "7.1万",
+          "category": "都市种田",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "清冷",
+      "count": 3,
+      "avg_reads": 63000,
+      "max_reads": 80000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "宫斗宅斗",
+        "现言脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "惊！穿成清冷校草的粘人精前女友",
+          "reads": "8万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "权贵接连入帐，清冷国师他急了",
+          "reads": "5.2万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "刚出江湖，被清冷仙子养成了",
+          "reads": "5.7万",
+          "category": "东方仙侠",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "满级",
+      "count": 3,
+      "avg_reads": 46000,
+      "max_reads": 89000.0,
+      "category_count": 3,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古风世情",
+        "玄幻言情",
+        "现言脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "满级名媛在古代靠茶艺复仇",
+          "reads": "1.2万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "盗墓，满级古武麒麟女杀疯了",
+          "reads": "3.7万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "修仙满级回现代，我让全家横着走",
+          "reads": "8.9万",
+          "category": "现言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "星际",
+      "count": 3,
+      "avg_reads": 40000,
+      "max_reads": 51000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "悬疑脑洞",
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "全星际都知道我们小队很有钱",
+          "reads": "5.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "星际第一躺平学大师",
+          "reads": "3.9万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "盗墓：被星际生子系统绑定了",
+          "reads": "3万",
+          "category": "悬疑脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "归来",
+      "count": 3,
+      "avg_reads": 38732,
+      "max_reads": 82000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "战神赘婿",
+        "种田",
+        "都市修真"
+      ],
+      "sample_books": [
+        {
+          "title": "夫君战死五年归来：我携婆家出族",
+          "reads": "2.9万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "暑假失踪，开学归来成元婴老祖！",
+          "reads": "8.2万",
+          "category": "都市修真",
+          "channel": "male"
+        },
+        {
+          "title": "战神归来：女总裁的贴身兵王",
+          "reads": "5195",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "偏执",
+      "count": 2,
+      "avg_reads": 79500,
+      "max_reads": 84000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "年代",
+        "快穿"
+      ],
+      "sample_books": [
+        {
+          "title": "七零年代病佳人把偏执男哄迷糊了",
+          "reads": "8.4万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "诱哄！每个世界被偏执系统吻到哭",
+          "reads": "7.5万",
+          "category": "快穿",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "签到",
+      "count": 2,
+      "avg_reads": 60036,
+      "max_reads": 113000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史脑洞",
+        "民国言情"
+      ],
+      "sample_books": [
+        {
+          "title": "丑村姑靠签到积分提升美貌",
+          "reads": "7073",
+          "category": "民国言情",
+          "channel": "female"
+        },
+        {
+          "title": "开局签到常务副皇帝，权倾朝野！",
+          "reads": "11.3万",
+          "category": "历史脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "团宠",
+      "count": 2,
+      "avg_reads": 44500,
+      "max_reads": 48000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古言脑洞",
+        "玄幻言情"
+      ],
+      "sample_books": [
+        {
+          "title": "绑定双修系统后，我躺成宗门团宠",
+          "reads": "4.1万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "被诊出喜脉后，朕成了病弱团宠",
+          "reads": "4.8万",
+          "category": "古言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "八零",
+      "count": 2,
+      "avg_reads": 44000,
+      "max_reads": 47000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "年代",
+        "都市种田"
+      ],
+      "sample_books": [
+        {
+          "title": "八零军婚：陆首长被前妻踢出门了",
+          "reads": "4.7万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "丰腴美媳龙凤胎，重生八零闯天家",
+          "reads": "4.1万",
+          "category": "都市种田",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "将军",
+      "count": 2,
+      "avg_reads": 40500,
+      "max_reads": 49000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古言脑洞",
+        "宫斗宅斗"
+      ],
+      "sample_books": [
+        {
+          "title": "奉旨成婚后，糙汉将军日日洗床单",
+          "reads": "4.9万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "天幕曝光，朕的四哥是征北大将军",
+          "reads": "3.2万",
+          "category": "古言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "摄政王",
+      "count": 2,
+      "avg_reads": 34000,
+      "max_reads": 55000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古风世情",
+        "宫斗宅斗"
+      ],
+      "sample_books": [
+        {
+          "title": "此毒无解，摄政王千里追妻",
+          "reads": "1.3万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "被威胁后，我成了摄政王的掌中娇",
+          "reads": "5.5万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "废土",
+      "count": 2,
+      "avg_reads": 31000,
+      "max_reads": 31000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "救命穿越废土，开局通知我去选夫",
+          "reads": "3.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "废土？兽世？不给金手指不活了",
+          "reads": "3.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "追妻",
+      "count": 2,
+      "avg_reads": 27000,
+      "max_reads": 41000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古风世情",
+        "女频衍生"
+      ],
+      "sample_books": [
+        {
+          "title": "此毒无解，摄政王千里追妻",
+          "reads": "1.3万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "哪吒三太子的追妻日常",
+          "reads": "4.1万",
+          "category": "女频衍生",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "升级",
+      "count": 2,
+      "avg_reads": 16496,
+      "max_reads": 23000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古言脑洞",
+        "游戏体育"
+      ],
+      "sample_books": [
+        {
+          "title": "公路求生，先升级后复制",
+          "reads": "9992",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "系统升级后，百官听见了我的心声",
+          "reads": "2.3万",
+          "category": "古言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "霸总",
+      "count": 1,
+      "avg_reads": 139000,
+      "max_reads": 139000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "现言脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "阴湿霸总别黑化，恶毒前妻来贴贴",
+          "reads": "13.9万",
+          "category": "现言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "嫡女",
+      "count": 1,
+      "avg_reads": 94000,
+      "max_reads": 94000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "宫斗宅斗"
+      ],
+      "sample_books": [
+        {
+          "title": "玲珑劫：和离嫡女，二嫁执掌山河",
+          "reads": "9.4万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "宠妻",
+      "count": 1,
+      "avg_reads": 94000,
+      "max_reads": 94000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "快穿"
+      ],
+      "sample_books": [
+        {
+          "title": "快穿之人渣的宠妻洗白攻略",
+          "reads": "9.4万",
+          "category": "快穿",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "诱",
+      "count": 1,
+      "avg_reads": 75000,
+      "max_reads": 75000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "快穿"
+      ],
+      "sample_books": [
+        {
+          "title": "诱哄！每个世界被偏执系统吻到哭",
+          "reads": "7.5万",
+          "category": "快穿",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "闪婚",
+      "count": 1,
+      "avg_reads": 74000,
+      "max_reads": 74000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "职场婚恋"
+      ],
+      "sample_books": [
+        {
+          "title": "网聊翻车！闪婚前发现竟是死对头",
+          "reads": "7.4万",
+          "category": "职场婚恋",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "全能",
+      "count": 1,
+      "avg_reads": 69000,
+      "max_reads": 69000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "星光璀璨"
+      ],
+      "sample_books": [
+        {
+          "title": "全能顶流女星重生，卷疯娱乐圈",
+          "reads": "6.9万",
+          "category": "星光璀璨",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "独宠",
+      "count": 1,
+      "avg_reads": 63000,
+      "max_reads": 63000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "年代"
+      ],
+      "sample_books": [
+        {
+          "title": "骗婚捞女？科研大佬独宠丰腴美人",
+          "reads": "6.3万",
+          "category": "年代",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "先婚",
+      "count": 1,
+      "avg_reads": 56000,
+      "max_reads": 56000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "年代"
+      ],
+      "sample_books": [
+        {
+          "title": "先婚后爱：大小姐被糙汉狠狠宠爱",
+          "reads": "5.6万",
+          "category": "年代",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "后爱",
+      "count": 1,
+      "avg_reads": 56000,
+      "max_reads": 56000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "年代"
+      ],
+      "sample_books": [
+        {
+          "title": "先婚后爱：大小姐被糙汉狠狠宠爱",
+          "reads": "5.6万",
+          "category": "年代",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "世子",
+      "count": 1,
+      "avg_reads": 52000,
+      "max_reads": 52000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "宫斗宅斗"
+      ],
+      "sample_books": [
+        {
+          "title": "撤回圆房请求后，世子他急红了眼",
+          "reads": "5.2万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "腹黑",
+      "count": 1,
+      "avg_reads": 50000,
+      "max_reads": 50000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "劝分八百次，我和腹黑军师演情侣",
+          "reads": "5万",
+          "category": "青春甜宠",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "金手指",
+      "count": 1,
+      "avg_reads": 31000,
+      "max_reads": 31000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "废土？兽世？不给金手指不活了",
+          "reads": "3.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "首辅",
+      "count": 1,
+      "avg_reads": 27000,
+      "max_reads": 27000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "种田"
+      ],
+      "sample_books": [
+        {
+          "title": "末世大佬携带空间穿成首辅恶毒妻",
+          "reads": "2.7万",
+          "category": "种田",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "侯",
+      "count": 1,
+      "avg_reads": 26000,
+      "max_reads": 26000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古言脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "媚骨生香多位王爷诸侯皆裙下臣",
+          "reads": "2.6万",
+          "category": "古言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "宅斗",
+      "count": 1,
+      "avg_reads": 11000,
+      "max_reads": 11000.0,
+      "category_count": 1,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古风世情"
+      ],
+      "sample_books": [
+        {
+          "title": "宅斗文女配脱离剧情，跑去江湖后",
+          "reads": "1.1万",
+          "category": "古风世情",
+          "channel": "female"
+        }
+      ]
+    }
+  ],
+  "male_keywords": [
+    {
+      "keyword": "我",
+      "count": 233,
+      "avg_reads": 94827,
+      "max_reads": 630000.0,
+      "category_count": 34,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "动漫衍生",
+        "历史古代",
+        "历史脑洞",
+        "古言脑洞",
+        "古风世情",
+        "女频悬疑",
+        "女频衍生",
+        "宫斗宅斗",
+        "年代",
+        "快穿",
+        "悬疑灵异",
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "星光璀璨",
+        "民国言情",
+        "游戏体育",
+        "玄幻脑洞",
+        "玄幻言情",
+        "现言脑洞",
+        "男频衍生",
+        "种田",
+        "科幻末世",
+        "职场婚恋",
+        "西方奇幻",
+        "豪门总裁",
+        "都市修真",
+        "都市日常",
+        "都市种田",
+        "都市脑洞",
+        "都市高武",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "我都中状元了，你说我是公主？",
+          "reads": "5.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "病骨重生十年后，故人子弟皆识我",
+          "reads": "3.9万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "穿成带娃尼姑，渣爹逼我去冲喜",
+          "reads": "1.3万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "穿进末世，我靠装弱，苟成最强",
+          "reads": "29.2万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "糟糕末世：系统给我发了五个疯批",
+          "reads": "8.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "开局",
+      "count": 69,
+      "avg_reads": 103928,
+      "max_reads": 539000.0,
+      "category_count": 19,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "动漫衍生",
+        "历史古代",
+        "历史脑洞",
+        "女频衍生",
+        "悬疑灵异",
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "游戏体育",
+        "玄幻脑洞",
+        "男频衍生",
+        "科幻末世",
+        "西方奇幻",
+        "都市修真",
+        "都市日常",
+        "都市种田",
+        "都市脑洞",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "开局一把扫帚，我是公路求生榜一",
+          "reads": "3.7万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "救命穿越废土，开局通知我去选夫",
+          "reads": "3.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "公路求生：开局抽中旅游餐车",
+          "reads": "4.2万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "全民求生：开局一间茅草棚",
+          "reads": "2.2万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "开局孕妇，在十平米荒岛求生",
+          "reads": "1.4万",
+          "category": "游戏体育",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "神",
+      "count": 48,
+      "avg_reads": 283350,
+      "max_reads": 10226000.0,
+      "category_count": 21,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "动漫衍生",
+        "历史脑洞",
+        "古言脑洞",
+        "女频衍生",
+        "悬疑灵异",
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "星光璀璨",
+        "游戏体育",
+        "玄幻言情",
+        "现言脑洞",
+        "男频衍生",
+        "科幻末世",
+        "西方奇幻",
+        "都市修真",
+        "都市种田",
+        "都市脑洞",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "全息游戏当神偷，偷完他的偷你的",
+          "reads": "4.2万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "地球人，你们逃离原生神明了吗？",
+          "reads": "2.4万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "神级陪玩：电竞少女制霸全场",
+          "reads": "7949",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "斩神：穿越后，我和哪吒恋爱了",
+          "reads": "6.6万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "斩神：无所谓，我会念台词",
+          "reads": "6.3万",
+          "category": "女频衍生",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "重生",
+      "count": 28,
+      "avg_reads": 62357,
+      "max_reads": 180000.0,
+      "category_count": 17,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "古言脑洞",
+        "古风世情",
+        "女频衍生",
+        "宫斗宅斗",
+        "年代",
+        "悬疑脑洞",
+        "战神赘婿",
+        "星光璀璨",
+        "现言脑洞",
+        "种田",
+        "科幻末世",
+        "职场婚恋",
+        "西方奇幻",
+        "都市种田",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "病骨重生十年后，故人子弟皆识我",
+          "reads": "3.9万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "穿成末世炮灰，被重生大哥娇宠了",
+          "reads": "6.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "南部档案：重生后全演上了",
+          "reads": "7万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "重生妹妹抢亲？我换亲嫁糙汉暴富",
+          "reads": "10.5万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "重生新婚夜，和离回娘家发家致富",
+          "reads": "2.6万",
+          "category": "种田",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "末世",
+      "count": 26,
+      "avg_reads": 96692,
+      "max_reads": 339000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "种田",
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "穿进末世，我靠装弱，苟成最强",
+          "reads": "29.2万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "穿进末世，我靠装弱，苟成最强",
+          "reads": "29.2万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "糟糕末世：系统给我发了五个疯批",
+          "reads": "8.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "糟糕末世：系统给我发了五个疯批",
+          "reads": "8.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "穿成末世炮灰，被重生大哥娇宠了",
+          "reads": "6.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "仙",
+      "count": 24,
+      "avg_reads": 79500,
+      "max_reads": 260000.0,
+      "category_count": 10,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "游戏体育",
+        "玄幻脑洞",
+        "玄幻言情",
+        "现言脑洞",
+        "科幻末世",
+        "都市修真",
+        "都市日常",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "8小时修仙，老娘卷哭全世界",
+          "reads": "5.8万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "修仙满级回现代，我让全家横着走",
+          "reads": "8.9万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "捡来的妹妹修仙后，回来抢亲了",
+          "reads": "6.1万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "修仙：从觉醒极品灵根开始",
+          "reads": "6.1万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "刚出江湖，被清冷仙子养成了",
+          "reads": "5.7万",
+          "category": "东方仙侠",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "王",
+      "count": 22,
+      "avg_reads": 65060,
+      "max_reads": 213000.0,
+      "category_count": 15,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史古代",
+        "历史脑洞",
+        "古言脑洞",
+        "古风世情",
+        "宫斗宅斗",
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "游戏体育",
+        "男频衍生",
+        "种田",
+        "科幻末世",
+        "西方奇幻",
+        "都市种田",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "此毒无解，摄政王千里追妻",
+          "reads": "1.3万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "末日死考：七岁丧尸王也要考试？",
+          "reads": "2.5万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "穿成魔王BOSS后我刀哭玩家",
+          "reads": "1.4万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "倒贴崽崽成功后我王炸了",
+          "reads": "2.8万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "被威胁后，我成了摄政王的掌中娇",
+          "reads": "5.5万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "她",
+      "count": 21,
+      "avg_reads": 90000,
+      "max_reads": 451000.0,
+      "category_count": 18,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "古言脑洞",
+        "古风世情",
+        "女频悬疑",
+        "宫斗宅斗",
+        "悬疑脑洞",
+        "星光璀璨",
+        "民国言情",
+        "玄幻脑洞",
+        "玄幻言情",
+        "种田",
+        "科幻末世",
+        "西方奇幻",
+        "豪门总裁",
+        "都市日常",
+        "都市脑洞",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "她冷，他懒，后来都栽了",
+          "reads": "1.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "都是公路求生，凭啥她这么强？",
+          "reads": "2.9万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "抽卡召旧族，炮灰她掀了修真界",
+          "reads": "12.2万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "恶役女配她只想活命",
+          "reads": "9.2万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "不好了！小姑她又又又尿床了！",
+          "reads": "3.3万",
+          "category": "种田",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "帝",
+      "count": 20,
+      "avg_reads": 89750,
+      "max_reads": 428000.0,
+      "category_count": 14,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "动漫衍生",
+        "历史古代",
+        "历史脑洞",
+        "古言脑洞",
+        "宫斗宅斗",
+        "悬疑脑洞",
+        "抗战谍战",
+        "玄幻脑洞",
+        "玄幻言情",
+        "职场婚恋",
+        "西方奇幻",
+        "都市修真",
+        "都市种田"
+      ],
+      "sample_books": [
+        {
+          "title": "危！刚飞升我就杀了天帝？",
+          "reads": "6.8万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "生了皇帝唯一的儿子，我宠冠后宫",
+          "reads": "8.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "亲生不如亲自生：父皇捧我当女帝",
+          "reads": "5.9万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "女配？我爹是皇帝，你最好也是哦",
+          "reads": "4.1万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "流放路上，我带皇帝全家吃瓜",
+          "reads": "2.7万",
+          "category": "古言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "系统",
+      "count": 18,
+      "avg_reads": 85111,
+      "max_reads": 204000.0,
+      "category_count": 10,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史脑洞",
+        "古言脑洞",
+        "快穿",
+        "悬疑脑洞",
+        "抗战谍战",
+        "星光璀璨",
+        "游戏体育",
+        "玄幻言情",
+        "现言脑洞",
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "糟糕末世：系统给我发了五个疯批",
+          "reads": "8.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "当我同时绑定好孕系统和天命系统",
+          "reads": "8.3万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "绑定双修系统后，我躺成宗门团宠",
+          "reads": "4.1万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "神豪系统：伪装有钱人我暴富啦",
+          "reads": "17万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "绑定接吻系统，咋都嘬上瘾了",
+          "reads": "16.7万",
+          "category": "现言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "皇",
+      "count": 18,
+      "avg_reads": 77333,
+      "max_reads": 176000.0,
+      "category_count": 8,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "动漫衍生",
+        "历史古代",
+        "历史脑洞",
+        "古言脑洞",
+        "宫斗宅斗",
+        "抗战谍战",
+        "玄幻脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "生了皇帝唯一的儿子，我宠冠后宫",
+          "reads": "8.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "亲生不如亲自生：父皇捧我当女帝",
+          "reads": "5.9万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "女配？我爹是皇帝，你最好也是哦",
+          "reads": "4.1万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "皇室盼了三百年的小公主竟是神棍",
+          "reads": "3.4万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "流放路上，我带皇帝全家吃瓜",
+          "reads": "2.7万",
+          "category": "古言脑洞",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "他",
+      "count": 18,
+      "avg_reads": 66666,
+      "max_reads": 206000.0,
+      "category_count": 13,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "古言脑洞",
+        "古风世情",
+        "宫斗宅斗",
+        "快穿",
+        "悬疑脑洞",
+        "民国言情",
+        "游戏体育",
+        "玄幻脑洞",
+        "玄幻言情",
+        "职场婚恋",
+        "豪门总裁",
+        "都市修真",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "她冷，他懒，后来都栽了",
+          "reads": "1.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "全息游戏当神偷，偷完他的偷你的",
+          "reads": "4.2万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "天才剑修说他就喜欢恶毒女配",
+          "reads": "5万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "帐中香：病娇九千岁他又来爬床了",
+          "reads": "12.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "权贵接连入帐，清冷国师他急了",
+          "reads": "5.2万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "穿越",
+      "count": 17,
+      "avg_reads": 53353,
+      "max_reads": 151000.0,
+      "category_count": 14,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "动漫衍生",
+        "历史古代",
+        "古言脑洞",
+        "女频悬疑",
+        "女频衍生",
+        "抗战谍战",
+        "游戏体育",
+        "玄幻言情",
+        "种田",
+        "科幻末世",
+        "西方奇幻",
+        "都市日常",
+        "都市种田"
+      ],
+      "sample_books": [
+        {
+          "title": "救命穿越废土，开局通知我去选夫",
+          "reads": "3.1万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "游戏穿越：但无限刷新模组",
+          "reads": "1.6万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "斩神：穿越后，我和哪吒恋爱了",
+          "reads": "6.6万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "全班穿越洪荒，唯有我登阶成圣",
+          "reads": "4.6万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "穿越古代逃荒，我被糙汉掐腰狂宠",
+          "reads": "2.1万",
+          "category": "种田",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "龙",
+      "count": 15,
+      "avg_reads": 87553,
+      "max_reads": 207000.0,
+      "category_count": 11,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "悬疑脑洞",
+        "战神赘婿",
+        "抗战谍战",
+        "游戏体育",
+        "玄幻脑洞",
+        "玄幻言情",
+        "男频衍生",
+        "西方奇幻",
+        "都市修真",
+        "都市种田",
+        "都市脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "全球公路求生，幸运龙崽躺赢啦",
+          "reads": "2.4万",
+          "category": "游戏体育",
+          "channel": "female"
+        },
+        {
+          "title": "穿成龙傲天的早逝病弱崽",
+          "reads": "5.2万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "魔龙与地下城：恶龙请求出狱",
+          "reads": "11.2万",
+          "category": "西方奇幻",
+          "channel": "male"
+        },
+        {
+          "title": "暑假兼职龙虎山，你修成仙帝了？",
+          "reads": "7.1万",
+          "category": "都市修真",
+          "channel": "male"
+        },
+        {
+          "title": "报告苏总，您找的赘婿是龙神殿主",
+          "reads": "7075",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "快穿",
+      "count": 13,
+      "avg_reads": 85077,
+      "max_reads": 122000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "快穿",
+        "玄幻脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "快穿：管好自己，莫渡他人",
+          "reads": "12.2万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "快穿：炮灰上位，从抢男主开始",
+          "reads": "11.9万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "快穿：偏偏我过得最好",
+          "reads": "9.7万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "快穿：给各类奇葩男主生下孩子",
+          "reads": "10.6万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "快穿：恶狗又疯又坏总缠着不放",
+          "reads": "10.9万",
+          "category": "快穿",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "大佬",
+      "count": 13,
+      "avg_reads": 74663,
+      "max_reads": 228000.0,
+      "category_count": 8,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "女频悬疑",
+        "年代",
+        "战神赘婿",
+        "种田",
+        "科幻末世",
+        "职场婚恋",
+        "豪门总裁",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "别惹小祖宗！末世大佬是宠妹狂魔",
+          "reads": "3.4万",
+          "category": "科幻末世",
+          "channel": "female"
+        },
+        {
+          "title": "盲雌一睁眼，周围全是大佬兽夫",
+          "reads": "5.6万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "末世大佬携带空间穿成首辅恶毒妻",
+          "reads": "2.7万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "重生七零夺回空间被军区大佬娇宠",
+          "reads": "11万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "骗婚捞女？科研大佬独宠丰腴美人",
+          "reads": "6.3万",
+          "category": "年代",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "太子",
+      "count": 10,
+      "avg_reads": 127900,
+      "max_reads": 259000.0,
+      "category_count": 7,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史古代",
+        "女频衍生",
+        "宫斗宅斗",
+        "现言脑洞",
+        "职场婚恋",
+        "豪门总裁",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "哪吒三太子的追妻日常",
+          "reads": "4.1万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "穿成落魄太子爷的作精未婚妻",
+          "reads": "8.6万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "勾了禁欲太子？刚觉醒，被亲哭！",
+          "reads": "6.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "给网恋对象发辣照，京圈太子爷疯",
+          "reads": "8.1万",
+          "category": "青春甜宠",
+          "channel": "female"
+        },
+        {
+          "title": "恶毒女友提分手，太子爷他疯批了",
+          "reads": "20.6万",
+          "category": "职场婚恋",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "尊",
+      "count": 9,
+      "avg_reads": 74444,
+      "max_reads": 197000.0,
+      "category_count": 6,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "古言脑洞",
+        "星光璀璨",
+        "玄幻脑洞",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "女尊：夫郎，他们？玩物罢了",
+          "reads": "2.4万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "女尊：结束剧情的我只想摆烂啊！",
+          "reads": "2.9万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "女尊：但是西天取经",
+          "reads": "5.2万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "女尊：凰子落难记",
+          "reads": "3.3万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "我武道至尊！转生御兽世家？",
+          "reads": "9.3万",
+          "category": "都市高武",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "病娇",
+      "count": 9,
+      "avg_reads": 62444,
+      "max_reads": 121000.0,
+      "category_count": 9,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "传统玄幻",
+        "历史古代",
+        "古风世情",
+        "宫斗宅斗",
+        "玄幻脑洞",
+        "西方奇幻",
+        "豪门总裁",
+        "都市日常"
+      ],
+      "sample_books": [
+        {
+          "title": "病娇魔教教主的掌心宠",
+          "reads": "1.3万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "帐中香：病娇九千岁他又来爬床了",
+          "reads": "12.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "卡他失忆哄离婚，病娇又又失控了",
+          "reads": "10.1万",
+          "category": "豪门总裁",
+          "channel": "female"
+        },
+        {
+          "title": "变身欢愉魔女，养出病娇女魔王",
+          "reads": "3.7万",
+          "category": "西方奇幻",
+          "channel": "male"
+        },
+        {
+          "title": "不努力就会成为病娇仙子的玩物",
+          "reads": "3.6万",
+          "category": "东方仙侠",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "公主",
+      "count": 9,
+      "avg_reads": 48111,
+      "max_reads": 99000.0,
+      "category_count": 4,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史古代",
+        "古言脑洞",
+        "古风世情",
+        "宫斗宅斗"
+      ],
+      "sample_books": [
+        {
+          "title": "我都中状元了，你说我是公主？",
+          "reads": "5.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "公主，不可以",
+          "reads": "3.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "媚骨：公主她当真祸水！",
+          "reads": "9.9万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "泥腿子水匪被娇气公主哐哐拿捏！",
+          "reads": "6.6万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "我都是公主了，你说我不是女主？",
+          "reads": "5.3万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "修仙",
+      "count": 8,
+      "avg_reads": 76500,
+      "max_reads": 143000.0,
+      "category_count": 6,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "玄幻脑洞",
+        "玄幻言情",
+        "现言脑洞",
+        "都市修真",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "8小时修仙，老娘卷哭全世界",
+          "reads": "5.8万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "修仙满级回现代，我让全家横着走",
+          "reads": "8.9万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "捡来的妹妹修仙后，回来抢亲了",
+          "reads": "6.1万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "修仙：从觉醒极品灵根开始",
+          "reads": "6.1万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "从修仙回到都市，坏消息修为没了",
+          "reads": "4.9万",
+          "category": "都市修真",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "无敌",
+      "count": 7,
+      "avg_reads": 89915,
+      "max_reads": 164000.0,
+      "category_count": 5,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "动漫衍生",
+        "战神赘婿",
+        "玄幻脑洞",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "无敌江湖后，我隐退于世",
+          "reads": "4.3万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "每天十块钱，十八岁举世无敌！",
+          "reads": "10.3万",
+          "category": "都市高武",
+          "channel": "male"
+        },
+        {
+          "title": "一身因果律，这初生竟然无敌了？",
+          "reads": "9.5万",
+          "category": "都市高武",
+          "channel": "male"
+        },
+        {
+          "title": "无敌房东俏房客",
+          "reads": "3408",
+          "category": "战神赘婿",
+          "channel": "male"
+        },
+        {
+          "title": "开局流落皇子，可我已经人间无敌",
+          "reads": "11.1万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "离婚",
+      "count": 7,
+      "avg_reads": 88990,
+      "max_reads": 181000.0,
+      "category_count": 6,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "年代",
+        "战神赘婿",
+        "职场婚恋",
+        "豪门总裁",
+        "都市日常",
+        "都市脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "离婚刚开口，首长掐腰不让走",
+          "reads": "5.3万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "高考出分，女儿第一个劝我离婚",
+          "reads": "4.3万",
+          "category": "职场婚恋",
+          "channel": "female"
+        },
+        {
+          "title": "卡他失忆哄离婚，病娇又又失控了",
+          "reads": "10.1万",
+          "category": "豪门总裁",
+          "channel": "female"
+        },
+        {
+          "title": "离婚后，冰山警花追夫杀疯了！",
+          "reads": "13.6万",
+          "category": "都市日常",
+          "channel": "male"
+        },
+        {
+          "title": "离婚后，九个绝色尤物找上门",
+          "reads": "3927",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "全家",
+      "count": 7,
+      "avg_reads": 63143,
+      "max_reads": 127000.0,
+      "category_count": 6,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史脑洞",
+        "古言脑洞",
+        "现言脑洞",
+        "男频衍生",
+        "种田",
+        "职场婚恋"
+      ],
+      "sample_books": [
+        {
+          "title": "断亲后，三岁萌娃带弟搬空全家",
+          "reads": "5.4万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "修仙满级回现代，我让全家横着走",
+          "reads": "8.9万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "穿成猫后，带反派全家薅秃气运女",
+          "reads": "6.6万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "流放路上，我带皇帝全家吃瓜",
+          "reads": "2.7万",
+          "category": "古言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "女儿惨死，我亲手覆灭仇人全家",
+          "reads": "3.3万",
+          "category": "职场婚恋",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "强制",
+      "count": 6,
+      "avg_reads": 70000,
+      "max_reads": 111000.0,
+      "category_count": 5,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "快穿",
+        "悬疑脑洞",
+        "玄幻言情",
+        "科幻末世",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "双修后才知夫君是强制文灭世男主",
+          "reads": "7万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "盗墓：强制诚实的我憋不住了",
+          "reads": "3.5万",
+          "category": "悬疑脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "穿成清水文女配，被男主强制爱了",
+          "reads": "6.9万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "作精女配要分手，疯批男主强制爱",
+          "reads": "5.8万",
+          "category": "快穿",
+          "channel": "female"
+        },
+        {
+          "title": "厌世农村妹也要被少爷强制爱吗？",
+          "reads": "11.1万",
+          "category": "青春甜宠",
+          "channel": "female"
+        }
+      ]
+    },
+    {
+      "keyword": "圣",
+      "count": 5,
+      "avg_reads": 128600,
+      "max_reads": 338000.0,
+      "category_count": 5,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "游戏体育",
+        "玄幻言情",
+        "都市脑洞",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "全班穿越洪荒，唯有我登阶成圣",
+          "reads": "4.6万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "领主：开局一金商店获得丰饶圣女",
+          "reads": "11万",
+          "category": "都市高武",
+          "channel": "male"
+        },
+        {
+          "title": "开局拜入圣地，发现祖上是人皇！",
+          "reads": "9.6万",
+          "category": "传统玄幻",
+          "channel": "male"
+        },
+        {
+          "title": "人在潮汕，开局连抛十八圣杯",
+          "reads": "33.8万",
+          "category": "都市脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "入主湖人助科比，开局先抢圣保罗",
+          "reads": "5.3万",
+          "category": "游戏体育",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "撩",
+      "count": 5,
+      "avg_reads": 73200,
+      "max_reads": 112000.0,
+      "category_count": 4,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "年代",
+        "种田",
+        "都市日常",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "穿成貌美小娘子，撩个族长当靠山",
+          "reads": "2.9万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "丰腴保姆太撩人，科研巨鳄破防了",
+          "reads": "8万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "宝宝乖，轻点撩",
+          "reads": "4.8万",
+          "category": "青春甜宠",
+          "channel": "female"
+        },
+        {
+          "title": "姐姐，轻点撩",
+          "reads": "11.2万",
+          "category": "都市日常",
+          "channel": "male"
+        },
+        {
+          "title": "不娶还敢撩？再跑就把你关起来",
+          "reads": "9.7万",
+          "category": "都市日常",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "直播",
+      "count": 5,
+      "avg_reads": 62400,
+      "max_reads": 118000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史脑洞",
+        "悬疑脑洞",
+        "星光璀璨"
+      ],
+      "sample_books": [
+        {
+          "title": "女装直播后，榜一大哥大姐杀疯了",
+          "reads": "3.6万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "神颜社畜直播爆火，她想挣生活费",
+          "reads": "2.9万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "天幕直播，先辈看我躺平生活",
+          "reads": "11.8万",
+          "category": "历史脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "我在诡异副本女装直播后爆火了",
+          "reads": "8万",
+          "category": "悬疑脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "九叔：我有一个蓝星直播间",
+          "reads": "4.9万",
+          "category": "悬疑脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "少爷",
+      "count": 4,
+      "avg_reads": 131000,
+      "max_reads": 227000.0,
+      "category_count": 4,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "战神赘婿",
+        "现言脑洞",
+        "都市日常",
+        "青春甜宠"
+      ],
+      "sample_books": [
+        {
+          "title": "炮灰女配勾勾手，血族少爷全当狗",
+          "reads": "22.7万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "厌世农村妹也要被少爷强制爱吗？",
+          "reads": "11.1万",
+          "category": "青春甜宠",
+          "channel": "female"
+        },
+        {
+          "title": "京圈世家小少爷：魔都校园遇群芳",
+          "reads": "13万",
+          "category": "都市日常",
+          "channel": "male"
+        },
+        {
+          "title": "开局四选一，我选成为沪圈少爷！",
+          "reads": "5.6万",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "校花",
+      "count": 4,
+      "avg_reads": 131000,
+      "max_reads": 236000.0,
+      "category_count": 4,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "悬疑脑洞",
+        "科幻末世",
+        "都市日常",
+        "都市脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "末世求生：变身校花觉醒魅魔序列",
+          "reads": "5.5万",
+          "category": "科幻末世",
+          "channel": "male"
+        },
+        {
+          "title": "远离男主保命！校花后宫倒追我？",
+          "reads": "23.6万",
+          "category": "都市日常",
+          "channel": "male"
+        },
+        {
+          "title": "盗墓手法太熟练，惊呆校花学姐！",
+          "reads": "10.6万",
+          "category": "悬疑脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "暑假当雇佣兵，开学扑倒校花",
+          "reads": "12.7万",
+          "category": "都市脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "天才",
+      "count": 4,
+      "avg_reads": 118000,
+      "max_reads": 288000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "女频衍生",
+        "玄幻脑洞",
+        "玄幻言情"
+      ],
+      "sample_books": [
+        {
+          "title": "什么？我不是天才爱豆吗？",
+          "reads": "6.9万",
+          "category": "女频衍生",
+          "channel": "female"
+        },
+        {
+          "title": "天才辅灵师在异世大陆挖疯了",
+          "reads": "6.5万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "天才剑修说他就喜欢恶毒女配",
+          "reads": "5万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "我根骨平庸，但分身都是绝世天才",
+          "reads": "28.8万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "洪荒",
+      "count": 4,
+      "avg_reads": 74750,
+      "max_reads": 110000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "玄幻脑洞",
+        "玄幻言情"
+      ],
+      "sample_books": [
+        {
+          "title": "洪荒，阐教小师妹后台太硬",
+          "reads": "9.7万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "全班穿越洪荒，唯有我登阶成圣",
+          "reads": "4.6万",
+          "category": "玄幻言情",
+          "channel": "female"
+        },
+        {
+          "title": "洪荒：重生红云，人间清醒！",
+          "reads": "4.6万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "洪荒：我先证混元，鸿钧傻眼了",
+          "reads": "11万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "空间",
+      "count": 4,
+      "avg_reads": 56500,
+      "max_reads": 110000.0,
+      "category_count": 4,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "年代",
+        "种田",
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "末世大佬携带空间穿成首辅恶毒妻",
+          "reads": "2.7万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "重生七零夺回空间被军区大佬娇宠",
+          "reads": "11万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "开始万倍加速空间，芶在最强宗门",
+          "reads": "3.7万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "公路求生：重生觉醒空间序列",
+          "reads": "5.2万",
+          "category": "科幻末世",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "民国",
+      "count": 4,
+      "avg_reads": 55574,
+      "max_reads": 110000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "抗战谍战",
+        "民国言情"
+      ],
+      "sample_books": [
+        {
+          "title": "民国爱情：烟雨长安渡",
+          "reads": "2.5万",
+          "category": "民国言情",
+          "channel": "female"
+        },
+        {
+          "title": "小吃店通民国：我用预制菜干鬼子",
+          "reads": "6297",
+          "category": "民国言情",
+          "channel": "female"
+        },
+        {
+          "title": "民国：张家逆子，我才是东北王",
+          "reads": "11万",
+          "category": "抗战谍战",
+          "channel": "male"
+        },
+        {
+          "title": "魂穿民国成为教导总队中校参谋",
+          "reads": "8.1万",
+          "category": "抗战谍战",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "江湖",
+      "count": 4,
+      "avg_reads": 42250,
+      "max_reads": 58000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "古风世情"
+      ],
+      "sample_books": [
+        {
+          "title": "宅斗文女配脱离剧情，跑去江湖后",
+          "reads": "1.1万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "我，当铺掌柜，曾打穿整个江湖",
+          "reads": "5.8万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "刚出江湖，被清冷仙子养成了",
+          "reads": "5.7万",
+          "category": "东方仙侠",
+          "channel": "male"
+        },
+        {
+          "title": "无敌江湖后，我隐退于世",
+          "reads": "4.3万",
+          "category": "东方仙侠",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "师尊",
+      "count": 3,
+      "avg_reads": 139333,
+      "max_reads": 197000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "玄幻脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "九门：刚混成副官，师尊找来了？",
+          "reads": "7.3万",
+          "category": "传统玄幻",
+          "channel": "male"
+        },
+        {
+          "title": "师尊嫌我肮脏？反手退师帖送上",
+          "reads": "19.7万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "玄幻：我堕魔后把绝美师尊抓回来",
+          "reads": "14.8万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "娱乐圈",
+      "count": 3,
+      "avg_reads": 76333,
+      "max_reads": 89000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "星光璀璨",
+        "都市种田"
+      ],
+      "sample_books": [
+        {
+          "title": "当高考状元穿成娱乐圈黑红女星",
+          "reads": "8.9万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "全能顶流女星重生，卷疯娱乐圈",
+          "reads": "6.9万",
+          "category": "星光璀璨",
+          "channel": "female"
+        },
+        {
+          "title": "重生：开局拿下杨老板进军娱乐圈",
+          "reads": "7.1万",
+          "category": "都市种田",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "清冷",
+      "count": 3,
+      "avg_reads": 63000,
+      "max_reads": 80000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "东方仙侠",
+        "宫斗宅斗",
+        "现言脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "惊！穿成清冷校草的粘人精前女友",
+          "reads": "8万",
+          "category": "现言脑洞",
+          "channel": "female"
+        },
+        {
+          "title": "权贵接连入帐，清冷国师他急了",
+          "reads": "5.2万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        },
+        {
+          "title": "刚出江湖，被清冷仙子养成了",
+          "reads": "5.7万",
+          "category": "东方仙侠",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "归来",
+      "count": 3,
+      "avg_reads": 38732,
+      "max_reads": 82000.0,
+      "category_count": 3,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "战神赘婿",
+        "种田",
+        "都市修真"
+      ],
+      "sample_books": [
+        {
+          "title": "夫君战死五年归来：我携婆家出族",
+          "reads": "2.9万",
+          "category": "种田",
+          "channel": "female"
+        },
+        {
+          "title": "暑假失踪，开学归来成元婴老祖！",
+          "reads": "8.2万",
+          "category": "都市修真",
+          "channel": "male"
+        },
+        {
+          "title": "战神归来：女总裁的贴身兵王",
+          "reads": "5195",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "总裁",
+      "count": 3,
+      "avg_reads": 37701,
+      "max_reads": 105000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "战神赘婿",
+        "都市脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "战神归来：女总裁的贴身兵王",
+          "reads": "5195",
+          "category": "战神赘婿",
+          "channel": "male"
+        },
+        {
+          "title": "护花兵王：高冷总裁俏阿姨",
+          "reads": "2909",
+          "category": "战神赘婿",
+          "channel": "male"
+        },
+        {
+          "title": "霸道女总裁爱上离婚带娃的我",
+          "reads": "10.5万",
+          "category": "都市脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "兵王",
+      "count": 3,
+      "avg_reads": 4777,
+      "max_reads": 6226.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "战神赘婿"
+      ],
+      "sample_books": [
+        {
+          "title": "战神归来：女总裁的贴身兵王",
+          "reads": "5195",
+          "category": "战神赘婿",
+          "channel": "male"
+        },
+        {
+          "title": "都市兵王：龙隐邕城",
+          "reads": "6226",
+          "category": "战神赘婿",
+          "channel": "male"
+        },
+        {
+          "title": "护花兵王：高冷总裁俏阿姨",
+          "reads": "2909",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "皇后",
+      "count": 2,
+      "avg_reads": 114500,
+      "max_reads": 169000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "历史古代",
+        "历史脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "穿成大周宰相，皇后腰疼关我啥事",
+          "reads": "16.9万",
+          "category": "历史古代",
+          "channel": "male"
+        },
+        {
+          "title": "大明异姓王：开局复活马皇后！",
+          "reads": "6万",
+          "category": "历史脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "血脉",
+      "count": 2,
+      "avg_reads": 112000,
+      "max_reads": 149000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "悬疑脑洞",
+        "西方奇幻"
+      ],
+      "sample_books": [
+        {
+          "title": "怪物图鉴：从哥布林血脉开始",
+          "reads": "14.9万",
+          "category": "西方奇幻",
+          "channel": "male"
+        },
+        {
+          "title": "觉醒麒麟血脉，我隔空指点考古队",
+          "reads": "7.5万",
+          "category": "悬疑脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "天赋",
+      "count": 2,
+      "avg_reads": 98000,
+      "max_reads": 107000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "游戏体育",
+        "玄幻脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "词条：开局万倍天赋，你要退婚？",
+          "reads": "8.9万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "王者：你的天赋很好现在我也有了",
+          "reads": "10.7万",
+          "category": "游戏体育",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "皇子",
+      "count": 2,
+      "avg_reads": 78500,
+      "max_reads": 111000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "历史脑洞",
+        "玄幻脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "这个皇子有点颠！要把全家送上天",
+          "reads": "4.6万",
+          "category": "历史脑洞",
+          "channel": "male"
+        },
+        {
+          "title": "开局流落皇子，可我已经人间无敌",
+          "reads": "11.1万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "契约",
+      "count": 2,
+      "avg_reads": 71000,
+      "max_reads": 77000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "游戏体育",
+        "科幻末世"
+      ],
+      "sample_books": [
+        {
+          "title": "求生：变身萝莉，开局被强制契约",
+          "reads": "7.7万",
+          "category": "科幻末世",
+          "channel": "male"
+        },
+        {
+          "title": "年龄差契约系统？补药电我啊啊啊",
+          "reads": "6.5万",
+          "category": "游戏体育",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "签到",
+      "count": 2,
+      "avg_reads": 60036,
+      "max_reads": 113000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "历史脑洞",
+        "民国言情"
+      ],
+      "sample_books": [
+        {
+          "title": "丑村姑靠签到积分提升美貌",
+          "reads": "7073",
+          "category": "民国言情",
+          "channel": "female"
+        },
+        {
+          "title": "开局签到常务副皇帝，权倾朝野！",
+          "reads": "11.3万",
+          "category": "历史脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "御兽",
+      "count": 2,
+      "avg_reads": 59000,
+      "max_reads": 93000.0,
+      "category_count": 2,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "传统玄幻",
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "我武道至尊！转生御兽世家？",
+          "reads": "9.3万",
+          "category": "都市高武",
+          "channel": "male"
+        },
+        {
+          "title": "剑仙也要御兽？剑娘了解一下！",
+          "reads": "2.5万",
+          "category": "传统玄幻",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "八零",
+      "count": 2,
+      "avg_reads": 44000,
+      "max_reads": 47000.0,
+      "category_count": 2,
+      "channels": [
+        "female",
+        "male"
+      ],
+      "categories": [
+        "年代",
+        "都市种田"
+      ],
+      "sample_books": [
+        {
+          "title": "八零军婚：陆首长被前妻踢出门了",
+          "reads": "4.7万",
+          "category": "年代",
+          "channel": "female"
+        },
+        {
+          "title": "丰腴美媳龙凤胎，重生八零闯天家",
+          "reads": "4.1万",
+          "category": "都市种田",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "战神",
+      "count": 2,
+      "avg_reads": 10598,
+      "max_reads": 16000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "战神赘婿"
+      ],
+      "sample_books": [
+        {
+          "title": "战神归乡，才发现家没了",
+          "reads": "1.6万",
+          "category": "战神赘婿",
+          "channel": "male"
+        },
+        {
+          "title": "战神归来：女总裁的贴身兵王",
+          "reads": "5195",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "赘婿",
+      "count": 2,
+      "avg_reads": 5348,
+      "max_reads": 7075.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "战神赘婿"
+      ],
+      "sample_books": [
+        {
+          "title": "报告苏总，您找的赘婿是龙神殿主",
+          "reads": "7075",
+          "category": "战神赘婿",
+          "channel": "male"
+        },
+        {
+          "title": "废物赘婿：原来是隐藏大佬",
+          "reads": "3620",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "追夫",
+      "count": 1,
+      "avg_reads": 136000,
+      "max_reads": 136000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "都市日常"
+      ],
+      "sample_books": [
+        {
+          "title": "离婚后，冰山警花追夫杀疯了！",
+          "reads": "13.6万",
+          "category": "都市日常",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "校园",
+      "count": 1,
+      "avg_reads": 130000,
+      "max_reads": 130000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "都市日常"
+      ],
+      "sample_books": [
+        {
+          "title": "京圈世家小少爷：魔都校园遇群芳",
+          "reads": "13万",
+          "category": "都市日常",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "替身",
+      "count": 1,
+      "avg_reads": 112000,
+      "max_reads": 112000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "都市日常"
+      ],
+      "sample_books": [
+        {
+          "title": "我是替身？你问我老婆知道这事吗",
+          "reads": "11.2万",
+          "category": "都市日常",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "异能",
+      "count": 1,
+      "avg_reads": 93000,
+      "max_reads": 93000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "都市高武"
+      ],
+      "sample_books": [
+        {
+          "title": "异能是化身魔法亡母怎么办！？",
+          "reads": "9.3万",
+          "category": "都市高武",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "退婚",
+      "count": 1,
+      "avg_reads": 89000,
+      "max_reads": 89000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "玄幻脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "词条：开局万倍天赋，你要退婚？",
+          "reads": "8.9万",
+          "category": "玄幻脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "诸天",
+      "count": 1,
+      "avg_reads": 66000,
+      "max_reads": 66000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "悬疑脑洞"
+      ],
+      "sample_books": [
+        {
+          "title": "诸天渡厄：九叔带我闯诸天",
+          "reads": "6.6万",
+          "category": "悬疑脑洞",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "逆袭",
+      "count": 1,
+      "avg_reads": 43000,
+      "max_reads": 43000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "都市种田"
+      ],
+      "sample_books": [
+        {
+          "title": "重生81从保下超生儿子开始逆袭",
+          "reads": "4.3万",
+          "category": "都市种田",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "综艺",
+      "count": 1,
+      "avg_reads": 34000,
+      "max_reads": 34000.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "悬疑灵异"
+      ],
+      "sample_books": [
+        {
+          "title": "上综艺，你成犯罪教科书了？",
+          "reads": "3.4万",
+          "category": "悬疑灵异",
+          "channel": "male"
+        }
+      ]
+    },
+    {
+      "keyword": "废柴",
+      "count": 1,
+      "avg_reads": 3394,
+      "max_reads": 3394.0,
+      "category_count": 1,
+      "channels": [
+        "male"
+      ],
+      "categories": [
+        "战神赘婿"
+      ],
+      "sample_books": [
+        {
+          "title": "废柴女婿靠祖传医术炸翻豪门",
+          "reads": "3394",
+          "category": "战神赘婿",
+          "channel": "male"
+        }
+      ]
+    }
+  ]
+}
