@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>短篇推荐 · 番茄风向标</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="按题材浏览番茄小说短篇推荐，查看短篇封面、摘要、阅读时长与互动数据。">
+    <meta name="shorts-api-base" content="https://fanqie-shorts-proxy.wzj-fzr.workers.dev/api/shorts">
+</head>
+<body class="short-page">
+    <main class="short-shell">
+        <header class="short-topbar">
+            <div class="short-heading">
+                <nav class="short-nav" aria-label="页面导航">
+                    <a href="index.html" class="back-link">返回榜单</a>
+                    <a href="trend.html" class="back-link">类型风向标</a>
+                    <a href="https://github.com/wen1701/FanqieRankTracker" class="back-link" target="_blank" rel="noopener noreferrer">GitHub 仓库</a>
+                </nav>
+                <h1>短篇推荐</h1>
+                <p>从推荐流中发现适合快速阅读的故事。</p>
+            </div>
+            <div class="short-dataset" aria-label="数据集信息">
+                <strong id="short-tag-count">99</strong>
+                <span>个题材标签</span>
+                <small id="short-update-time">访问时实时获取</small>
+            </div>
+        </header>
+
+        <section class="short-filter-panel" aria-labelledby="short-filter-title">
+            <div class="short-filter-copy">
+                <div>
+                    <h2 id="short-filter-title">选择题材</h2>
+                    <p>输入关键词，或从完整标签列表中选择。</p>
+                </div>
+                <label class="short-search">
+                    <span>搜索标签</span>
+                    <input id="short-tag-search" type="search" placeholder="例如：悬疑、甜宠、成长" autocomplete="off">
+                </label>
+            </div>
+            <div id="short-tag-grid" class="short-tag-grid" aria-live="polite"></div>
+        </section>
+
+        <section class="short-feed-section" aria-labelledby="short-feed-title">
+            <header class="short-feed-header">
+                <div>
+                    <span class="short-feed-label">当前题材</span>
+                    <h2 id="short-feed-title">正在加载</h2>
+                </div>
+                <p id="short-feed-summary">正在整理短篇推荐内容。</p>
+            </header>
+            <div id="short-feed" class="short-feed" aria-live="polite" aria-busy="true"></div>
+        </section>
+    </main>
+
+    <script src="js/shorts.js"></script>
+</body>
+</html>

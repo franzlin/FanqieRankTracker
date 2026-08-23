@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "comparison": "recent_7d_vs_previous_23d",
+  "title_pattern_lift": [
+    {
+      "pattern": "具体时间数字",
+      "recent_share": 0.346154,
+      "baseline_share": 0.0,
+      "lift": null,
+      "recent_post_count": 9,
+      "examples": [
+        "冷战第九天，老婆驳了我的晋升报告，隔天推开门人没了",
+        "三十二天，她才发现丈夫消失了",
+        "和老婆冷战第三天，她用广播向全公司摊牌了",
+        "你先娶她一年，我就不等了",
+        "前夫不要的球我养了，6年后他破防了"
+      ]
+    },
+    {
+      "pattern": "反击反转",
+      "recent_share": 0.076923,
+      "baseline_share": 0.0,
+      "lift": null,
+      "recent_post_count": 2,
+      "examples": [
+        "升学宴上儿子说我装，我不装后儿子傻眼了",
+        "前夫接白月光逼我离婚，九年后给缩小版自己颁奖疯了"
+      ]
+    },
+    {
+      "pattern": "婚恋关系",
+      "recent_share": 0.346154,
+      "baseline_share": 0.0,
+      "lift": null,
+      "recent_post_count": 9,
+      "examples": [
+        "冷战第九天，老婆驳了我的晋升报告，隔天推开门人没了",
+        "三十二天，她才发现丈夫消失了",
+        "和老婆冷战第三天，她用广播向全公司摊牌了",
+        "他们说，孩子生下来再办婚礼",
+        "前夫不要的球我养了，6年后他破防了"
+      ]
+    },
+    {
+      "pattern": "家庭矛盾",
+      "recent_share": 0.153846,
+      "baseline_share": 0.0,
+      "lift": null,
+      "recent_post_count": 4,
+      "examples": [
+        "弟弟不愿过继给堂叔，那好日子归我了！",
+        "升学宴上儿子说我装，我不装后儿子傻眼了",
+        "姐姐哄我给姐夫送酒，我连夜送他一个嬷嬷",
+        "妹妹拿我不孕报告看笑话，我转身嫁给百亿大佬"
+      ]
+    },
+    {
+      "pattern": "离开断联",
+      "recent_share": 0.153846,
+      "baseline_share": 0.0,
+      "lift": null,
+      "recent_post_count": 4,
+      "examples": [
+        "三十二天，她才发现丈夫消失了",
+        "你先娶她一年，我就不等了",
+        "分手三年，我带娃逛商场被孩子亲爹撞见",
+        "前夫以为我净身出户，再见我身价过亿"
+      ]
+    },
+    {
+      "pattern": "职场利益",
+      "recent_share": 0.076923,
+      "baseline_share": 0.0,
+      "lift": null,
+      "recent_post_count": 2,
+      "examples": [
+        "冷战第九天，老婆驳了我的晋升报告，隔天推开门人没了",
+        "和老婆冷战第三天，她用广播向全公司摊牌了"
+      ]
+    },
+    {
+      "pattern": "重生穿越",
+      "recent_share": 0.0,
+      "baseline_share": 0.0,
+      "lift": null,
+      "recent_post_count": 0,
+      "examples": []
+    }
+  ],
+  "tag_content_turnover_lift": []
+}
