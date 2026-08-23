@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let marketSummaryData = null;
     let selectedCategory = '';  // cat_key: "channel:name"
     let selectedDays = 7;
-    let currentChannel = 'all'; // 'all' | 'female' | 'male'
+    let currentChannel = 'male'; // 'all' | 'female' | 'male' — 默认男频
 
     const femaleGenreGroups = [
         { name: '古风言情', categories: ['female:古风世情', 'female:古言脑洞', 'female:宫斗宅斗', 'female:种田'] },

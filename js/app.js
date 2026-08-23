@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let availableDates = [];   // sorted list of "YYYY-MM-DD"
     let currentDateIndex = -1; // index into availableDates
     let currentCategory = null; // preserve selected category across date switches
-    let currentChannel = 'all'; // 'all' | 'female' | 'male'
+    let currentChannel = 'male'; // 'all' | 'female' | 'male' — 默认男频
 
     // Cache-busting: 每10分钟一个新key，避免浏览器缓存旧JSON
     const cacheBuster = `v=${Math.floor(Date.now() / 600000)}`;

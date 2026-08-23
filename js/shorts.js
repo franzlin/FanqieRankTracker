@@ -215,8 +215,8 @@ document.addEventListener('DOMContentLoaded', () => {
         els.feed.setAttribute('aria-busy', 'false');
         els.feed.innerHTML = `
             <div class="short-state short-state-error">
-                <strong>请先配置 Cloudflare Worker</strong>
-                <p>部署 worker/shorts-proxy 后，把 Worker 的 /api/shorts 地址填入 shorts.html 的 shorts-api-base。</p>
+                <strong>短篇数据接口暂不可用</strong>
+                <p>短篇推荐依赖番茄 App 专用 API 的代理服务，当前代理已下线。如需恢复，请自行部署 Cloudflare Worker 代理，并将地址填入 shorts.html 的 shorts-api-base。</p>
             </div>
         `;
     }
