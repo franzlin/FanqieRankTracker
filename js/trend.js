@@ -10,17 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let marketSummaryData = null;
     let selectedCategory = '';  // cat_key: "channel:name"
     let selectedDays = 7;
-    let currentChannel = 'male'; // 'all' | 'female' | 'male' — 默认男频
-
-    const femaleGenreGroups = [
-        { name: '古风言情', categories: ['female:古风世情', 'female:古言脑洞', 'female:宫斗宅斗', 'female:种田'] },
-        { name: '现代言情', categories: ['female:现言脑洞', 'female:豪门总裁', 'female:职场婚恋', 'female:青春甜宠'] },
-        { name: '幻想言情', categories: ['female:玄幻言情', 'female:科幻末世', 'female:悬疑脑洞', 'female:女频悬疑'] },
-        { name: '快穿衍生', categories: ['female:快穿', 'female:女频衍生'] },
-        { name: '年代民国', categories: ['female:年代', 'female:民国言情'] },
-        { name: '娱乐星光', categories: ['female:星光璀璨'] },
-        { name: '游戏体育', categories: ['female:游戏体育'] },
-    ];
+    let currentChannel = 'male'; // 固定男频
 
     const maleGenreGroups = [
         { name: '玄幻仙侠', categories: ['male:东方仙侠', 'male:西方奇幻', 'male:传统玄幻', 'male:玄幻脑洞'] },
@@ -90,20 +80,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
-            // Channel switcher
-            const channelBtns = document.querySelectorAll('.channel-btn');
-            channelBtns.forEach(btn => {
-                btn.addEventListener('click', () => {
-                    const ch = btn.dataset.channel;
-                    if (ch === currentChannel) return;
-                    currentChannel = ch;
-                    channelBtns.forEach(b => b.classList.toggle('active', b.dataset.channel === ch));
-                    selectedCategory = '';
-                    renderCategoryButtons();
-                    render();
-                });
-            });
-
             selectedCategory = getInitialCategory();
             renderCategoryButtons();
             bindEvents();
@@ -133,14 +109,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function getFilteredCategories() {
-        if (currentChannel === 'all') return categories;
-        return categories.filter(c => c.channel === currentChannel);
+        return categories.filter(c => c.channel === 'male');
     }
 
     function getActiveGenreGroups() {
-        if (currentChannel === 'male') return maleGenreGroups;
-        if (currentChannel === 'female') return femaleGenreGroups;
-        return [...femaleGenreGroups, ...maleGenreGroups];
+        return maleGenreGroups;
     }
 
     function getInitialCategory() {

@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const cacheBuster = `v=${Math.floor(Date.now() / 600000)}`;
     let data = null;
-    let currentChannel = 'all';
     let selectedCategory = '';
 
     const els = {
@@ -21,17 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             els.subtitle.textContent = `${data.date} · ${data.categories.length} 个分类`;
 
-            const channelBtns = document.querySelectorAll('.channel-btn');
-            channelBtns.forEach(btn => {
-                btn.addEventListener('click', () => {
-                    currentChannel = btn.dataset.channel;
-                    channelBtns.forEach(b => b.classList.toggle('active', b.dataset.channel === currentChannel));
-                    selectedCategory = '';
-                    renderCategoryButtons();
-                    renderTags();
-                });
-            });
-
             renderCategoryButtons();
             renderTags();
         } catch (err) {
@@ -41,8 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function getFiltered() {
-        if (currentChannel === 'all') return data.categories;
-        return data.categories.filter(c => c.channel === currentChannel);
+        return data.categories.filter(c => c.channel === 'male');
     }
 
     function renderCategoryButtons() {
@@ -80,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        els.currentCat.textContent = `${cat.channel === 'male' ? '男频' : '女频'} · ${cat.name} · ${cat.total_books}本`;
+        els.currentCat.textContent = `${cat.name} · ${cat.total_books}本`;
 
         if (!cat.tags || !cat.tags.length) {
             els.tagList.innerHTML = '<p class="muted-line">该分类暂无题材数据。</p>';
