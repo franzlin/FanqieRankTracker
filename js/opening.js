@@ -39,8 +39,12 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
         let html = escapeHtml(text);
+        // Bold sections as block headers
         html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+        // Book titles
         html = html.replace(/《(.+?)》/g, '<span class="book-mark">《$1》</span>');
+        // Convert newlines before ** to proper spacing
+        html = html.replace(/\n(?=\*\*)/g, '\n\n');
         html = html.replace(/\n/g, '<br>');
         els.ai.innerHTML = html;
     }
@@ -51,14 +55,13 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
         container.innerHTML = openings.map(item => {
-            const intro = (item.intro || '').slice(0, 80);
+            const intro = (item.intro || '').slice(0, 100);
+            const url = item.url || '#';
             return `
-                <a class="compact-row compact-row-link" href="${item.url || '#'}" target="_blank" rel="noopener noreferrer">
-                    <div>
-                        <strong>${escapeHtml(item.title)}</strong>
-                        <small>${escapeHtml(item.category)} · ${escapeHtml(item.reads)} · ${escapeHtml(item.author)}</small>
-                        <span style="display:block;font-size:0.8rem;color:var(--text-muted);margin-top:2px">${escapeHtml(intro)}...</span>
-                    </div>
+                <a class="op-book-item" href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">
+                    <span class="op-book-title">${escapeHtml(item.title)}</span>
+                    <span class="op-book-meta">${escapeHtml(item.category)} · ${escapeHtml(item.reads)} · ${escapeHtml(item.author)}</span>
+                    <span class="op-book-intro">${escapeHtml(intro)}</span>
                 </a>
             `;
         }).join('');
@@ -66,5 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function escapeHtml(s) {
         return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    function escapeAttr(s) {
+        return escapeHtml(s).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
     }
 });
