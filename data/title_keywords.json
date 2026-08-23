@@ -22366,6 +22366,34 @@
       ]
     },
     {
+      "keyword": "被亲",
+      "count": 2,
+      "avg_reads": 38500,
+      "max_reads": 61000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古风世情",
+        "宫斗宅斗"
+      ],
+      "sample_books": [
+        {
+          "title": "少卿大人，今天被亲了吗",
+          "reads": "1.6万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "勾了禁欲太子？刚觉醒，被亲哭！",
+          "reads": "6.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
       "keyword": "亲了",
       "count": 2,
       "avg_reads": 38500,
@@ -22391,34 +22419,6 @@
           "reads": "6.1万",
           "category": "东方仙侠",
           "channel": "male"
-        }
-      ]
-    },
-    {
-      "keyword": "被亲",
-      "count": 2,
-      "avg_reads": 38500,
-      "max_reads": 61000.0,
-      "category_count": 2,
-      "channels": [
-        "female"
-      ],
-      "categories": [
-        "古风世情",
-        "宫斗宅斗"
-      ],
-      "sample_books": [
-        {
-          "title": "少卿大人，今天被亲了吗",
-          "reads": "1.6万",
-          "category": "古风世情",
-          "channel": "female"
-        },
-        {
-          "title": "勾了禁欲太子？刚觉醒，被亲哭！",
-          "reads": "6.1万",
-          "category": "宫斗宅斗",
-          "channel": "female"
         }
       ]
     },
@@ -22963,7 +22963,7 @@
       ]
     },
     {
-      "keyword": "文娱",
+      "keyword": "搬运",
       "count": 2,
       "avg_reads": 34500,
       "max_reads": 44000.0,
@@ -22990,7 +22990,7 @@
       ]
     },
     {
-      "keyword": "搬运",
+      "keyword": "文娱",
       "count": 2,
       "avg_reads": 34500,
       "max_reads": 44000.0,
@@ -41447,6 +41447,34 @@
       ]
     },
     {
+      "keyword": "被亲",
+      "count": 2,
+      "avg_reads": 38500,
+      "max_reads": 61000.0,
+      "category_count": 2,
+      "channels": [
+        "female"
+      ],
+      "categories": [
+        "古风世情",
+        "宫斗宅斗"
+      ],
+      "sample_books": [
+        {
+          "title": "少卿大人，今天被亲了吗",
+          "reads": "1.6万",
+          "category": "古风世情",
+          "channel": "female"
+        },
+        {
+          "title": "勾了禁欲太子？刚觉醒，被亲哭！",
+          "reads": "6.1万",
+          "category": "宫斗宅斗",
+          "channel": "female"
+        }
+      ]
+    },
+    {
       "keyword": "亲了",
       "count": 2,
       "avg_reads": 38500,
@@ -41472,34 +41500,6 @@
           "reads": "6.1万",
           "category": "东方仙侠",
           "channel": "male"
-        }
-      ]
-    },
-    {
-      "keyword": "被亲",
-      "count": 2,
-      "avg_reads": 38500,
-      "max_reads": 61000.0,
-      "category_count": 2,
-      "channels": [
-        "female"
-      ],
-      "categories": [
-        "古风世情",
-        "宫斗宅斗"
-      ],
-      "sample_books": [
-        {
-          "title": "少卿大人，今天被亲了吗",
-          "reads": "1.6万",
-          "category": "古风世情",
-          "channel": "female"
-        },
-        {
-          "title": "勾了禁欲太子？刚觉醒，被亲哭！",
-          "reads": "6.1万",
-          "category": "宫斗宅斗",
-          "channel": "female"
         }
       ]
     },
@@ -41988,7 +41988,7 @@
       ]
     },
     {
-      "keyword": "文娱",
+      "keyword": "搬运",
       "count": 2,
       "avg_reads": 34500,
       "max_reads": 44000.0,
@@ -42015,7 +42015,7 @@
       ]
     },
     {
-      "keyword": "搬运",
+      "keyword": "文娱",
       "count": 2,
       "avg_reads": 34500,
       "max_reads": 44000.0,

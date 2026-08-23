@@ -6,9 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         subtitle: document.getElementById('op-subtitle'),
         ai: document.getElementById('op-ai'),
         maleList: document.getElementById('op-male-list'),
-        femaleList: document.getElementById('op-female-list'),
         maleTitle: document.getElementById('op-male-title'),
-        femaleTitle: document.getElementById('op-female-title'),
     };
 
     init();
@@ -19,13 +17,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!resp.ok) throw new Error('Failed to load');
             data = await resp.json();
 
-            els.subtitle.textContent = `${data.date} · 新上榜 ${data.total_new} 本（男${data.male_count} / 女${data.female_count}）`;
+            els.subtitle.textContent = `${data.date} · 男频新上榜 ${data.male_count} 本`;
             els.maleTitle.textContent = `男频新上榜 ${data.male_count} 本`;
-            els.femaleTitle.textContent = `女频新上榜 ${data.female_count} 本`;
 
             renderAI();
             renderList(els.maleList, data.male_openings);
-            renderList(els.femaleList, data.female_openings);
         } catch (err) {
             console.error(err);
             els.ai.innerHTML = '<p class="muted-line">数据加载失败。</p>';
@@ -39,11 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
         let html = escapeHtml(text);
-        // Bold sections as block headers
         html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-        // Book titles
         html = html.replace(/《(.+?)》/g, '<span class="book-mark">《$1》</span>');
-        // Convert newlines before ** to proper spacing
         html = html.replace(/\n(?=\*\*)/g, '\n\n');
         html = html.replace(/\n/g, '<br>');
         els.ai.innerHTML = html;

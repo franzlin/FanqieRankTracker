@@ -1567,43 +1567,39 @@ def build_opening_analysis(output: dict) -> dict:
 
 
 def build_opening_ai_prompt(payload: dict) -> str:
-    """构建新上榜开局分析的 AI prompt。"""
+    """构建新上榜开局分析的 AI prompt（仅男频）。"""
     sections = []
-    for channel_label, key in [("男频", "male_openings"), ("女频", "female_openings")]:
-        items = payload.get(key, [])
-        if not items:
-            continue
-        # 每个频道取前 10 本，简介截断到 120 字
-        for item in items[:10]:
-            intro = (item.get("intro", "") or "")[:120]
-            sections.append(
-                f"《{item['title']}》（{channel_label}·{item['category']}）在读{item['reads']}\n{intro}"
-            )
+    items = payload.get("male_openings", [])
+    if not items:
+        return "今日无男频新上榜作品。"
+    # 取前 15 本，简介截断到 120 字
+    for item in items[:15]:
+        intro = (item.get("intro", "") or "")[:120]
+        sections.append(
+            f"《{item['title']}》（{item['category']}）在读{item['reads']}\n{intro}"
+        )
 
     all_text = "\n\n".join(sections)
 
-    return f"""你是一位网文开书顾问。请根据以下新上榜作品的书名和简介，分析当前什么样的开局模式更容易上分。
+    return f"""你是一位网文开书顾问，专注于男频小说。请根据以下男频新上榜作品的书名和简介，分析当前什么样的开局模式更容易上分。
 
-## 今日新上榜作品（节选）
+## 今日男频新上榜作品（节选）
 
 {all_text}
 
 ## 输出要求（Markdown 格式）
 
-**🎯 男频爆款开局模式**
+**🎯 爆款开局模式**
 总结男频新上榜书的开局共性：什么金手指类型、什么人设、什么开局场景。点明 2-3 个高频模式。
-
-**🎯 女频爆款开局模式**
-同上，针对女频。
 
 **💰 书名关键词红利**
 分析书名中哪些关键词反复出现在上榜书中，哪些可能对搜索和点击有加成。
 
 **🌊 蓝海方向建议**
-指出 2-3 个当前竞争较小但已有上榜书验证的题材方向。
+指出 2-3 个当前竞争较小但已有上榜书验证的题材方向，适合新作者切入。
 
 **⚠️ 过热预警**
-指出哪些开局模式已经过度扎堆。
+指出哪些开局模式已经过度扎堆，新人入局风险较高。
 
 每个板块 2-3 句话，总字数 400 字以内。语言简洁专业，像行业快报。"""
 
