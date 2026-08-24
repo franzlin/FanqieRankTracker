@@ -111,125 +111,142 @@ def run_scraper(limit=30, sleep_sec=5):
                     print(f"[{datetime.now().strftime('%H:%M:%S')}] ⏭️ 跳过今日已经完成抓取的类别：{channel_label}·{cat_name}")
                     continue
 
-                print(f"[{datetime.now().strftime('%H:%M:%S')}] 模拟点击执行类别切换 -> {channel_label}·{cat_name}")
-                try:
-                    # 使用 Playwright 模拟真实的人为鼠标定位与点击跳转分类
-                    page.locator(f"a[href='{cat_href}']").click()
-                    time.sleep(2) # 等待 SPA 页面骨架和组件请求的动画渲染完毕
-                    page.wait_for_selector('a[href^="/page/"]', timeout=5000)
-                except Exception as e:
-                    print(f"切换分类出错或加载超时 {channel_label}·{cat_name}: {e}")
+                # 若之前失败留下旧数据/空数据，先移除该分类旧记录，避免重复
+                all_categories = [c for c in all_categories
+                                  if f"{c.get('channel', 'female')}:{c['name']}" != cat_key]
 
-                # Scroll to load top ~30 books
-                for _ in range(3):
-                    page.evaluate("window.scrollBy(0, window.innerHeight)")
-                    time.sleep(1.5)
-
-                # Extract cards. Based on helper.js: books usually are inside links a[href^="/page/"]
-                extract_js = """
-                () => {
-                    const bookMap = new Map();
-                    const links = document.querySelectorAll('a[href^="/page/"]');
-                    links.forEach(link => {
-                        let container = link.parentElement;
-                        let depth = 0;
-                        while (container && depth < 6) {
-                            if (container.querySelector('img') && container.innerText.includes('在读')) {
-                                const href = link.getAttribute('href');
-                                if (!bookMap.has(href)) {
-                                    bookMap.set(href, container);
-                                }
-                                break;
-                            }
-                            container = container.parentElement;
-                            depth++;
-                        }
-                    });
-
-                    const cards = Array.from(bookMap.values());
-                    const results = [];
-                    for (const item of cards) {
-                        let imgNode = item.querySelector('img');
-                        let cover = imgNode ? imgNode.getAttribute('src') : "";
-
-                        let title = "";
-                        if (imgNode && imgNode.getAttribute('alt')) {
-                            title = imgNode.getAttribute('alt').trim();
-                        }
-                        if (!title) {
-                            let textTitleNode = item.querySelector('h4, .title, h1') || item.querySelector('a[href^="/page/"]');
-                            if (textTitleNode) {
-                                let text = textTitleNode.innerText.trim();
-                                if (text && !/^\\d+$/.test(text)) {
-                                    title = text;
-                                }
-                            }
-                        }
-                        if (!title) title = "未知";
-                        if (title.includes("榜单说明")) continue;
-
-                        let authorNode = item.querySelector('.author, .author-name') || item.querySelector('a[href^="/author-page/"]');
-                        let author = authorNode ? authorNode.innerText.trim() : "未知";
-
-                        let reads = "未知";
-                        const lines = item.innerText.split('\\n');
-                        for (let line of lines) {
-                            if (line.includes('在读')) {
-                                reads = line;  // We'll decode in Python
-                                break;
-                            }
-                        }
-
-                        let introNode = item.querySelector('.intro, .abstract, .desc');
-                        let intro = introNode ? introNode.innerText.trim() : "暂无简介";
-
-                        results.push({
-                            title: title,
-                            author: author,
-                            reads: reads,
-                            intro: intro,
-                            cover: cover,
-                            url: item.querySelector('a[href^="/page/"]').getAttribute('href')
-                        });
-                    }
-                    return results;
-                }
-                """
-
-                try:
-                    books_data = page.evaluate(extract_js)
-                except Exception as e:
-                    print(f"执行JS抽取失败 {channel_label}·{cat_name}: {e}")
-                    books_data = []
-
+                print(f"[{datetime.now().strftime('%H:%M:%S')}] 导航至分类页面 -> {channel_label}·{cat_name}")
                 category_books = []
-                for b in books_data[:limit]:
-                    # Apply decoding logic!
-                    t = decode_text(b.get("title", ""))
-                    a = decode_text(b.get("author", ""))
-                    r_raw = decode_text(b.get("reads", ""))
-                    i = decode_text(b.get("intro", "")).replace("\\n", " ")
-                    c = b.get("cover", "")
+                for attempt in range(3):  # 每个分类最多重试 3 次
+                    try:
+                        # 直接导航到分类 URL（SPA 点击在部分环境下不可靠，直达更稳定）
+                        page.goto("https://fanqienovel.com" + cat_href, wait_until="domcontentloaded", timeout=30000)
+                        time.sleep(6)  # 等待 SPA 书单异步渲染
+                        page.wait_for_selector('a[href^="/page/"]', timeout=15000)
+                    except Exception as e:
+                        print(f"导航分类出错或加载超时 {channel_label}·{cat_name} (第{attempt+1}次): {e}")
+                        time.sleep(3)
+                        continue
 
-                    # Cleanup "Reads" string (e.g. "已完结 在读：34.8万" -> "34.8万")
-                    if "在读" in r_raw:
-                        parts = r_raw.split("在读")
-                        if len(parts) > 1:
-                            # removes colons
-                            cleaned_r = parts[1].replace(":", "").replace("：", "").strip()
+                    # Scroll to load top ~30 books
+                    for _ in range(3):
+                        page.evaluate("window.scrollBy(0, window.innerHeight)")
+                        time.sleep(1.5)
+
+                    # Extract cards. Based on helper.js: books usually are inside links a[href^="/page/"]
+                    extract_js = """
+                    () => {
+                        const bookMap = new Map();
+                        const links = document.querySelectorAll('a[href^="/page/"]');
+                        links.forEach(link => {
+                            let container = link.parentElement;
+                            let depth = 0;
+                            while (container && depth < 6) {
+                                if (container.querySelector('img') && container.innerText.includes('在读')) {
+                                    const href = link.getAttribute('href');
+                                    if (!bookMap.has(href)) {
+                                        bookMap.set(href, container);
+                                    }
+                                    break;
+                                }
+                                container = container.parentElement;
+                                depth++;
+                            }
+                        });
+
+                        const cards = Array.from(bookMap.values());
+                        const results = [];
+                        for (const item of cards) {
+                            let imgNode = item.querySelector('img');
+                            let cover = imgNode ? imgNode.getAttribute('src') : "";
+
+                            let title = "";
+                            if (imgNode && imgNode.getAttribute('alt')) {
+                                title = imgNode.getAttribute('alt').trim();
+                            }
+                            if (!title) {
+                                let textTitleNode = item.querySelector('h4, .title, h1') || item.querySelector('a[href^="/page/"]');
+                                if (textTitleNode) {
+                                    let text = textTitleNode.innerText.trim();
+                                    if (text && !/^\\d+$/.test(text)) {
+                                        title = text;
+                                    }
+                                }
+                            }
+                            if (!title) title = "未知";
+                            if (title.includes("榜单说明")) continue;
+
+                            let authorNode = item.querySelector('.author, .author-name') || item.querySelector('a[href^="/author-page/"]');
+                            let author = authorNode ? authorNode.innerText.trim() : "未知";
+
+                            let reads = "未知";
+                            const lines = item.innerText.split('\\n');
+                            for (let line of lines) {
+                                if (line.includes('在读')) {
+                                    reads = line;  // We'll decode in Python
+                                    break;
+                                }
+                            }
+
+                            let introNode = item.querySelector('.intro, .abstract, .desc');
+                            let intro = introNode ? introNode.innerText.trim() : "暂无简介";
+
+                            results.push({
+                                title: title,
+                                author: author,
+                                reads: reads,
+                                intro: intro,
+                                cover: cover,
+                                url: item.querySelector('a[href^="/page/"]').getAttribute('href')
+                            });
+                        }
+                        return results;
+                    }
+                    """
+
+                    try:
+                        books_data = page.evaluate(extract_js)
+                    except Exception as e:
+                        print(f"执行JS抽取失败 {channel_label}·{cat_name}: {e}")
+                        books_data = []
+
+                    category_books = []
+                    for b in books_data[:limit]:
+                        # Apply decoding logic!
+                        t = decode_text(b.get("title", ""))
+                        a = decode_text(b.get("author", ""))
+                        r_raw = decode_text(b.get("reads", ""))
+                        i = decode_text(b.get("intro", "")).replace("\\n", " ")
+                        c = b.get("cover", "")
+
+                        # Cleanup "Reads" string (e.g. "已完结 在读：34.8万" -> "34.8万")
+                        if "在读" in r_raw:
+                            parts = r_raw.split("在读")
+                            if len(parts) > 1:
+                                # removes colons
+                                cleaned_r = parts[1].replace(":", "").replace("：", "").strip()
+                            else:
+                                cleaned_r = r_raw
                         else:
                             cleaned_r = r_raw
-                    else:
-                        cleaned_r = r_raw
 
-                    category_books.append({
-                        "title": t,
-                        "author": a,
-                        "reads": cleaned_r,
-                        "intro": i,
-                        "cover": c,
-                        "url": "https://fanqienovel.com" + b.get("url", "")
-                    })
+                        category_books.append({
+                            "title": t,
+                            "author": a,
+                            "reads": cleaned_r,
+                            "intro": i,
+                            "cover": c,
+                            "url": "https://fanqienovel.com" + b.get("url", "")
+                        })
+
+                    if category_books:
+                        break  # 抓到书，退出重试循环
+                    print(f"⚠️ {channel_label}·{cat_name} 抓到 0 本书，第{attempt+1}次重试中...")
+                    time.sleep(3)
+
+                # ---- 循环结束：无论成功/失败，保存该分类结果 ----
+                if not category_books:
+                    print(f"❌ {channel_label}·{cat_name} 3 次尝试后仍为 0 本")
 
                 # 收集分类数据到内存，并增量写入 JSON
                 all_categories.append({
@@ -259,6 +276,7 @@ def run_scraper(limit=30, sleep_sec=5):
         browser.close()
 
     print(f"\n✅ 当日双频道类目任务已完毕或刷新！数据源：{output_file}")
+
 
 if __name__ == "__main__":
     print("开始执行番茄双频道新书榜抓取计划（女频 + 男频）...")
