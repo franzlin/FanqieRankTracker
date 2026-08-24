@@ -1,12 +1,12 @@
 {
-  "date": "2026-08-23",
-  "prev_date": "2026-08-22",
+  "date": "2026-08-24",
+  "prev_date": "2026-08-23",
   "types": [
     {
       "type": "all",
       "url": "api/lastest/all.json",
       "category_count": 37,
-      "book_count": 740
+      "book_count": 700
     },
     {
       "type": "古风世情",
@@ -111,7 +111,7 @@
     {
       "type": "科幻末世",
       "url": "api/lastest/%E7%A7%91%E5%B9%BB%E6%9C%AB%E4%B8%96_2.json",
-      "book_count": 20
+      "book_count": 0
     },
     {
       "type": "都市日常",
@@ -191,7 +191,7 @@
     {
       "type": "男频衍生",
       "url": "api/lastest/%E7%94%B7%E9%A2%91%E8%A1%8D%E7%94%9F.json",
-      "book_count": 20
+      "book_count": 0
     }
   ]
 }

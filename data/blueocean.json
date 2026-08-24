@@ -1,11 +1,11 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "categories": [
     {
       "name": "古风世情",
       "channel": "female",
       "total_books": 20,
-      "blue_count": 20,
+      "blue_count": 21,
       "red_count": 0,
       "tags": [
         {
@@ -13,7 +13,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 63000,
+          "avg_reads": 65000,
           "sample_titles": [
             "女扮男装上朝后，死对头暗恋成疾"
           ]
@@ -43,7 +43,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 33333,
+          "avg_reads": 34000,
           "sample_titles": [
             "女扮男装上朝后，死对头暗恋成疾",
             "薄刑落处，痴念入骨",
@@ -99,8 +99,8 @@
           "avg_reads": 18667,
           "sample_titles": [
             "公主，不可以",
-            "尚宫有旧婚",
-            "病娇魔教教主的掌心宠"
+            "病娇魔教教主的掌心宠",
+            "尚宫有旧婚"
           ]
         },
         {
@@ -196,6 +196,16 @@
           ]
         },
         {
+          "tag": "权臣",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 11000,
+          "sample_titles": [
+            "重生后我被迫夺了兄长的正妻之位"
+          ]
+        },
+        {
           "tag": "宅斗",
           "count": 1,
           "density": 0.05,
@@ -220,19 +230,19 @@
           "count": 7,
           "density": 0.35,
           "level": "normal",
-          "avg_reads": 24857,
+          "avg_reads": 25143,
           "sample_titles": [
             "女扮男装上朝后，死对头暗恋成疾",
             "公主，不可以",
-            "枭雄的软肋"
+            "忠臣之女回京，满朝哭唧唧追着宠"
           ]
         },
         {
           "tag": "重生",
-          "count": 4,
-          "density": 0.2,
+          "count": 5,
+          "density": 0.25,
           "level": "normal",
-          "avg_reads": 22000,
+          "avg_reads": 20000,
           "sample_titles": [
             "病骨重生十年后，故人子弟皆识我",
             "薄刑落处，痴念入骨",
@@ -275,7 +285,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 69500,
+          "avg_reads": 66000,
           "sample_titles": [
             "穿进末日双男主文里当白莲花",
             "穿成末世炮灰，被重生大哥娇宠了"
@@ -320,7 +330,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 49667,
+          "avg_reads": 47333,
           "sample_titles": [
             "穿进末日双男主文里当白莲花",
             "穿进末世玛丽苏文学",
@@ -332,7 +342,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 48000,
+          "avg_reads": 46333,
           "sample_titles": [
             "穿进末日双男主文里当白莲花",
             "我在公路求生游戏开了家花店",
@@ -344,11 +354,21 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 41667,
+          "avg_reads": 41333,
           "sample_titles": [
             "穿成末世炮灰，被重生大哥娇宠了",
             "被男朋友分手后末日游戏入侵现实",
             "天灾末世，穷鬼一家提前三年囤货"
+          ]
+        },
+        {
+          "tag": "无敌",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 39000,
+          "sample_titles": [
+            "开局一把扫帚，我是公路求生榜一"
           ]
         },
         {
@@ -362,13 +382,24 @@
           ]
         },
         {
-          "tag": "无敌",
+          "tag": "升级流",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 38000,
+          "sample_titles": [
+            "我在公路求生游戏开了家花店",
+            "开局一把扫帚，我是公路求生榜一"
+          ]
+        },
+        {
+          "tag": "经营",
           "count": 1,
           "density": 0.05,
           "level": "blue",
           "avg_reads": 37000,
           "sample_titles": [
-            "开局一把扫帚，我是公路求生榜一"
+            "我在公路求生游戏开了家花店"
           ]
         },
         {
@@ -383,14 +414,15 @@
           ]
         },
         {
-          "tag": "升级流",
-          "count": 2,
-          "density": 0.1,
+          "tag": "无CP",
+          "count": 3,
+          "density": 0.15,
           "level": "blue",
-          "avg_reads": 36000,
+          "avg_reads": 36333,
           "sample_titles": [
+            "星际第一躺平学大师",
             "开局一把扫帚，我是公路求生榜一",
-            "我在公路求生游戏开了家花店"
+            "被男朋友分手后末日游戏入侵现实"
           ]
         },
         {
@@ -405,13 +437,13 @@
           ]
         },
         {
-          "tag": "无CP",
+          "tag": "副本",
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 36000,
+          "avg_reads": 35667,
           "sample_titles": [
-            "星际第一躺平学大师",
+            "我在公路求生游戏开了家花店",
             "开局一把扫帚，我是公路求生榜一",
             "被男朋友分手后末日游戏入侵现实"
           ]
@@ -425,28 +457,6 @@
           "sample_titles": [
             "穿进末世玛丽苏文学",
             "末世：我抢了女主的万人迷光环"
-          ]
-        },
-        {
-          "tag": "经营",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 35000,
-          "sample_titles": [
-            "我在公路求生游戏开了家花店"
-          ]
-        },
-        {
-          "tag": "副本",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 34667,
-          "sample_titles": [
-            "开局一把扫帚，我是公路求生榜一",
-            "我在公路求生游戏开了家花店",
-            "被男朋友分手后末日游戏入侵现实"
           ]
         },
         {
@@ -465,7 +475,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 33000,
+          "avg_reads": 34000,
           "sample_titles": [
             "我在公路求生游戏开了家花店",
             "救命穿越废土，开局通知我去选夫"
@@ -476,7 +486,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 33000,
+          "avg_reads": 34000,
           "sample_titles": [
             "我在公路求生游戏开了家花店",
             "救命穿越废土，开局通知我去选夫"
@@ -500,8 +510,8 @@
           "avg_reads": 31333,
           "sample_titles": [
             "别惹小祖宗！末世大佬是宠妹狂魔",
-            "都是公路求生，凭啥她这么强？",
-            "救命穿越废土，开局通知我去选夫"
+            "救命穿越废土，开局通知我去选夫",
+            "都是公路求生，凭啥她这么强？"
           ]
         },
         {
@@ -571,8 +581,8 @@
           "level": "blue",
           "avg_reads": 29000,
           "sample_titles": [
-            "救命穿越废土，开局通知我去选夫",
             "废土？兽世？不给金手指不活了",
+            "救命穿越废土，开局通知我去选夫",
             "末日死考：七岁丧尸王也要考试？"
           ]
         },
@@ -601,7 +611,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 52500,
+          "avg_reads": 50750,
           "sample_titles": [
             "穿进末日双男主文里当白莲花",
             "穿成末世炮灰，被重生大哥娇宠了",
@@ -625,7 +635,7 @@
           "count": 7,
           "density": 0.35,
           "level": "normal",
-          "avg_reads": 44000,
+          "avg_reads": 43571,
           "sample_titles": [
             "糟糕末世：系统给我发了五个疯批",
             "穿成末世炮灰，被重生大哥娇宠了",
@@ -637,7 +647,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 40250,
+          "avg_reads": 40750,
           "sample_titles": [
             "穿成末世炮灰，被重生大哥娇宠了",
             "我在公路求生游戏开了家花店",
@@ -649,7 +659,7 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 39200,
+          "avg_reads": 37600,
           "sample_titles": [
             "穿进末日双男主文里当白莲花",
             "同居半年后发现未婚夫非人类！",
@@ -661,11 +671,11 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 31400,
+          "avg_reads": 32200,
           "sample_titles": [
-            "开局一把扫帚，我是公路求生榜一",
             "我在公路求生游戏开了家花店",
-            "都是公路求生，凭啥她这么强？"
+            "开局一把扫帚，我是公路求生榜一",
+            "救命穿越废土，开局通知我去选夫"
           ]
         }
       ]
@@ -682,7 +692,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 70000,
+          "avg_reads": 69000,
           "sample_titles": [
             "万人嫌反派炮灰成了早逝白月光"
           ]
@@ -692,20 +702,21 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 51500,
+          "avg_reads": 53500,
           "sample_titles": [
             "万人嫌反派炮灰成了早逝白月光",
             "女巫别怕！玩家来救你了"
           ]
         },
         {
-          "tag": "末日",
-          "count": 1,
-          "density": 0.05,
+          "tag": "直播",
+          "count": 2,
+          "density": 0.1,
           "level": "blue",
-          "avg_reads": 42000,
+          "avg_reads": 44500,
           "sample_titles": [
-            "公路求生：开局抽中旅游餐车"
+            "万人嫌反派炮灰成了早逝白月光",
+            "生存游戏，我有百花大军"
           ]
         },
         {
@@ -730,6 +741,16 @@
           ]
         },
         {
+          "tag": "末日",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 39000,
+          "sample_titles": [
+            "公路求生：开局抽中旅游餐车"
+          ]
+        },
+        {
           "tag": "剑修",
           "count": 1,
           "density": 0.05,
@@ -740,23 +761,11 @@
           ]
         },
         {
-          "tag": "直播",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 32316,
-          "sample_titles": [
-            "万人嫌反派炮灰成了早逝白月光",
-            "生存游戏，我有百花大军",
-            "神级陪玩：电竞少女制霸全场"
-          ]
-        },
-        {
           "tag": "血脉",
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 24000,
+          "avg_reads": 26000,
           "sample_titles": [
             "全球公路求生，幸运龙崽躺赢啦"
           ]
@@ -766,9 +775,21 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 24000,
+          "avg_reads": 26000,
           "sample_titles": [
             "地球人，你们逃离原生神明了吗？"
+          ]
+        },
+        {
+          "tag": "天灾",
+          "count": 3,
+          "density": 0.15,
+          "level": "blue",
+          "avg_reads": 23333,
+          "sample_titles": [
+            "女巫别怕！玩家来救你了",
+            "生存游戏，我有百花大军",
+            "荒海求生：我靠杂货铺躺赢"
           ]
         },
         {
@@ -782,48 +803,36 @@
           ]
         },
         {
-          "tag": "天灾",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 21333,
-          "sample_titles": [
-            "女巫别怕！玩家来救你了",
-            "生存游戏，我有百花大军",
-            "荒海求生：我靠杂货铺躺赢"
-          ]
-        },
-        {
-          "tag": "基建",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 20500,
-          "sample_titles": [
-            "全民求生：开局一间茅草棚",
-            "生存游戏，我有百花大军"
-          ]
-        },
-        {
-          "tag": "基建",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 20500,
-          "sample_titles": [
-            "全民求生：开局一间茅草棚",
-            "生存游戏，我有百花大军"
-          ]
-        },
-        {
           "tag": "修仙",
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 20000,
+          "avg_reads": 21000,
           "sample_titles": [
             "地球人，你们逃离原生神明了吗？",
             "游戏穿越：但无限刷新模组"
+          ]
+        },
+        {
+          "tag": "基建",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 21000,
+          "sample_titles": [
+            "全民求生：开局一间茅草棚",
+            "生存游戏，我有百花大军"
+          ]
+        },
+        {
+          "tag": "基建",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 21000,
+          "sample_titles": [
+            "全民求生：开局一间茅草棚",
+            "生存游戏，我有百花大军"
           ]
         },
         {
@@ -831,7 +840,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 19000,
+          "avg_reads": 20000,
           "sample_titles": [
             "生存游戏，我有百花大军"
           ]
@@ -841,9 +850,20 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 19000,
+          "avg_reads": 20000,
           "sample_titles": [
             "生存游戏，我有百花大军"
+          ]
+        },
+        {
+          "tag": "大佬",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 17622,
+          "sample_titles": [
+            "地球人，你们逃离原生神明了吗？",
+            "盗墓之巨鱼求生召唤出了嫩牛五方"
           ]
         },
         {
@@ -851,7 +871,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 17667,
+          "avg_reads": 17333,
           "sample_titles": [
             "全民求生：开局一间茅草棚",
             "求生游戏：我在童话森林盖树屋",
@@ -863,7 +883,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 17000,
+          "avg_reads": 16500,
           "sample_titles": [
             "全民求生：开局一间茅草棚",
             "全民公路求生：开局鼠鼠特攻队"
@@ -874,21 +894,10 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 17000,
+          "avg_reads": 16500,
           "sample_titles": [
             "全民求生：开局一间茅草棚",
             "全民公路求生：开局鼠鼠特攻队"
-          ]
-        },
-        {
-          "tag": "大佬",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 16562,
-          "sample_titles": [
-            "地球人，你们逃离原生神明了吗？",
-            "盗墓之巨鱼求生召唤出了嫩牛五方"
           ]
         },
         {
@@ -936,7 +945,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 9125,
+          "avg_reads": 9244,
           "sample_titles": [
             "盗墓之巨鱼求生召唤出了嫩牛五方"
           ]
@@ -958,7 +967,7 @@
           "count": 6,
           "density": 0.3,
           "level": "normal",
-          "avg_reads": 19999,
+          "avg_reads": 21499,
           "sample_titles": [
             "女巫别怕！玩家来救你了",
             "全球公路求生，幸运龙崽躺赢啦",
@@ -970,7 +979,7 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 18824,
+          "avg_reads": 20479,
           "sample_titles": [
             "女巫别怕！玩家来救你了",
             "全球公路求生，幸运龙崽躺赢啦",
@@ -979,10 +988,10 @@
         },
         {
           "tag": "求生",
-          "count": 13,
-          "density": 0.65,
+          "count": 14,
+          "density": 0.7,
           "level": "red",
-          "avg_reads": 17250,
+          "avg_reads": 16471,
           "sample_titles": [
             "公路求生：开局抽中旅游餐车",
             "全球公路求生，幸运龙崽躺赢啦",
@@ -995,7 +1004,7 @@
       "name": "女频衍生",
       "channel": "female",
       "total_books": 20,
-      "blue_count": 20,
+      "blue_count": 21,
       "red_count": 0,
       "tags": [
         {
@@ -1003,7 +1012,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 146000,
+          "avg_reads": 154000,
           "sample_titles": [
             "宜修换嫁年羹尧，摆烂躺赢了",
             "南部档案：重生后全演上了"
@@ -1050,13 +1059,13 @@
           ]
         },
         {
-          "tag": "无CP",
+          "tag": "群像",
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 62000,
+          "avg_reads": 63000,
           "sample_titles": [
-            "张瑞朴！你快来管管你大侄女"
+            "斩神：小兔子带着九宝琉璃塔来平"
           ]
         },
         {
@@ -1098,6 +1107,16 @@
           "avg_reads": 58000,
           "sample_titles": [
             "综影视之娇媚动人"
+          ]
+        },
+        {
+          "tag": "无CP",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 58000,
+          "sample_titles": [
+            "张瑞朴！你快来管管你大侄女"
           ]
         },
         {
@@ -1209,7 +1228,7 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 89400,
+          "avg_reads": 92200,
           "sample_titles": [
             "宜修换嫁年羹尧，摆烂躺赢了",
             "斩神：穿越后，我和哪吒恋爱了",
@@ -1221,7 +1240,7 @@
           "count": 6,
           "density": 0.3,
           "level": "normal",
-          "avg_reads": 62667,
+          "avg_reads": 63167,
           "sample_titles": [
             "惊悚：熟读甄嬛传剧情的我杀疯了",
             "什么？我不是天才爱豆吗？",
@@ -1248,11 +1267,22 @@
           ]
         },
         {
+          "tag": "重生",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 98500,
+          "sample_titles": [
+            "曾渡我",
+            "双修后才知夫君是强制文灭世男主"
+          ]
+        },
+        {
           "tag": "无CP",
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 92000,
+          "avg_reads": 97000,
           "sample_titles": [
             "穿成顶级修二代，我只想躺平啊！"
           ]
@@ -1268,14 +1298,14 @@
           ]
         },
         {
-          "tag": "重生",
+          "tag": "群像",
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 88500,
+          "avg_reads": 82500,
           "sample_titles": [
-            "曾渡我",
-            "双修后才知夫君是强制文灭世男主"
+            "穿成顶级修二代，我只想躺平啊！",
+            "危！刚飞升我就杀了天帝？"
           ]
         },
         {
@@ -1290,33 +1320,11 @@
           ]
         },
         {
-          "tag": "群像",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 80000,
-          "sample_titles": [
-            "穿成顶级修二代，我只想躺平啊！",
-            "危！刚飞升我就杀了天帝？"
-          ]
-        },
-        {
-          "tag": "洪荒",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 71500,
-          "sample_titles": [
-            "洪荒，阐教小师妹后台太硬",
-            "全班穿越洪荒，唯有我登阶成圣"
-          ]
-        },
-        {
           "tag": "甜宠",
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 70000,
+          "avg_reads": 74000,
           "sample_titles": [
             "双修后才知夫君是强制文灭世男主"
           ]
@@ -1326,7 +1334,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 69000,
+          "avg_reads": 71000,
           "sample_titles": [
             "双修后才知夫君是强制文灭世男主",
             "我死后竟成了堕神白月光"
@@ -1340,6 +1348,17 @@
           "avg_reads": 68000,
           "sample_titles": [
             "危！刚飞升我就杀了天帝？"
+          ]
+        },
+        {
+          "tag": "洪荒",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 66500,
+          "sample_titles": [
+            "洪荒，阐教小师妹后台太硬",
+            "全班穿越洪荒，唯有我登阶成圣"
           ]
         },
         {
@@ -1357,7 +1376,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 61000,
+          "avg_reads": 61667,
           "sample_titles": [
             "恶役女配她只想活命",
             "天才剑修说他就喜欢恶毒女配",
@@ -1400,7 +1419,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 50000,
+          "avg_reads": 52000,
           "sample_titles": [
             "天才剑修说他就喜欢恶毒女配"
           ]
@@ -1412,8 +1431,8 @@
           "level": "blue",
           "avg_reads": 41500,
           "sample_titles": [
-            "绑定双修系统后，我躺成宗门团宠",
-            "天道曝光我日记，男神们不对劲了"
+            "天道曝光我日记，男神们不对劲了",
+            "绑定双修系统后，我躺成宗门团宠"
           ]
         },
         {
@@ -1451,7 +1470,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 91500,
+          "avg_reads": 92500,
           "sample_titles": [
             "抽卡召旧族，炮灰她掀了修真界",
             "死遁文女主离开，我接盘阴湿男主",
@@ -1475,7 +1494,7 @@
           "count": 7,
           "density": 0.35,
           "level": "normal",
-          "avg_reads": 73857,
+          "avg_reads": 75143,
           "sample_titles": [
             "抽卡召旧族，炮灰她掀了修真界",
             "恶役女配她只想活命",
@@ -1487,7 +1506,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 60000,
+          "avg_reads": 61750,
           "sample_titles": [
             "穿成顶级修二代，我只想躺平啊！",
             "男主为爱发疯，但你只想好好活着",
@@ -1499,7 +1518,7 @@
           "count": 8,
           "density": 0.4,
           "level": "red",
-          "avg_reads": 61750,
+          "avg_reads": 61125,
           "sample_titles": [
             "洪荒，阐教小师妹后台太硬",
             "穿成顶级修二代，我只想躺平啊！",
@@ -1545,18 +1564,6 @@
           "sample_titles": [
             "断亲后，三岁萌娃带弟搬空全家",
             "生七个娃逃荒？我的马车无限囤货"
-          ]
-        },
-        {
-          "tag": "大佬",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 45667,
-          "sample_titles": [
-            "盲雌一睁眼，周围全是大佬兽夫",
-            "断亲后，三岁萌娃带弟搬空全家",
-            "末世大佬携带空间穿成首辅恶毒妻"
           ]
         },
         {
@@ -1635,6 +1642,16 @@
           ]
         },
         {
+          "tag": "炮灰",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 29000,
+          "sample_titles": [
+            "倒贴崽崽成功后我王炸了"
+          ]
+        },
+        {
           "tag": "双洁",
           "count": 1,
           "density": 0.05,
@@ -1649,21 +1666,11 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 28000,
+          "avg_reads": 28333,
           "sample_titles": [
-            "倒贴崽崽成功后我王炸了",
             "穿成貌美小娘子，撩个族长当靠山",
+            "倒贴崽崽成功后我王炸了",
             "末世大佬携带空间穿成首辅恶毒妻"
-          ]
-        },
-        {
-          "tag": "炮灰",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 28000,
-          "sample_titles": [
-            "倒贴崽崽成功后我王炸了"
           ]
         },
         {
@@ -1721,6 +1728,16 @@
           ]
         },
         {
+          "tag": "反派",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 22000,
+          "sample_titles": [
+            "穿成被休悍妇，边关种田养娃致富"
+          ]
+        },
+        {
           "tag": "群像",
           "count": 1,
           "density": 0.05,
@@ -1731,22 +1748,13 @@
           ]
         },
         {
-          "tag": "基建",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 21000,
-          "sample_titles": [
-            "丫鬟反籍，带回两孩子"
-          ]
-        },
-        {
           "tag": "经营",
-          "count": 1,
-          "density": 0.05,
+          "count": 2,
+          "density": 0.1,
           "level": "blue",
-          "avg_reads": 21000,
+          "avg_reads": 21500,
           "sample_titles": [
+            "穿成被休悍妇，边关种田养娃致富",
             "好惨！成了霸道糙汉的生理性喜欢"
           ]
         },
@@ -1758,6 +1766,28 @@
           "avg_reads": 21000,
           "sample_titles": [
             "丫鬟反籍，带回两孩子"
+          ]
+        },
+        {
+          "tag": "基建",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 21000,
+          "sample_titles": [
+            "丫鬟反籍，带回两孩子"
+          ]
+        },
+        {
+          "tag": "重生",
+          "count": 4,
+          "density": 0.2,
+          "level": "normal",
+          "avg_reads": 52000,
+          "sample_titles": [
+            "重生妹妹抢亲？我换亲嫁糙汉暴富",
+            "断亲后，三岁萌娃带弟搬空全家",
+            "末世大佬携带空间穿成首辅恶毒妻"
           ]
         },
         {
@@ -1773,27 +1803,27 @@
           ]
         },
         {
-          "tag": "重生",
-          "count": 5,
-          "density": 0.25,
-          "level": "normal",
-          "avg_reads": 46800,
-          "sample_titles": [
-            "重生妹妹抢亲？我换亲嫁糙汉暴富",
-            "断亲后，三岁萌娃带弟搬空全家",
-            "末世大佬携带空间穿成首辅恶毒妻"
-          ]
-        },
-        {
           "tag": "逃荒",
           "count": 4,
           "density": 0.2,
           "level": "normal",
           "avg_reads": 41000,
           "sample_titles": [
-            "小通房乱世带球跑",
             "断亲后，三岁萌娃带弟搬空全家",
+            "小通房乱世带球跑",
             "生七个娃逃荒？我的马车无限囤货"
+          ]
+        },
+        {
+          "tag": "大佬",
+          "count": 4,
+          "density": 0.2,
+          "level": "normal",
+          "avg_reads": 39750,
+          "sample_titles": [
+            "盲雌一睁眼，周围全是大佬兽夫",
+            "断亲后，三岁萌娃带弟搬空全家",
+            "末世大佬携带空间穿成首辅恶毒妻"
           ]
         },
         {
@@ -1801,11 +1831,11 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 29000,
+          "avg_reads": 28000,
           "sample_titles": [
             "生七个娃逃荒？我的马车无限囤货",
             "夫君战死五年归来：我携婆家出族",
-            "重生新婚夜，和离回娘家发家致富"
+            "穿成被休悍妇，边关种田养娃致富"
           ]
         },
         {
@@ -1813,11 +1843,11 @@
           "count": 9,
           "density": 0.45,
           "level": "red",
-          "avg_reads": 39889,
+          "avg_reads": 39444,
           "sample_titles": [
             "重生妹妹抢亲？我换亲嫁糙汉暴富",
-            "小通房乱世带球跑",
-            "断亲后，三岁萌娃带弟搬空全家"
+            "断亲后，三岁萌娃带弟搬空全家",
+            "小通房乱世带球跑"
           ]
         },
         {
@@ -1825,11 +1855,11 @@
           "count": 9,
           "density": 0.45,
           "level": "red",
-          "avg_reads": 39889,
+          "avg_reads": 39444,
           "sample_titles": [
             "重生妹妹抢亲？我换亲嫁糙汉暴富",
-            "小通房乱世带球跑",
-            "断亲后，三岁萌娃带弟搬空全家"
+            "断亲后，三岁萌娃带弟搬空全家",
+            "小通房乱世带球跑"
           ]
         },
         {
@@ -1837,10 +1867,10 @@
           "count": 9,
           "density": 0.45,
           "level": "red",
-          "avg_reads": 34778,
+          "avg_reads": 34333,
           "sample_titles": [
-            "小通房乱世带球跑",
             "断亲后，三岁萌娃带弟搬空全家",
+            "小通房乱世带球跑",
             "敦煌乱择，拾得杂户美娇娥"
           ]
         }
@@ -1850,7 +1880,7 @@
       "name": "年代",
       "channel": "female",
       "total_books": 20,
-      "blue_count": 22,
+      "blue_count": 23,
       "red_count": 1,
       "tags": [
         {
@@ -1894,11 +1924,23 @@
           ]
         },
         {
+          "tag": "空间",
+          "count": 3,
+          "density": 0.15,
+          "level": "blue",
+          "avg_reads": 119667,
+          "sample_titles": [
+            "七零：成了农村耀祖亲生的崽",
+            "重生七零夺回空间被军区大佬娇宠",
+            "穿书七零：我跟锦鲤女主抢机缘"
+          ]
+        },
+        {
           "tag": "甜宠",
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 95667,
+          "avg_reads": 99667,
           "sample_titles": [
             "重生七零夺回空间被军区大佬娇宠",
             "糙汉军官在大西北养了个娇气包",
@@ -1910,7 +1952,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 90333,
+          "avg_reads": 94333,
           "sample_titles": [
             "重生七零夺回空间被军区大佬娇宠",
             "七零年代病佳人把偏执男哄迷糊了",
@@ -1922,7 +1964,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 84000,
+          "avg_reads": 88000,
           "sample_titles": [
             "七零年代病佳人把偏执男哄迷糊了"
           ]
@@ -1932,7 +1974,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 84000,
+          "avg_reads": 88000,
           "sample_titles": [
             "七零年代病佳人把偏执男哄迷糊了"
           ]
@@ -1974,10 +2016,20 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 65500,
+          "avg_reads": 67000,
           "sample_titles": [
             "七零年代病佳人把偏执男哄迷糊了",
             "亡妻重返八八，冷脸糙汉失控凶吻"
+          ]
+        },
+        {
+          "tag": "青梅竹马",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 66000,
+          "sample_titles": [
+            "先婚后爱：大小姐被糙汉狠狠宠爱"
           ]
         },
         {
@@ -1985,7 +2037,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 63333,
+          "avg_reads": 64000,
           "sample_titles": [
             "丰腴保姆太撩人，科研巨鳄破防了",
             "骗婚捞女？科研大佬独宠丰腴美人",
@@ -2000,16 +2052,6 @@
           "avg_reads": 56000,
           "sample_titles": [
             "童养媳揣崽随军，冷面军官追着哄"
-          ]
-        },
-        {
-          "tag": "青梅竹马",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 56000,
-          "sample_titles": [
-            "先婚后爱：大小姐被糙汉狠狠宠爱"
           ]
         },
         {
@@ -2058,7 +2100,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 50000,
+          "avg_reads": 51000,
           "sample_titles": [
             "离婚刚开口，首长掐腰不让走",
             "八零军婚：陆首长被前妻踢出门了"
@@ -2069,7 +2111,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 48500,
+          "avg_reads": 48000,
           "sample_titles": [
             "六十年代姜糖",
             "亡妻重返八八，冷脸糙汉失控凶吻"
@@ -2080,21 +2122,9 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 47000,
+          "avg_reads": 46000,
           "sample_titles": [
             "亡妻重返八八，冷脸糙汉失控凶吻"
-          ]
-        },
-        {
-          "tag": "空间",
-          "count": 4,
-          "density": 0.2,
-          "level": "normal",
-          "avg_reads": 98750,
-          "sample_titles": [
-            "七零：成了农村耀祖亲生的崽",
-            "重生七零夺回空间被军区大佬娇宠",
-            "穿书七零：我跟锦鲤女主抢机缘"
           ]
         },
         {
@@ -2102,7 +2132,7 @@
           "count": 6,
           "density": 0.3,
           "level": "normal",
-          "avg_reads": 90167,
+          "avg_reads": 92167,
           "sample_titles": [
             "七零：成了农村耀祖亲生的崽",
             "重生七零夺回空间被军区大佬娇宠",
@@ -2114,7 +2144,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 78750,
+          "avg_reads": 81250,
           "sample_titles": [
             "重生七零夺回空间被军区大佬娇宠",
             "重生刑场，温婉军嫂不再忍",
@@ -2126,23 +2156,11 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 74200,
+          "avg_reads": 77800,
           "sample_titles": [
             "重生七零夺回空间被军区大佬娇宠",
             "丰腴保姆太撩人，科研巨鳄破防了",
             "骗婚捞女？科研大佬独宠丰腴美人"
-          ]
-        },
-        {
-          "tag": "重生",
-          "count": 4,
-          "density": 0.2,
-          "level": "normal",
-          "avg_reads": 72750,
-          "sample_titles": [
-            "重生七零夺回空间被军区大佬娇宠",
-            "重生刑场，温婉军嫂不再忍",
-            "离婚刚开口，首长掐腰不让走"
           ]
         },
         {
@@ -2158,11 +2176,23 @@
           ]
         },
         {
+          "tag": "重生",
+          "count": 5,
+          "density": 0.25,
+          "level": "normal",
+          "avg_reads": 68800,
+          "sample_titles": [
+            "重生七零夺回空间被军区大佬娇宠",
+            "重生刑场，温婉军嫂不再忍",
+            "离婚刚开口，首长掐腰不让走"
+          ]
+        },
+        {
           "tag": "先婚后爱",
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 60600,
+          "avg_reads": 62400,
           "sample_titles": [
             "重生刑场，温婉军嫂不再忍",
             "骗婚捞女？科研大佬独宠丰腴美人",
@@ -2171,10 +2201,10 @@
         },
         {
           "tag": "年代",
-          "count": 15,
-          "density": 0.75,
+          "count": 16,
+          "density": 0.8,
           "level": "red",
-          "avg_reads": 70133,
+          "avg_reads": 70188,
           "sample_titles": [
             "重生七零夺回空间被军区大佬娇宠",
             "糙汉军官在大西北养了个娇气包",
@@ -2195,7 +2225,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 264000,
+          "avg_reads": 262000,
           "sample_titles": [
             "我在韩国贵族高中假装财阀二代",
             "从零开始拯救主角",
@@ -2213,17 +2243,6 @@
           ]
         },
         {
-          "tag": "穿书",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 153500,
-          "sample_titles": [
-            "炮灰女配勾勾手，血族少爷全当狗",
-            "惊！穿成清冷校草的粘人精前女友"
-          ]
-        },
-        {
           "tag": "重生",
           "count": 3,
           "density": 0.15,
@@ -2236,14 +2255,13 @@
           ]
         },
         {
-          "tag": "女配",
-          "count": 3,
-          "density": 0.15,
+          "tag": "穿书",
+          "count": 2,
+          "density": 0.1,
           "level": "blue",
-          "avg_reads": 148667,
+          "avg_reads": 152000,
           "sample_titles": [
             "炮灰女配勾勾手，血族少爷全当狗",
-            "阴湿霸总别黑化，恶毒前妻来贴贴",
             "惊！穿成清冷校草的粘人精前女友"
           ]
         },
@@ -2252,9 +2270,21 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 148000,
+          "avg_reads": 150000,
           "sample_titles": [
             "看见弹幕时白月光回国了",
+            "惊！穿成清冷校草的粘人精前女友"
+          ]
+        },
+        {
+          "tag": "女配",
+          "count": 3,
+          "density": 0.15,
+          "level": "blue",
+          "avg_reads": 144000,
+          "sample_titles": [
+            "炮灰女配勾勾手，血族少爷全当狗",
+            "阴湿霸总别黑化，恶毒前妻来贴贴",
             "惊！穿成清冷校草的粘人精前女友"
           ]
         },
@@ -2294,7 +2324,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 117500,
+          "avg_reads": 115000,
           "sample_titles": [
             "绑定接吻系统，咋都嘬上瘾了",
             "你女朋友是我老婆，我不可怜吗？"
@@ -2305,7 +2335,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 111500,
+          "avg_reads": 114500,
           "sample_titles": [
             "画像师上交国家，全网通缉犯慌了",
             "你说科学？可是我家员工全是妖！"
@@ -2316,7 +2346,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 108333,
+          "avg_reads": 112000,
           "sample_titles": [
             "恶毒女二被男主错认成女主后",
             "穿成落魄太子爷的作精未婚妻",
@@ -2328,7 +2358,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 108333,
+          "avg_reads": 112000,
           "sample_titles": [
             "恶毒女二被男主错认成女主后",
             "穿成落魄太子爷的作精未婚妻",
@@ -2345,17 +2375,6 @@
             "被逼回乡，老祖宗回来撑腰了！",
             "唯一人类在兽世，当养成虚拟偶像",
             "修仙满级回现代，我让全家横着走"
-          ]
-        },
-        {
-          "tag": "暗恋",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 103500,
-          "sample_titles": [
-            "阴湿霸总别黑化，恶毒前妻来贴贴",
-            "你女朋友是我老婆，我不可怜吗？"
           ]
         },
         {
@@ -2383,7 +2402,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 97333,
+          "avg_reads": 99333,
           "sample_titles": [
             "被逼回乡，老祖宗回来撑腰了！",
             "修仙满级回现代，我让全家横着走",
@@ -2395,11 +2414,22 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 97000,
+          "avg_reads": 99000,
           "sample_titles": [
             "被逼回乡，老祖宗回来撑腰了！",
             "同学聚会听人吹牛，我快赚麻了",
             "你说科学？可是我家员工全是妖！"
+          ]
+        },
+        {
+          "tag": "暗恋",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 98000,
+          "sample_titles": [
+            "阴湿霸总别黑化，恶毒前妻来贴贴",
+            "你女朋友是我老婆，我不可怜吗？"
           ]
         },
         {
@@ -2423,6 +2453,17 @@
           ]
         },
         {
+          "tag": "经营",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 88000,
+          "sample_titles": [
+            "修仙满级回现代，我让全家横着走",
+            "你说科学？可是我家员工全是妖！"
+          ]
+        },
+        {
           "tag": "杀伐果断",
           "count": 1,
           "density": 0.05,
@@ -2433,14 +2474,15 @@
           ]
         },
         {
-          "tag": "经营",
-          "count": 2,
-          "density": 0.1,
+          "tag": "大佬",
+          "count": 3,
+          "density": 0.15,
           "level": "blue",
-          "avg_reads": 85000,
+          "avg_reads": 79667,
           "sample_titles": [
             "修仙满级回现代，我让全家横着走",
-            "你说科学？可是我家员工全是妖！"
+            "你说科学？可是我家员工全是妖！",
+            "重生高考：绿茶刷题变美攀高枝"
           ]
         },
         {
@@ -2448,21 +2490,9 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 82000,
+          "avg_reads": 79000,
           "sample_titles": [
             "从零开始拯救主角"
-          ]
-        },
-        {
-          "tag": "大佬",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 77667,
-          "sample_titles": [
-            "修仙满级回现代，我让全家横着走",
-            "你说科学？可是我家员工全是妖！",
-            "重生高考：绿茶刷题变美攀高枝"
           ]
         },
         {
@@ -2480,7 +2510,7 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 238400,
+          "avg_reads": 237400,
           "sample_titles": [
             "我在韩国贵族高中假装财阀二代",
             "炮灰女配勾勾手，血族少爷全当狗",
@@ -2492,7 +2522,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 174500,
+          "avg_reads": 178000,
           "sample_titles": [
             "炮灰女配勾勾手，血族少爷全当狗",
             "神豪系统：伪装有钱人我暴富啦",
@@ -2504,7 +2534,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 118000,
+          "avg_reads": 113250,
           "sample_titles": [
             "绑定接吻系统，咋都嘬上瘾了",
             "阴湿霸总别黑化，恶毒前妻来贴贴",
@@ -2516,7 +2546,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 109750,
+          "avg_reads": 109000,
           "sample_titles": [
             "炮灰女配勾勾手，血族少爷全当狗",
             "惊！穿成清冷校草的粘人精前女友",
@@ -2537,7 +2567,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 154000,
+          "avg_reads": 161000,
           "sample_titles": [
             "穿成炮灰后：每天都被男主堵床角"
           ]
@@ -2547,7 +2577,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 154000,
+          "avg_reads": 161000,
           "sample_titles": [
             "穿成炮灰后：每天都被男主堵床角"
           ]
@@ -2557,7 +2587,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 121000,
+          "avg_reads": 124000,
           "sample_titles": [
             "帐中香：病娇九千岁他又来爬床了"
           ]
@@ -2567,7 +2597,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 107500,
+          "avg_reads": 111000,
           "sample_titles": [
             "穿成炮灰后：每天都被男主堵床角",
             "勾了禁欲太子？刚觉醒，被亲哭！"
@@ -2578,7 +2608,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 103500,
+          "avg_reads": 107000,
           "sample_titles": [
             "穿成炮灰后：每天都被男主堵床角",
             "我都是公主了，你说我不是女主？"
@@ -2609,7 +2639,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 91000,
+          "avg_reads": 92500,
           "sample_titles": [
             "帐中香：病娇九千岁他又来爬床了",
             "勾了禁欲太子？刚觉醒，被亲哭！"
@@ -2620,7 +2650,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 90667,
+          "avg_reads": 91667,
           "sample_titles": [
             "帐中香：病娇九千岁他又来爬床了",
             "媚骨：公主她当真祸水！",
@@ -2632,7 +2662,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 88000,
+          "avg_reads": 89500,
           "sample_titles": [
             "帐中香：病娇九千岁他又来爬床了",
             "被威胁后，我成了摄政王的掌中娇"
@@ -2714,6 +2744,16 @@
           ]
         },
         {
+          "tag": "追妻",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 55000,
+          "sample_titles": [
+            "通房为妻"
+          ]
+        },
+        {
           "tag": "偏执",
           "count": 2,
           "density": 0.1,
@@ -2725,16 +2765,6 @@
           ]
         },
         {
-          "tag": "追妻",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 53000,
-          "sample_titles": [
-            "通房为妻"
-          ]
-        },
-        {
           "tag": "腹黑",
           "count": 1,
           "density": 0.05,
@@ -2742,6 +2772,17 @@
           "avg_reads": 52000,
           "sample_titles": [
             "撤回圆房请求后，世子他急红了眼"
+          ]
+        },
+        {
+          "tag": "穿书",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 50500,
+          "sample_titles": [
+            "我都是公主了，你说我不是女主？",
+            "被打入冷宫后我赖上了国师"
           ]
         },
         {
@@ -2756,22 +2797,11 @@
           ]
         },
         {
-          "tag": "穿书",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 49000,
-          "sample_titles": [
-            "我都是公主了，你说我不是女主？",
-            "被打入冷宫后我赖上了国师"
-          ]
-        },
-        {
           "tag": "重生",
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 65500,
+          "avg_reads": 66250,
           "sample_titles": [
             "玲珑劫：和离嫡女，二嫁执掌山河",
             "恶毒女背叛傻子老好人夫君后",
@@ -2783,7 +2813,7 @@
           "count": 8,
           "density": 0.4,
           "level": "red",
-          "avg_reads": 66000,
+          "avg_reads": 66625,
           "sample_titles": [
             "帐中香：病娇九千岁他又来爬床了",
             "生了皇帝唯一的儿子，我宠冠后宫",
@@ -2857,7 +2887,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 61000,
+          "avg_reads": 58500,
           "sample_titles": [
             "诡异文里当路人，邪神竟是我老公",
             "盗墓：谁家要饭的这么嚣张！"
@@ -2878,7 +2908,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 49667,
+          "avg_reads": 49000,
           "sample_titles": [
             "盗墓：会坏掉的！你们拿出去",
             "盗墓麒麟崽怎么又又又倒霉了",
@@ -2886,35 +2916,15 @@
           ]
         },
         {
-          "tag": "万人迷",
+          "tag": "同人",
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 42333,
+          "avg_reads": 46333,
           "sample_titles": [
-            "盗墓：会坏掉的！你们拿出去",
-            "盗笔：嫩牛五方一直在我坟头蹦迪",
-            "盗墓：被星际生子系统绑定了"
-          ]
-        },
-        {
-          "tag": "女配",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 33000,
-          "sample_titles": [
-            "什么变态，那是我老公"
-          ]
-        },
-        {
-          "tag": "反派",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 33000,
-          "sample_titles": [
-            "什么变态，那是我老公"
+            "盗墓：谁家要饭的这么嚣张！",
+            "盗墓：我那柔弱不能自理的本体",
+            "盗笔：嫩牛五方一直在我坟头蹦迪"
           ]
         },
         {
@@ -2938,11 +2948,31 @@
           ]
         },
         {
+          "tag": "女配",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 31000,
+          "sample_titles": [
+            "什么变态，那是我老公"
+          ]
+        },
+        {
+          "tag": "反派",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 31000,
+          "sample_titles": [
+            "什么变态，那是我老公"
+          ]
+        },
+        {
           "tag": "星际",
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 30000,
+          "avg_reads": 29000,
           "sample_titles": [
             "盗墓：被星际生子系统绑定了"
           ]
@@ -2982,7 +3012,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 69250,
+          "avg_reads": 68750,
           "sample_titles": [
             "禁地群穿：我成为了张家族长",
             "诡异文里当路人，邪神竟是我老公",
@@ -2994,7 +3024,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 66250,
+          "avg_reads": 65000,
           "sample_titles": [
             "禁地群穿：我成为了张家族长",
             "盗墓：谁家要饭的这么嚣张！",
@@ -3002,15 +3032,15 @@
           ]
         },
         {
-          "tag": "同人",
+          "tag": "万人迷",
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 40250,
+          "avg_reads": 36750,
           "sample_titles": [
-            "盗墓：谁家要饭的这么嚣张！",
-            "盗墓：我那柔弱不能自理的本体",
-            "盗笔：嫩牛五方一直在我坟头蹦迪"
+            "盗墓：会坏掉的！你们拿出去",
+            "盗笔：嫩牛五方一直在我坟头蹦迪",
+            "盗墓：被星际生子系统绑定了"
           ]
         },
         {
@@ -3018,19 +3048,19 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 31000,
+          "avg_reads": 30500,
           "sample_titles": [
             "什么变态，那是我老公",
-            "无限：这群刁民又整活了",
-            "无限回档：他们都以为我是预言家"
+            "无限回档：他们都以为我是预言家",
+            "无限：这群刁民又整活了"
           ]
         },
         {
           "tag": "穿越",
-          "count": 9,
-          "density": 0.45,
+          "count": 8,
+          "density": 0.4,
           "level": "red",
-          "avg_reads": 58111,
+          "avg_reads": 62500,
           "sample_titles": [
             "禁地群穿：我成为了张家族长",
             "青霉素发家，张家女在盗笔当富豪",
@@ -3039,10 +3069,10 @@
         },
         {
           "tag": "盗墓",
-          "count": 9,
-          "density": 0.45,
+          "count": 10,
+          "density": 0.5,
           "level": "red",
-          "avg_reads": 48556,
+          "avg_reads": 45100,
           "sample_titles": [
             "盗笔：神算她专收杀神做保镖！",
             "盗墓：会坏掉的！你们拿出去",
@@ -3055,7 +3085,7 @@
       "name": "古言脑洞",
       "channel": "female",
       "total_books": 20,
-      "blue_count": 23,
+      "blue_count": 25,
       "red_count": 0,
       "tags": [
         {
@@ -3063,7 +3093,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 134000,
+          "avg_reads": 138000,
           "sample_titles": [
             "穿成病秧子原配，八个男配想偷家"
           ]
@@ -3073,7 +3103,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 83500,
+          "avg_reads": 85500,
           "sample_titles": [
             "穿成病秧子原配，八个男配想偷家",
             "要杀死一个疯子怎么这么难！"
@@ -3084,7 +3114,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 83000,
+          "avg_reads": 85000,
           "sample_titles": [
             "穿成病秧子原配，八个男配想偷家",
             "天幕曝光，朕的四哥是征北大将军"
@@ -3095,7 +3125,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 67000,
+          "avg_reads": 68000,
           "sample_titles": [
             "穿成病秧子原配，八个男配想偷家",
             "女配？我爹是皇帝，你最好也是哦",
@@ -3123,17 +3153,6 @@
           ]
         },
         {
-          "tag": "双洁",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 34000,
-          "sample_titles": [
-            "奸臣她不想当万人迷",
-            "发狠忘情！疯批男主夜夜纠缠！"
-          ]
-        },
-        {
           "tag": "玄学",
           "count": 1,
           "density": 0.05,
@@ -3141,6 +3160,38 @@
           "avg_reads": 34000,
           "sample_titles": [
             "皇室盼了三百年的小公主竟是神棍"
+          ]
+        },
+        {
+          "tag": "双洁",
+          "count": 3,
+          "density": 0.15,
+          "level": "blue",
+          "avg_reads": 30333,
+          "sample_titles": [
+            "奸臣她不想当万人迷",
+            "发狠忘情！疯批男主夜夜纠缠！",
+            "偷听继后心声后，冷心帝王破防了"
+          ]
+        },
+        {
+          "tag": "种田",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 30000,
+          "sample_titles": [
+            "流放路上，我带皇帝全家吃瓜"
+          ]
+        },
+        {
+          "tag": "种田",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 30000,
+          "sample_titles": [
+            "流放路上，我带皇帝全家吃瓜"
           ]
         },
         {
@@ -3187,26 +3238,6 @@
           ]
         },
         {
-          "tag": "种田",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 27000,
-          "sample_titles": [
-            "流放路上，我带皇帝全家吃瓜"
-          ]
-        },
-        {
-          "tag": "种田",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 27000,
-          "sample_titles": [
-            "流放路上，我带皇帝全家吃瓜"
-          ]
-        },
-        {
           "tag": "总裁",
           "count": 1,
           "density": 0.05,
@@ -3238,36 +3269,6 @@
           ]
         },
         {
-          "tag": "血脉",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 25000,
-          "sample_titles": [
-            "宦官反派之子？但四岁封建老学究"
-          ]
-        },
-        {
-          "tag": "反派",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 25000,
-          "sample_titles": [
-            "宦官反派之子？但四岁封建老学究"
-          ]
-        },
-        {
-          "tag": "无CP",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 25000,
-          "sample_titles": [
-            "宦官反派之子？但四岁封建老学究"
-          ]
-        },
-        {
           "tag": "扮猪吃虎",
           "count": 1,
           "density": 0.05,
@@ -3289,12 +3290,63 @@
         },
         {
           "tag": "清冷",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 23500,
+          "sample_titles": [
+            "截胡攻略文女主，公主的鱼塘炸了",
+            "偷听继后心声后，冷心帝王破防了"
+          ]
+        },
+        {
+          "tag": "血脉",
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 24000,
+          "avg_reads": 23000,
           "sample_titles": [
-            "截胡攻略文女主，公主的鱼塘炸了"
+            "宦官反派之子？但四岁封建老学究"
+          ]
+        },
+        {
+          "tag": "反派",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 23000,
+          "sample_titles": [
+            "宦官反派之子？但四岁封建老学究"
+          ]
+        },
+        {
+          "tag": "宫斗",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 23000,
+          "sample_titles": [
+            "偷听继后心声后，冷心帝王破防了"
+          ]
+        },
+        {
+          "tag": "无CP",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 23000,
+          "sample_titles": [
+            "宦官反派之子？但四岁封建老学究"
+          ]
+        },
+        {
+          "tag": "青梅竹马",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 23000,
+          "sample_titles": [
+            "偷听继后心声后，冷心帝王破防了"
           ]
         },
         {
@@ -3302,7 +3354,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 55250,
+          "avg_reads": 56250,
           "sample_titles": [
             "穿成病秧子原配，八个男配想偷家",
             "奸臣她不想当万人迷",
@@ -3314,11 +3366,11 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 36800,
+          "avg_reads": 36400,
           "sample_titles": [
             "亲生不如亲自生：父皇捧我当女帝",
             "被诊出喜脉后，朕成了病弱团宠",
-            "穿越重生，她靠弹幕在古代翻身"
+            "媚骨生香多位王爷诸侯皆裙下臣"
           ]
         },
         {
@@ -3326,7 +3378,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 33000,
+          "avg_reads": 32750,
           "sample_titles": [
             "被诊出喜脉后，朕成了病弱团宠",
             "皇室盼了三百年的小公主竟是神棍",
@@ -3338,11 +3390,11 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 29250,
+          "avg_reads": 29000,
           "sample_titles": [
             "女配？我爹是皇帝，你最好也是哦",
-            "穿越重生，她靠弹幕在古代翻身",
-            "截胡攻略文女主，公主的鱼塘炸了"
+            "媚骨生香多位王爷诸侯皆裙下臣",
+            "穿越重生，她靠弹幕在古代翻身"
           ]
         }
       ]
@@ -3351,7 +3403,7 @@
       "name": "快穿",
       "channel": "female",
       "total_books": 20,
-      "blue_count": 27,
+      "blue_count": 28,
       "red_count": 1,
       "tags": [
         {
@@ -3396,23 +3448,25 @@
         },
         {
           "tag": "重生",
-          "count": 2,
-          "density": 0.1,
+          "count": 3,
+          "density": 0.15,
           "level": "blue",
-          "avg_reads": 211000,
+          "avg_reads": 157667,
           "sample_titles": [
             "吃软饭！是人设",
-            "穿成清水文女配，被男主强制爱了"
+            "穿成清水文女配，被男主强制爱了",
+            "快穿：嚣张！黑心莲她恃美行凶"
           ]
         },
         {
           "tag": "年代",
-          "count": 2,
-          "density": 0.1,
+          "count": 3,
+          "density": 0.15,
           "level": "blue",
-          "avg_reads": 201500,
+          "avg_reads": 151333,
           "sample_titles": [
             "吃软饭！是人设",
+            "快穿：嚣张！黑心莲她恃美行凶",
             "快穿年代：对照组觉醒比极品还疯"
           ]
         },
@@ -3424,16 +3478,6 @@
           "avg_reads": 106000,
           "sample_titles": [
             "鬼灭：为你们磕的cp献上be！"
-          ]
-        },
-        {
-          "tag": "空间",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 97000,
-          "sample_titles": [
-            "快穿：偏偏我过得最好"
           ]
         },
         {
@@ -3550,6 +3594,17 @@
           ]
         },
         {
+          "tag": "空间",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 74000,
+          "sample_titles": [
+            "快穿：偏偏我过得最好",
+            "快穿：嚣张！黑心莲她恃美行凶"
+          ]
+        },
+        {
           "tag": "总裁",
           "count": 1,
           "density": 0.05,
@@ -3631,11 +3686,21 @@
           ]
         },
         {
+          "tag": "求生",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 51000,
+          "sample_titles": [
+            "快穿：嚣张！黑心莲她恃美行凶"
+          ]
+        },
+        {
           "tag": "万人迷",
-          "count": 5,
-          "density": 0.25,
+          "count": 4,
+          "density": 0.2,
           "level": "normal",
-          "avg_reads": 96800,
+          "avg_reads": 107250,
           "sample_titles": [
             "加载负面BUFF后成了万人迷",
             "鬼灭：为你们磕的cp献上be！",
@@ -3647,11 +3712,11 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 90600,
+          "avg_reads": 90200,
           "sample_titles": [
             "快穿：炮灰上位，从抢男主开始",
-            "娇软小漂亮天生就要被男人觊觎",
-            "快穿：恶狗又疯又坏总缠着不放"
+            "快穿：恶狗又疯又坏总缠着不放",
+            "娇软小漂亮天生就要被男人觊觎"
           ]
         },
         {
@@ -3661,17 +3726,17 @@
           "level": "normal",
           "avg_reads": 81800,
           "sample_titles": [
-            "娇软小漂亮天生就要被男人觊觎",
             "快穿：恶狗又疯又坏总缠着不放",
+            "娇软小漂亮天生就要被男人觊觎",
             "诱哄！每个世界被偏执系统吻到哭"
           ]
         },
         {
           "tag": "炮灰",
-          "count": 4,
-          "density": 0.2,
+          "count": 5,
+          "density": 0.25,
           "level": "normal",
-          "avg_reads": 81250,
+          "avg_reads": 74800,
           "sample_titles": [
             "快穿：炮灰上位，从抢男主开始",
             "快穿之人渣的宠妻洗白攻略",
@@ -3683,7 +3748,7 @@
           "count": 19,
           "density": 0.95,
           "level": "red",
-          "avg_reads": 102211,
+          "avg_reads": 101895,
           "sample_titles": [
             "吃软饭！是人设",
             "加载负面BUFF后成了万人迷",
@@ -3734,7 +3799,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 146500,
+          "avg_reads": 144000,
           "sample_titles": [
             "漂亮女配觉醒，高冷校草后悔了",
             "穿成捞子前女友和男主网恋翻车后"
@@ -3807,7 +3872,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 99500,
+          "avg_reads": 97000,
           "sample_titles": [
             "大反派的作精女友觉醒后，更作了",
             "穿成捞子前女友和男主网恋翻车后"
@@ -3818,7 +3883,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 89333,
+          "avg_reads": 89667,
           "sample_titles": [
             "宝贝，别对我心软",
             "咬一口糖",
@@ -3852,8 +3917,8 @@
           "level": "blue",
           "avg_reads": 49000,
           "sample_titles": [
-            "杀死那个春夜",
-            "缪斯要分手"
+            "缪斯要分手",
+            "杀死那个春夜"
           ]
         },
         {
@@ -3884,7 +3949,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 150750,
+          "avg_reads": 149500,
           "sample_titles": [
             "许南风，至今夏",
             "重生后，我哄骗呆萌学霸嫁入豪门",
@@ -3900,7 +3965,7 @@
           "sample_titles": [
             "许南风，至今夏",
             "大反派的作精女友觉醒后，更作了",
-            "糜爱"
+            "别缠我！重生贵校特招生只想跑路"
           ]
         },
         {
@@ -3908,7 +3973,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 113000,
+          "avg_reads": 112500,
           "sample_titles": [
             "重生后，我哄骗呆萌学霸嫁入豪门",
             "大反派的作精女友觉醒后，更作了",
@@ -3920,7 +3985,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 105750,
+          "avg_reads": 104500,
           "sample_titles": [
             "玩弄感情的漂亮妹宝是要被狠狠",
             "厌世农村妹也要被少爷强制爱吗？",
@@ -3932,7 +3997,7 @@
           "count": 9,
           "density": 0.45,
           "level": "red",
-          "avg_reads": 97333,
+          "avg_reads": 96778,
           "sample_titles": [
             "漂亮女配觉醒，高冷校草后悔了",
             "重生后，我哄骗呆萌学霸嫁入豪门",
@@ -3944,11 +4009,11 @@
           "count": 9,
           "density": 0.45,
           "level": "red",
-          "avg_reads": 78556,
+          "avg_reads": 78333,
           "sample_titles": [
             "大反派的作精女友觉醒后，更作了",
-            "宝贝，别对我心软",
-            "厌世农村妹也要被少爷强制爱吗？"
+            "厌世农村妹也要被少爷强制爱吗？",
+            "宝贝，别对我心软"
           ]
         }
       ]
@@ -3985,7 +4050,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 69000,
+          "avg_reads": 73000,
           "sample_titles": [
             "全能顶流女星重生，卷疯娱乐圈"
           ]
@@ -3995,7 +4060,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 68000,
+          "avg_reads": 67000,
           "sample_titles": [
             "当高考状元穿成娱乐圈黑红女星",
             "扫射恋爱脑时低头捡钱躲过一劫",
@@ -4029,7 +4094,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 57000,
+          "avg_reads": 54000,
           "sample_titles": [
             "秦导，你拍的剧火爆全球了"
           ]
@@ -4049,20 +4114,9 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 44000,
+          "avg_reads": 45000,
           "sample_titles": [
             "文娱：我在作曲部的搬运日常"
-          ]
-        },
-        {
-          "tag": "炮灰",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 42000,
-          "sample_titles": [
-            "秦导，你拍的剧火爆全球了",
-            "睁眼！神豪的作死前爱播重生了！"
           ]
         },
         {
@@ -4078,11 +4132,22 @@
           ]
         },
         {
+          "tag": "炮灰",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 38500,
+          "sample_titles": [
+            "秦导，你拍的剧火爆全球了",
+            "睁眼！神豪的作死前爱播重生了！"
+          ]
+        },
+        {
           "tag": "公会",
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 32500,
+          "avg_reads": 33000,
           "sample_titles": [
             "团播圈的小透明，神豪们的心尖宠",
             "绿茶主播靠撒娇拿捏神豪团"
@@ -4114,7 +4179,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 25000,
+          "avg_reads": 26000,
           "sample_titles": [
             "绑定文娱系统，搬运歌曲当顶流"
           ]
@@ -4124,7 +4189,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 25000,
+          "avg_reads": 26000,
           "sample_titles": [
             "绑定文娱系统，搬运歌曲当顶流"
           ]
@@ -4154,7 +4219,7 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 65000,
+          "avg_reads": 64800,
           "sample_titles": [
             "小土包男主播，无才但实在貌美",
             "秦导，你拍的剧火爆全球了",
@@ -4166,7 +4231,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 52000,
+          "avg_reads": 53250,
           "sample_titles": [
             "当高考状元穿成娱乐圈黑红女星",
             "全能顶流女星重生，卷疯娱乐圈",
@@ -4178,7 +4243,7 @@
           "count": 7,
           "density": 0.35,
           "level": "normal",
-          "avg_reads": 47714,
+          "avg_reads": 47857,
           "sample_titles": [
             "小土包男主播，无才但实在貌美",
             "团播圈的小透明，神豪们的心尖宠",
@@ -4190,7 +4255,7 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 42200,
+          "avg_reads": 42000,
           "sample_titles": [
             "秦导，你拍的剧火爆全球了",
             "一曲大风吹，吹塌了半个华语乐坛",
@@ -4202,7 +4267,7 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 41400,
+          "avg_reads": 40800,
           "sample_titles": [
             "扫射恋爱脑时低头捡钱躲过一劫",
             "女穿男后我爆红全网",
@@ -4215,7 +4280,7 @@
       "name": "女频悬疑",
       "channel": "female",
       "total_books": 20,
-      "blue_count": 17,
+      "blue_count": 14,
       "red_count": 1,
       "tags": [
         {
@@ -4255,8 +4320,8 @@
           "level": "blue",
           "avg_reads": 30667,
           "sample_titles": [
-            "盗墓：哭啥？不白嫖！管售后的",
             "盗墓：张起灵的兄长总是不安分",
+            "盗墓：哭啥？不白嫖！管售后的",
             "九门月下逢"
           ]
         },
@@ -4281,15 +4346,24 @@
           ]
         },
         {
-          "tag": "万人迷",
-          "count": 3,
-          "density": 0.15,
+          "tag": "民国",
+          "count": 1,
+          "density": 0.05,
           "level": "blue",
-          "avg_reads": 21333,
+          "avg_reads": 25000,
+          "sample_titles": [
+            "盗墓：从档案馆开始人见人爱"
+          ]
+        },
+        {
+          "tag": "同人",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 22500,
           "sample_titles": [
             "盗墓：从档案馆开始人见人爱",
-            "盗墓：开棺挖到黑爷的小福晋",
-            "被阴湿杀人魔盯上后【贵族学院】"
+            "谢邀，刚死，正在贝克街发疯整活"
           ]
         },
         {
@@ -4303,26 +4377,13 @@
           ]
         },
         {
-          "tag": "民国",
-          "count": 2,
-          "density": 0.1,
+          "tag": "大佬",
+          "count": 1,
+          "density": 0.05,
           "level": "blue",
-          "avg_reads": 20500,
+          "avg_reads": 21000,
           "sample_titles": [
-            "盗墓：从档案馆开始人见人爱",
-            "让你去倒斗，你带十条狗？"
-          ]
-        },
-        {
-          "tag": "同人",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 20333,
-          "sample_titles": [
-            "盗墓：从档案馆开始人见人爱",
-            "谢邀，刚死，正在贝克街发疯整活",
-            "让你去倒斗，你带十条狗？"
+            "法医大佬的通灵小娇娇"
           ]
         },
         {
@@ -4336,14 +4397,13 @@
           ]
         },
         {
-          "tag": "大佬",
-          "count": 2,
-          "density": 0.1,
+          "tag": "无敌",
+          "count": 1,
+          "density": 0.05,
           "level": "blue",
-          "avg_reads": 18500,
+          "avg_reads": 18000,
           "sample_titles": [
-            "法医大佬的通灵小娇娇",
-            "让你去倒斗，你带十条狗？"
+            "【盗墓：穿进沙海居然万人迷】"
           ]
         },
         {
@@ -4357,16 +4417,6 @@
           ]
         },
         {
-          "tag": "年代",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 18000,
-          "sample_titles": [
-            "诡秘偷盗者去盗墓专业对口吗？"
-          ]
-        },
-        {
           "tag": "暗恋",
           "count": 1,
           "density": 0.05,
@@ -4377,31 +4427,11 @@
           ]
         },
         {
-          "tag": "谍战",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 16000,
-          "sample_titles": [
-            "让你去倒斗，你带十条狗？"
-          ]
-        },
-        {
-          "tag": "大女主",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 16000,
-          "sample_titles": [
-            "让你去倒斗，你带十条狗？"
-          ]
-        },
-        {
           "tag": "穿越",
-          "count": 6,
-          "density": 0.3,
+          "count": 5,
+          "density": 0.25,
           "level": "normal",
-          "avg_reads": 24500,
+          "avg_reads": 26200,
           "sample_titles": [
             "三七穿越盗墓世界",
             "盗墓：哭啥？不白嫖！管售后的",
@@ -4409,15 +4439,27 @@
           ]
         },
         {
-          "tag": "盗墓",
-          "count": 9,
-          "density": 0.45,
-          "level": "red",
-          "avg_reads": 25444,
+          "tag": "万人迷",
+          "count": 4,
+          "density": 0.2,
+          "level": "normal",
+          "avg_reads": 20500,
           "sample_titles": [
+            "盗墓：从档案馆开始人见人爱",
+            "盗墓：开棺挖到黑爷的小福晋",
+            "被阴湿杀人魔盯上后【贵族学院】"
+          ]
+        },
+        {
+          "tag": "盗墓",
+          "count": 8,
+          "density": 0.4,
+          "level": "red",
+          "avg_reads": 26625,
+          "sample_titles": [
+            "盗墓：张起灵的兄长总是不安分",
             "三七穿越盗墓世界",
-            "盗墓：哭啥？不白嫖！管售后的",
-            "盗墓：张起灵的兄长总是不安分"
+            "盗墓：哭啥？不白嫖！管售后的"
           ]
         }
       ]
@@ -4508,7 +4550,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 74000,
+          "avg_reads": 69000,
           "sample_titles": [
             "网聊翻车！闪婚前发现竟是死对头"
           ]
@@ -4539,7 +4581,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 56667,
+          "avg_reads": 55667,
           "sample_titles": [
             "网聊翻车！闪婚前发现竟是死对头",
             "渐入婚境",
@@ -4571,7 +4613,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 35000,
+          "avg_reads": 39000,
           "sample_titles": [
             "我把婆家赶出门后"
           ]
@@ -4601,7 +4643,7 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 69200,
+          "avg_reads": 69000,
           "sample_titles": [
             "松萝离枝",
             "网聊翻车！闪婚前发现竟是死对头",
@@ -4614,66 +4656,9 @@
       "name": "豪门总裁",
       "channel": "female",
       "total_books": 20,
-      "blue_count": 18,
+      "blue_count": 20,
       "red_count": 1,
       "tags": [
-        {
-          "tag": "女配",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 384333,
-          "sample_titles": [
-            "妹宝假装被催眠，阴湿哥哥上瘾了",
-            "网恋骗了太子爷，四胞胎瞒不住了",
-            "玩玩而已，太子爷怎么集体破防了"
-          ]
-        },
-        {
-          "tag": "先婚后爱",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 374000,
-          "sample_titles": [
-            "妹宝假装被催眠，阴湿哥哥上瘾了",
-            "请品鉴最佳赏味期"
-          ]
-        },
-        {
-          "tag": "穿书",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 338000,
-          "sample_titles": [
-            "妹宝假装被催眠，阴湿哥哥上瘾了",
-            "玩玩而已，太子爷怎么集体破防了",
-            "动不动咳血的我与爱脑补的哥哥们"
-          ]
-        },
-        {
-          "tag": "甜宠",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 333000,
-          "sample_titles": [
-            "温夜潮湿"
-          ]
-        },
-        {
-          "tag": "重生",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 302000,
-          "sample_titles": [
-            "妹宝假装被催眠，阴湿哥哥上瘾了",
-            "网恋奔现跑路，被疯批抓起来囚禁",
-            "他跪她"
-          ]
-        },
         {
           "tag": "腹黑",
           "count": 2,
@@ -4686,14 +4671,49 @@
           ]
         },
         {
-          "tag": "炮灰",
+          "tag": "甜宠",
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 177000,
+          "avg_reads": 220000,
           "sample_titles": [
+            "温夜潮湿",
+            "身为炮灰女配怎么办？考公上岸"
+          ]
+        },
+        {
+          "tag": "女配",
+          "count": 3,
+          "density": 0.15,
+          "level": "blue",
+          "avg_reads": 208333,
+          "sample_titles": [
+            "玩玩而已，太子爷怎么集体破防了",
             "网恋骗了太子爷，四胞胎瞒不住了",
-            "恶毒炮灰太貌美，大佬总想亲她嘴"
+            "身为炮灰女配怎么办？考公上岸"
+          ]
+        },
+        {
+          "tag": "穿书",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 189500,
+          "sample_titles": [
+            "玩玩而已，太子爷怎么集体破防了",
+            "动不动咳血的我与爱脑补的哥哥们"
+          ]
+        },
+        {
+          "tag": "豪门",
+          "count": 3,
+          "density": 0.15,
+          "level": "blue",
+          "avg_reads": 188667,
+          "sample_titles": [
+            "温夜潮湿",
+            "动不动咳血的我与爱脑补的哥哥们",
+            "请品鉴最佳赏味期"
           ]
         },
         {
@@ -4701,7 +4721,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 164500,
+          "avg_reads": 165000,
           "sample_titles": [
             "金丝雀守则，别拆穿大佬装瞎",
             "卡他失忆哄离婚，病娇又又失控了"
@@ -4718,6 +4738,29 @@
           ]
         },
         {
+          "tag": "炮灰",
+          "count": 3,
+          "density": 0.15,
+          "level": "blue",
+          "avg_reads": 153667,
+          "sample_titles": [
+            "网恋骗了太子爷，四胞胎瞒不住了",
+            "身为炮灰女配怎么办？考公上岸",
+            "恶毒炮灰太貌美，大佬总想亲她嘴"
+          ]
+        },
+        {
+          "tag": "重生",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 138000,
+          "sample_titles": [
+            "网恋奔现跑路，被疯批抓起来囚禁",
+            "他跪她"
+          ]
+        },
+        {
           "tag": "宅斗",
           "count": 1,
           "density": 0.05,
@@ -4725,6 +4768,17 @@
           "avg_reads": 120000,
           "sample_titles": [
             "动不动咳血的我与爱脑补的哥哥们"
+          ]
+        },
+        {
+          "tag": "追妻",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 117000,
+          "sample_titles": [
+            "囚锁娇颜，疯批四爷强取豪夺",
+            "酌雪惊澜"
           ]
         },
         {
@@ -4738,14 +4792,33 @@
           ]
         },
         {
-          "tag": "追妻",
-          "count": 2,
-          "density": 0.1,
+          "tag": "先婚后爱",
+          "count": 1,
+          "density": 0.05,
           "level": "blue",
-          "avg_reads": 115500,
+          "avg_reads": 113000,
           "sample_titles": [
-            "酌雪惊澜",
-            "囚锁娇颜，疯批四爷强取豪夺"
+            "请品鉴最佳赏味期"
+          ]
+        },
+        {
+          "tag": "暗恋",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 108000,
+          "sample_titles": [
+            "原创乙女向短篇"
+          ]
+        },
+        {
+          "tag": "清冷",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 108000,
+          "sample_titles": [
+            "原创乙女向短篇"
           ]
         },
         {
@@ -4760,23 +4833,13 @@
           ]
         },
         {
-          "tag": "暗恋",
+          "tag": "反派",
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 105000,
+          "avg_reads": 107000,
           "sample_titles": [
-            "原创乙女向短篇"
-          ]
-        },
-        {
-          "tag": "清冷",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 105000,
-          "sample_titles": [
-            "原创乙女向短篇"
+            "身为炮灰女配怎么办？考公上岸"
           ]
         },
         {
@@ -4784,7 +4847,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 103000,
+          "avg_reads": 101000,
           "sample_titles": [
             "原创乙女向短篇",
             "和老板被困小渔村，日夜同床共枕"
@@ -4811,27 +4874,15 @@
           ]
         },
         {
-          "tag": "豪门",
+          "tag": "强制爱",
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 300250,
+          "avg_reads": 196000,
           "sample_titles": [
-            "妹宝假装被催眠，阴湿哥哥上瘾了",
             "温夜潮湿",
-            "动不动咳血的我与爱脑补的哥哥们"
-          ]
-        },
-        {
-          "tag": "强制爱",
-          "count": 5,
-          "density": 0.25,
-          "level": "normal",
-          "avg_reads": 283600,
-          "sample_titles": [
-            "妹宝假装被催眠，阴湿哥哥上瘾了",
-            "温夜潮湿",
-            "网恋奔现跑路，被疯批抓起来囚禁"
+            "网恋奔现跑路，被疯批抓起来囚禁",
+            "逃不掉！疯批大佬的囚宠"
           ]
         },
         {
@@ -4839,7 +4890,7 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 144800,
+          "avg_reads": 144200,
           "sample_titles": [
             "金丝雀守则，别拆穿大佬装瞎",
             "逃不掉！疯批大佬的囚宠",
@@ -4848,14 +4899,14 @@
         },
         {
           "tag": "双洁",
-          "count": 11,
-          "density": 0.55,
+          "count": 10,
+          "density": 0.5,
           "level": "red",
-          "avg_reads": 257909,
+          "avg_reads": 222100,
           "sample_titles": [
-            "妹宝假装被催眠，阴湿哥哥上瘾了",
             "春夜溺吻",
-            "温夜潮湿"
+            "温夜潮湿",
+            "人前禁欲，夜里沉溺"
           ]
         }
       ]
@@ -4864,7 +4915,7 @@
       "name": "民国言情",
       "channel": "female",
       "total_books": 20,
-      "blue_count": 17,
+      "blue_count": 19,
       "red_count": 0,
       "tags": [
         {
@@ -4899,6 +4950,18 @@
           ]
         },
         {
+          "tag": "同人",
+          "count": 3,
+          "density": 0.15,
+          "level": "blue",
+          "avg_reads": 18822,
+          "sample_titles": [
+            "穿成翠萍妹妹后，我攻略了李涯",
+            "盗墓之黄泉的角色扮演",
+            "潜伏：渡尘缘"
+          ]
+        },
+        {
           "tag": "年代",
           "count": 1,
           "density": 0.05,
@@ -4910,16 +4973,6 @@
         },
         {
           "tag": "豪门",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 16000,
-          "sample_titles": [
-            "令颐小姐：干妈是个交际花"
-          ]
-        },
-        {
-          "tag": "大佬",
           "count": 1,
           "density": 0.05,
           "level": "blue",
@@ -4946,6 +4999,17 @@
           "avg_reads": 14000,
           "sample_titles": [
             "我在老九门打工那些年"
+          ]
+        },
+        {
+          "tag": "大佬",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 9864,
+          "sample_titles": [
+            "令颐小姐：干妈是个交际花",
+            "盗墓：穿成八爷徒弟，拐走楼侠"
           ]
         },
         {
@@ -5039,11 +5103,21 @@
           ]
         },
         {
+          "tag": "傲娇",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 3729,
+          "sample_titles": [
+            "盗墓：穿成八爷徒弟，拐走楼侠"
+          ]
+        },
+        {
           "tag": "盗墓",
-          "count": 4,
-          "density": 0.2,
+          "count": 5,
+          "density": 0.25,
           "level": "normal",
-          "avg_reads": 21899,
+          "avg_reads": 18265,
           "sample_titles": [
             "身穿老九门，恶犬她要贴身驯养",
             "老九门之九门攻略手册",
@@ -5051,23 +5125,11 @@
           ]
         },
         {
-          "tag": "同人",
-          "count": 4,
-          "density": 0.2,
-          "level": "normal",
-          "avg_reads": 15802,
-          "sample_titles": [
-            "穿成翠萍妹妹后，我攻略了李涯",
-            "穿进盗笔后我成了张海琪妹妹？",
-            "盗墓之黄泉的角色扮演"
-          ]
-        },
-        {
           "tag": "民国",
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 9265,
+          "avg_reads": 9393,
           "sample_titles": [
             "民国爱情：烟雨长安渡",
             "丑村姑靠签到积分提升美貌",
@@ -5098,7 +5160,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 134000,
+          "avg_reads": 133000,
           "sample_titles": [
             "领主巫师：从无限魔晶开始求学！"
           ]
@@ -5114,22 +5176,11 @@
           ]
         },
         {
-          "tag": "血脉",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 98500,
-          "sample_titles": [
-            "怪物图鉴：从哥布林血脉开始",
-            "穿越异界，我靠剑道成神"
-          ]
-        },
-        {
           "tag": "种田",
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 92500,
+          "avg_reads": 92000,
           "sample_titles": [
             "领主巫师：从无限魔晶开始求学！",
             "开星舰，炸骑士，抓超大号女精灵"
@@ -5140,21 +5191,9 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 92500,
+          "avg_reads": 92000,
           "sample_titles": [
             "领主巫师：从无限魔晶开始求学！",
-            "开星舰，炸骑士，抓超大号女精灵"
-          ]
-        },
-        {
-          "tag": "领主",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 90667,
-          "sample_titles": [
-            "领主巫师：从无限魔晶开始求学！",
-            "恶役领主只想洗白上岸",
             "开星舰，炸骑士，抓超大号女精灵"
           ]
         },
@@ -5169,13 +5208,15 @@
           ]
         },
         {
-          "tag": "争霸",
-          "count": 1,
-          "density": 0.05,
+          "tag": "血脉",
+          "count": 3,
+          "density": 0.15,
           "level": "blue",
-          "avg_reads": 78000,
+          "avg_reads": 78333,
           "sample_titles": [
-            "穿越异界，我居然成了绝美母亲？"
+            "怪物图鉴：从哥布林血脉开始",
+            "穿越异界，我靠剑道成神",
+            "西幻领主：巨人放纵点怎么了？"
           ]
         },
         {
@@ -5196,6 +5237,17 @@
           "avg_reads": 60000,
           "sample_titles": [
             "转生史莱姆：我死亡就能变强"
+          ]
+        },
+        {
+          "tag": "争霸",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 56500,
+          "sample_titles": [
+            "穿越异界，我居然成了绝美母亲？",
+            "西幻领主：巨人放纵点怎么了？"
           ]
         },
         {
@@ -5239,6 +5291,16 @@
           ]
         },
         {
+          "tag": "病娇",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 49000,
+          "sample_titles": [
+            "从词条开始的奇幻冒险"
+          ]
+        },
+        {
           "tag": "特种兵",
           "count": 1,
           "density": 0.05,
@@ -5259,24 +5321,35 @@
           ]
         },
         {
-          "tag": "病娇",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 42000,
-          "sample_titles": [
-            "从词条开始的奇幻冒险",
-            "变身欢愉魔女，养出病娇女魔王"
-          ]
-        },
-        {
-          "tag": "强制爱",
+          "tag": "诸天",
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 37000,
+          "avg_reads": 39000,
           "sample_titles": [
-            "变身欢愉魔女，养出病娇女魔王"
+            "西幻领主：巨人放纵点怎么了？"
+          ]
+        },
+        {
+          "tag": "杀伐果断",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 39000,
+          "sample_titles": [
+            "西幻领主：巨人放纵点怎么了？"
+          ]
+        },
+        {
+          "tag": "领主",
+          "count": 4,
+          "density": 0.2,
+          "level": "normal",
+          "avg_reads": 77500,
+          "sample_titles": [
+            "领主巫师：从无限魔晶开始求学！",
+            "恶役领主只想洗白上岸",
+            "开星舰，炸骑士，抓超大号女精灵"
           ]
         },
         {
@@ -5284,10 +5357,10 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 71250,
+          "avg_reads": 70250,
           "sample_titles": [
-            "穿越异界，我居然成了绝美母亲？",
             "异世界：我的数值无上限",
+            "穿越异界，我居然成了绝美母亲？",
             "混成勇者，你告诉我魔王军是华夏"
           ]
         },
@@ -5296,7 +5369,7 @@
           "count": 13,
           "density": 0.65,
           "level": "red",
-          "avg_reads": 62615,
+          "avg_reads": 62846,
           "sample_titles": [
             "领主巫师：从无限魔晶开始求学！",
             "魔龙与地下城：恶龙请求出狱",
@@ -5309,7 +5382,7 @@
       "name": "东方仙侠",
       "channel": "male",
       "total_books": 20,
-      "blue_count": 18,
+      "blue_count": 20,
       "red_count": 0,
       "tags": [
         {
@@ -5317,7 +5390,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 80500,
+          "avg_reads": 78000,
           "sample_titles": [
             "封印神源百万年，悟性每天翻倍",
             "洪荒：重生红云，人间清醒！"
@@ -5328,7 +5401,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 61000,
+          "avg_reads": 66000,
           "sample_titles": [
             "修仙：从觉醒极品灵根开始"
           ]
@@ -5338,7 +5411,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 61000,
+          "avg_reads": 66000,
           "sample_titles": [
             "修仙：从觉醒极品灵根开始"
           ]
@@ -5404,16 +5477,6 @@
           ]
         },
         {
-          "tag": "腹黑",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 55000,
-          "sample_titles": [
-            "什么叫宗门团建，但奖品是我？"
-          ]
-        },
-        {
           "tag": "万人迷",
           "count": 1,
           "density": 0.05,
@@ -5421,27 +5484,6 @@
           "avg_reads": 55000,
           "sample_titles": [
             "什么叫宗门团建，但奖品是我？"
-          ]
-        },
-        {
-          "tag": "洪荒",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 48000,
-          "sample_titles": [
-            "西游：通天之子，让截教再次伟大",
-            "洪荒：重生红云，人间清醒！"
-          ]
-        },
-        {
-          "tag": "经营",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 46000,
-          "sample_titles": [
-            "洪荒：重生红云，人间清醒！"
           ]
         },
         {
@@ -5455,14 +5497,46 @@
           ]
         },
         {
-          "tag": "病娇",
+          "tag": "洪荒",
           "count": 2,
           "density": 0.1,
           "level": "blue",
           "avg_reads": 45500,
           "sample_titles": [
+            "西游：通天之子，让截教再次伟大",
+            "洪荒：重生红云，人间清醒！"
+          ]
+        },
+        {
+          "tag": "病娇",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 45000,
+          "sample_titles": [
             "什么叫宗门团建，但奖品是我？",
             "不努力就会成为病娇仙子的玩物"
+          ]
+        },
+        {
+          "tag": "腹黑",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 45000,
+          "sample_titles": [
+            "什么叫宗门团建，但奖品是我？",
+            "刚进宗门，就睡出个绝美师尊老婆"
+          ]
+        },
+        {
+          "tag": "经营",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 41000,
+          "sample_titles": [
+            "洪荒：重生红云，人间清醒！"
           ]
         },
         {
@@ -5470,7 +5544,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 41500,
+          "avg_reads": 39000,
           "sample_titles": [
             "洪荒：重生红云，人间清醒！",
             "开始万倍加速空间，芶在最强宗门"
@@ -5481,7 +5555,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 41500,
+          "avg_reads": 39000,
           "sample_titles": [
             "洪荒：重生红云，人间清醒！",
             "开始万倍加速空间，芶在最强宗门"
@@ -5498,11 +5572,31 @@
           ]
         },
         {
+          "tag": "血脉",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 35000,
+          "sample_titles": [
+            "刚进宗门，就睡出个绝美师尊老婆"
+          ]
+        },
+        {
+          "tag": "扮猪吃虎",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 35000,
+          "sample_titles": [
+            "刚进宗门，就睡出个绝美师尊老婆"
+          ]
+        },
+        {
           "tag": "修仙",
-          "count": 6,
-          "density": 0.3,
+          "count": 7,
+          "density": 0.35,
           "level": "normal",
-          "avg_reads": 53667,
+          "avg_reads": 51571,
           "sample_titles": [
             "捡来的妹妹修仙后，回来抢亲了",
             "说好养成系炉鼎，女魔头全沦陷了",
@@ -5514,7 +5608,7 @@
           "count": 7,
           "density": 0.35,
           "level": "normal",
-          "avg_reads": 51286,
+          "avg_reads": 50429,
           "sample_titles": [
             "说好养成系炉鼎，女魔头全沦陷了",
             "什么叫宗门团建，但奖品是我？",
@@ -5523,10 +5617,10 @@
         },
         {
           "tag": "无敌",
-          "count": 4,
-          "density": 0.2,
+          "count": 5,
+          "density": 0.25,
           "level": "normal",
-          "avg_reads": 48500,
+          "avg_reads": 46000,
           "sample_titles": [
             "出身太阳的我，横推万古！",
             "家有仙妻不对劲，她也是穿越者！",
@@ -5536,215 +5630,10 @@
       ]
     },
     {
-      "name": "科幻末世",
-      "channel": "male",
-      "total_books": 20,
-      "blue_count": 15,
-      "red_count": 1,
-      "tags": [
-        {
-          "tag": "杀伐果断",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 339000,
-          "sample_titles": [
-            "末世选择：开局一亿只美洲大蠊"
-          ]
-        },
-        {
-          "tag": "群像",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 244500,
-          "sample_titles": [
-            "末世选择：开局一亿只美洲大蠊",
-            "末日灾变序列"
-          ]
-        },
-        {
-          "tag": "诡异",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 175333,
-          "sample_titles": [
-            "末世选择：开局一亿只美洲大蠊",
-            "旧日家族求生，我家族谱全是禁忌",
-            "末日逃亡车队，我乃器道仙师"
-          ]
-        },
-        {
-          "tag": "签到",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 128000,
-          "sample_titles": [
-            "都末世了，你们还想当版本T0？"
-          ]
-        },
-        {
-          "tag": "废土",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 120000,
-          "sample_titles": [
-            "旧日家族求生，我家族谱全是禁忌"
-          ]
-        },
-        {
-          "tag": "天灾",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 80000,
-          "sample_titles": [
-            "瘟疫模拟：开局投放Necroa",
-            "列车求生，我每天获得永久增益",
-            "末日逃亡车队，我乃器道仙师"
-          ]
-        },
-        {
-          "tag": "历史",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 77000,
-          "sample_titles": [
-            "瘟疫模拟：开局投放Necroa",
-            "十日末世降临，我能推演人类未来"
-          ]
-        },
-        {
-          "tag": "无敌",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 67000,
-          "sample_titles": [
-            "末日逃亡车队，我乃器道仙师"
-          ]
-        },
-        {
-          "tag": "苟道",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 66000,
-          "sample_titles": [
-            "迷雾求生：开局推演神机百炼！"
-          ]
-        },
-        {
-          "tag": "基建",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 66000,
-          "sample_titles": [
-            "迷雾求生：开局推演神机百炼！"
-          ]
-        },
-        {
-          "tag": "基建",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 66000,
-          "sample_titles": [
-            "迷雾求生：开局推演神机百炼！"
-          ]
-        },
-        {
-          "tag": "星际",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 62000,
-          "sample_titles": [
-            "列车求生，我每天获得永久增益",
-            "黑科技巨企：我建立了保护伞公司"
-          ]
-        },
-        {
-          "tag": "修仙",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 57500,
-          "sample_titles": [
-            "迷雾求生：开局推演神机百炼！",
-            "抱歉，合欢功法对女丧尸也有效"
-          ]
-        },
-        {
-          "tag": "空间",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 56667,
-          "sample_titles": [
-            "迷雾求生：开局推演神机百炼！",
-            "公路求生：重生觉醒空间序列",
-            "黑科技巨企：我建立了保护伞公司"
-          ]
-        },
-        {
-          "tag": "重生",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 52000,
-          "sample_titles": [
-            "公路求生：重生觉醒空间序列"
-          ]
-        },
-        {
-          "tag": "穿越",
-          "count": 6,
-          "density": 0.3,
-          "level": "normal",
-          "avg_reads": 76167,
-          "sample_titles": [
-            "旧日家族求生，我家族谱全是禁忌",
-            "末世的UN小队",
-            "求生：变身萝莉，开局被强制契约"
-          ]
-        },
-        {
-          "tag": "末日",
-          "count": 6,
-          "density": 0.3,
-          "level": "normal",
-          "avg_reads": 75333,
-          "sample_titles": [
-            "末日灾变序列",
-            "末日：无限强化？开局强化我自己",
-            "末日逃亡车队，我乃器道仙师"
-          ]
-        },
-        {
-          "tag": "求生",
-          "count": 11,
-          "density": 0.55,
-          "level": "red",
-          "avg_reads": 104364,
-          "sample_titles": [
-            "末世选择：开局一亿只美洲大蠊",
-            "末日灾变序列",
-            "旧日家族求生，我家族谱全是禁忌"
-          ]
-        }
-      ]
-    },
-    {
       "name": "都市日常",
       "channel": "male",
       "total_books": 20,
-      "blue_count": 18,
+      "blue_count": 16,
       "red_count": 0,
       "tags": [
         {
@@ -5790,26 +5679,6 @@
           ]
         },
         {
-          "tag": "追夫",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 136000,
-          "sample_titles": [
-            "离婚后，冰山警花追夫杀疯了！"
-          ]
-        },
-        {
-          "tag": "悬疑",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 136000,
-          "sample_titles": [
-            "离婚后，冰山警花追夫杀疯了！"
-          ]
-        },
-        {
           "tag": "大女主",
           "count": 1,
           "density": 0.05,
@@ -5836,7 +5705,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 113500,
+          "avg_reads": 111000,
           "sample_titles": [
             "京圈世家小少爷：魔都校园遇群芳",
             "在校高冷女教授，回家找我要亲亲"
@@ -5847,7 +5716,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 112000,
+          "avg_reads": 111000,
           "sample_titles": [
             "我是替身？你问我老婆知道这事吗"
           ]
@@ -5857,7 +5726,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 104500,
+          "avg_reads": 104000,
           "sample_titles": [
             "我是替身？你问我老婆知道这事吗",
             "不娶还敢撩？再跑就把你关起来"
@@ -5939,7 +5808,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 143500,
+          "avg_reads": 145500,
           "sample_titles": [
             "远离男主保命！校花后宫倒追我？",
             "反派老婆破产后，她们都盯上我？",
@@ -5951,7 +5820,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 109750,
+          "avg_reads": 111750,
           "sample_titles": [
             "女多男少，开局被瓦学妹喊爸爸",
             "穿书成富二代，我直接救赎女主",
@@ -5963,7 +5832,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 101750,
+          "avg_reads": 100250,
           "sample_titles": [
             "京圈世家小少爷：魔都校园遇群芳",
             "老婆本地刀枪炮，高考后我认命了",
@@ -5984,7 +5853,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 114000,
+          "avg_reads": 129000,
           "sample_titles": [
             "灵气复苏：别装了，华夏真有仙！"
           ]
@@ -5994,7 +5863,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 114000,
+          "avg_reads": 129000,
           "sample_titles": [
             "灵气复苏：别装了，华夏真有仙！"
           ]
@@ -6086,7 +5955,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 39000,
+          "avg_reads": 38000,
           "sample_titles": [
             "日夜，征服"
           ]
@@ -6116,7 +5985,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 92500,
+          "avg_reads": 98250,
           "sample_titles": [
             "灵气复苏：开局获得呼吸法",
             "灵气复苏：别装了，华夏真有仙！",
@@ -6128,7 +5997,7 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 52600,
+          "avg_reads": 55200,
           "sample_titles": [
             "暑假失踪，开学归来成元婴老祖！",
             "暑假兼职龙虎山，你修成仙帝了？",
@@ -6140,11 +6009,11 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 45800,
+          "avg_reads": 46800,
           "sample_titles": [
             "暑假失踪，开学归来成元婴老祖！",
-            "夜夜深夜，征服！",
-            "从修仙回到都市，坏消息修为没了"
+            "从修仙回到都市，坏消息修为没了",
+            "夜夜深夜，征服！"
           ]
         },
         {
@@ -6154,8 +6023,8 @@
           "level": "normal",
           "avg_reads": 40500,
           "sample_titles": [
-            "叶家疯子",
             "从修仙回到都市，坏消息修为没了",
+            "叶家疯子",
             "僵约：我是况天佑他大哥"
           ]
         }
@@ -6168,6 +6037,16 @@
       "blue_count": 22,
       "red_count": 2,
       "tags": [
+        {
+          "tag": "杀伐果断",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 291000,
+          "sample_titles": [
+            "每天属性翻一倍，我黑化爆杀一切"
+          ]
+        },
         {
           "tag": "动漫",
           "count": 1,
@@ -6183,7 +6062,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 260000,
+          "avg_reads": 240000,
           "sample_titles": [
             "全民地仙：开局紫金葫芦辟福地"
           ]
@@ -6193,20 +6072,9 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 260000,
+          "avg_reads": 240000,
           "sample_titles": [
             "全民地仙：开局紫金葫芦辟福地"
-          ]
-        },
-        {
-          "tag": "杀伐果断",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 244000,
-          "sample_titles": [
-            "每天属性翻一倍，我黑化爆杀一切",
-            "F级弓箭手弱？可我能一箭诛神"
           ]
         },
         {
@@ -6214,7 +6082,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 237000,
+          "avg_reads": 232000,
           "sample_titles": [
             "猎魔人小姐，我真不是血族",
             "在人气至上的世界扮演最强反派"
@@ -6232,22 +6100,11 @@
           ]
         },
         {
-          "tag": "副本",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 147000,
-          "sample_titles": [
-            "F级弓箭手弱？可我能一箭诛神",
-            "觉醒：EX级法师，开局无限火力"
-          ]
-        },
-        {
           "tag": "直播",
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 121500,
+          "avg_reads": 121000,
           "sample_titles": [
             "全班同学拜大宗师，我拜菩提祖师",
             "在人气至上的世界扮演最强反派"
@@ -6258,19 +6115,9 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 116000,
+          "avg_reads": 119000,
           "sample_titles": [
             "全民神祇：别人修仙道，我立魔道"
-          ]
-        },
-        {
-          "tag": "领主",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 110000,
-          "sample_titles": [
-            "领主：开局一金商店获得丰饶圣女"
           ]
         },
         {
@@ -6296,6 +6143,37 @@
           ]
         },
         {
+          "tag": "升级流",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 107000,
+          "sample_titles": [
+            "觉醒：EX级法师，开局无限火力"
+          ]
+        },
+        {
+          "tag": "副本",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 107000,
+          "sample_titles": [
+            "觉醒：EX级法师，开局无限火力"
+          ]
+        },
+        {
+          "tag": "领主",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 103500,
+          "sample_titles": [
+            "领主：开局一金商店获得丰饶圣女",
+            "全民领主：每日一个阿斯塔特"
+          ]
+        },
+        {
           "tag": "重生",
           "count": 1,
           "density": 0.05,
@@ -6306,43 +6184,14 @@
           ]
         },
         {
-          "tag": "无敌流",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 99000,
-          "sample_titles": [
-            "在人气至上的世界扮演最强反派"
-          ]
-        },
-        {
-          "tag": "无CP",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 99000,
-          "sample_titles": [
-            "在人气至上的世界扮演最强反派"
-          ]
-        },
-        {
-          "tag": "升级流",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 97000,
-          "sample_titles": [
-            "觉醒：EX级法师，开局无限火力"
-          ]
-        },
-        {
           "tag": "空间",
-          "count": 1,
-          "density": 0.05,
+          "count": 2,
+          "density": 0.1,
           "level": "blue",
-          "avg_reads": 96000,
+          "avg_reads": 96500,
           "sample_titles": [
-            "一堆华丽的技能里出现了一个劲大"
+            "一堆华丽的技能里出现了一个劲大",
+            "全民领主：每日一个阿斯塔特"
           ]
         },
         {
@@ -6353,6 +6202,16 @@
           "avg_reads": 95000,
           "sample_titles": [
             "一身因果律，这初生竟然无敌了？"
+          ]
+        },
+        {
+          "tag": "求生",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 95000,
+          "sample_titles": [
+            "上交锁血光环，华夏全军不死"
           ]
         },
         {
@@ -6387,14 +6246,23 @@
           ]
         },
         {
-          "tag": "求生",
-          "count": 2,
-          "density": 0.1,
+          "tag": "无敌流",
+          "count": 1,
+          "density": 0.05,
           "level": "blue",
-          "avg_reads": 88500,
+          "avg_reads": 89000,
           "sample_titles": [
-            "上交锁血光环，华夏全军不死",
-            "国运列车求生，而我扮演姬子启行"
+            "在人气至上的世界扮演最强反派"
+          ]
+        },
+        {
+          "tag": "无CP",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 89000,
+          "sample_titles": [
+            "在人气至上的世界扮演最强反派"
           ]
         },
         {
@@ -6402,7 +6270,7 @@
           "count": 8,
           "density": 0.4,
           "level": "red",
-          "avg_reads": 135125,
+          "avg_reads": 135375,
           "sample_titles": [
             "每天属性翻一倍，我黑化爆杀一切",
             "全班同学拜大宗师，我拜菩提祖师",
@@ -6414,11 +6282,11 @@
           "count": 12,
           "density": 0.6,
           "level": "red",
-          "avg_reads": 134500,
+          "avg_reads": 125083,
           "sample_titles": [
-            "全民地仙：开局紫金葫芦辟福地",
             "全民英雄协会：开局招募一拳光头",
-            "F级弓箭手弱？可我能一箭诛神"
+            "全民地仙：开局紫金葫芦辟福地",
+            "全民神祇：别人修仙道，我立魔道"
           ]
         }
       ]
@@ -6456,21 +6324,11 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 81333,
+          "avg_reads": 74333,
           "sample_titles": [
             "大唐：玄武门前夜，我绑父投秦王",
             "家父造反成功，我被迫成为皇太子",
             "什么叫我成了普鲁士的公主殿下？"
-          ]
-        },
-        {
-          "tag": "经营",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 69000,
-          "sample_titles": [
-            "家父造反成功，我被迫成为皇太子"
           ]
         },
         {
@@ -6492,6 +6350,16 @@
           "sample_titles": [
             "大唐：开局死囚，我遇见了李承乾",
             "崖上人家"
+          ]
+        },
+        {
+          "tag": "经营",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 48000,
+          "sample_titles": [
+            "家父造反成功，我被迫成为皇太子"
           ]
         },
         {
@@ -6536,23 +6404,23 @@
           ]
         },
         {
-          "tag": "病娇",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 34000,
-          "sample_titles": [
-            "病娇长公主疯狂迷恋我"
-          ]
-        },
-        {
           "tag": "争霸",
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 32000,
+          "avg_reads": 35000,
           "sample_titles": [
             "管亥托孤，我带领黄巾争霸天下"
+          ]
+        },
+        {
+          "tag": "病娇",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 29000,
+          "sample_titles": [
+            "病娇长公主疯狂迷恋我"
           ]
         },
         {
@@ -6560,11 +6428,11 @@
           "count": 9,
           "density": 0.45,
           "level": "red",
-          "avg_reads": 65444,
+          "avg_reads": 63000,
           "sample_titles": [
             "穿成大周宰相，皇后腰疼关我啥事",
-            "家父造反成功，我被迫成为皇太子",
-            "陛下，这个也要娶吗？"
+            "陛下，这个也要娶吗？",
+            "大唐：开局死囚，我遇见了李承乾"
           ]
         }
       ]
@@ -6654,7 +6522,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 14232,
+          "avg_reads": 14209,
           "sample_titles": [
             "我抢了短剧受气男主的重生！",
             "报告苏总，您找的赘婿是龙神殿主",
@@ -6663,13 +6531,14 @@
         },
         {
           "tag": "战神",
-          "count": 2,
-          "density": 0.1,
+          "count": 3,
+          "density": 0.15,
           "level": "blue",
-          "avg_reads": 10598,
+          "avg_reads": 7979,
           "sample_titles": [
             "战神归乡，才发现家没了",
-            "战神归来：女总裁的贴身兵王"
+            "战神归来：女总裁的贴身兵王",
+            "战神归来：女儿被欺"
           ]
         },
         {
@@ -6733,8 +6602,8 @@
           "avg_reads": 16672,
           "sample_titles": [
             "开局四选一，我选成为沪圈少爷！",
-            "废物赘婿：原来是隐藏大佬",
-            "离婚后，九个绝色尤物找上门"
+            "离婚后，九个绝色尤物找上门",
+            "废物赘婿：原来是隐藏大佬"
           ]
         },
         {
@@ -6742,11 +6611,11 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 5351,
+          "avg_reads": 5334,
           "sample_titles": [
             "报告苏总，您找的赘婿是龙神殿主",
-            "战神归来：女总裁的贴身兵王",
-            "都市兵王：龙隐邕城"
+            "都市兵王：龙隐邕城",
+            "战神归来：女总裁的贴身兵王"
           ]
         },
         {
@@ -6756,8 +6625,8 @@
           "level": "normal",
           "avg_reads": 3966,
           "sample_titles": [
-            "战神归来：女总裁的贴身兵王",
             "都市兵王：龙隐邕城",
+            "战神归来：女总裁的贴身兵王",
             "超级保镖与刁蛮千金"
           ]
         }
@@ -6778,16 +6647,6 @@
           "avg_reads": 120000,
           "sample_titles": [
             "开局知青下乡，我选择偷渡香港"
-          ]
-        },
-        {
-          "tag": "娱乐圈",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 71000,
-          "sample_titles": [
-            "重生：开局拿下杨老板进军娱乐圈"
           ]
         },
         {
@@ -6822,6 +6681,16 @@
           "avg_reads": 68000,
           "sample_titles": [
             "下乡？下什么乡？我那是回老家！"
+          ]
+        },
+        {
+          "tag": "娱乐圈",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 65000,
+          "sample_titles": [
+            "重生：开局拿下杨老板进军娱乐圈"
           ]
         },
         {
@@ -6870,7 +6739,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 50000,
+          "avg_reads": 49000,
           "sample_titles": [
             "小城市遇逼婚，股票神预知暴富"
           ]
@@ -6880,7 +6749,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 42000,
+          "avg_reads": 41500,
           "sample_titles": [
             "丰腴美媳龙凤胎，重生八零闯天家",
             "重生81从保下超生儿子开始逆袭"
@@ -6913,10 +6782,10 @@
           "count": 8,
           "density": 0.4,
           "level": "red",
-          "avg_reads": 74875,
+          "avg_reads": 74750,
           "sample_titles": [
-            "村长，收手吧，外面全是套路！",
             "开局知青下乡，我选择偷渡香港",
+            "村长，收手吧，外面全是套路！",
             "1985，出租车司机的悠闲生活"
           ]
         },
@@ -6925,11 +6794,11 @@
           "count": 10,
           "density": 0.5,
           "level": "red",
-          "avg_reads": 61300,
+          "avg_reads": 62100,
           "sample_titles": [
             "重生98：带百万兄弟搞工业",
-            "重生：开局拿下杨老板进军娱乐圈",
-            "赶海：代娶丰腴美人，娇宠俏媳妇"
+            "赶海：代娶丰腴美人，娇宠俏媳妇",
+            "重生：开局拿下杨老板进军娱乐圈"
           ]
         }
       ]
@@ -6941,16 +6810,6 @@
       "blue_count": 18,
       "red_count": 0,
       "tags": [
-        {
-          "tag": "武道",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 47000,
-          "sample_titles": [
-            "蛮荒武道：我的战斧开挂了"
-          ]
-        },
         {
           "tag": "诸天",
           "count": 3,
@@ -7004,6 +6863,18 @@
           ]
         },
         {
+          "tag": "清冷",
+          "count": 3,
+          "density": 0.15,
+          "level": "blue",
+          "avg_reads": 39333,
+          "sample_titles": [
+            "什么？夺舍完你才告诉我她是女的",
+            "说好清清白白，咋成了黑化修罗场",
+            "什么？病娇宿敌也跟着重生了？"
+          ]
+        },
+        {
           "tag": "杀伐果断",
           "count": 2,
           "density": 0.1,
@@ -7042,31 +6913,9 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 35500,
-          "sample_titles": [
-            "反派家主：开局砍掉女主双臂",
-            "神邸世界：神国中有棵世界树"
-          ]
-        },
-        {
-          "tag": "清冷",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 35333,
-          "sample_titles": [
-            "说好清清白白，咋成了黑化修罗场",
-            "什么？病娇宿敌也跟着重生了？",
-            "什么？夺舍完你才告诉我她是女的"
-          ]
-        },
-        {
-          "tag": "反派",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
           "avg_reads": 35000,
           "sample_titles": [
+            "神邸世界：神国中有棵世界树",
             "反派家主：开局砍掉女主双臂"
           ]
         },
@@ -7078,6 +6927,16 @@
           "avg_reads": 34000,
           "sample_titles": [
             "什么？病娇宿敌也跟着重生了？"
+          ]
+        },
+        {
+          "tag": "反派",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 34000,
+          "sample_titles": [
+            "反派家主：开局砍掉女主双臂"
           ]
         },
         {
@@ -7133,11 +6992,21 @@
           ]
         },
         {
+          "tag": "年代",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 20000,
+          "sample_titles": [
+            "本少主才不要变成女生讨好圣女"
+          ]
+        },
+        {
           "tag": "穿越",
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 36800,
+          "avg_reads": 36600,
           "sample_titles": [
             "开局大限将至，我携帝兵问道禁区",
             "蛇爹别吃了！这世界真扛不住啦",
@@ -7150,7 +7019,7 @@
       "name": "历史脑洞",
       "channel": "male",
       "total_books": 20,
-      "blue_count": 13,
+      "blue_count": 11,
       "red_count": 1,
       "tags": [
         {
@@ -7211,7 +7080,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 95333,
+          "avg_reads": 97000,
           "sample_titles": [
             "大明：开局筋斗云，老朱馋哭了！",
             "开局签到常务副皇帝，权倾朝野！",
@@ -7234,7 +7103,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 65000,
+          "avg_reads": 67500,
           "sample_titles": [
             "大明：一月一神通，我被天幕曝光",
             "上交：华夏支援已就位，抢救始皇"
@@ -7265,29 +7134,9 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 46000,
+          "avg_reads": 49000,
           "sample_titles": [
             "大秦：上交洞天，始皇带我狂飙！"
-          ]
-        },
-        {
-          "tag": "种田",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 46000,
-          "sample_titles": [
-            "兽娘：从被高冷蛇女捡回部落开始"
-          ]
-        },
-        {
-          "tag": "种田",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 46000,
-          "sample_titles": [
-            "兽娘：从被高冷蛇女捡回部落开始"
           ]
         },
         {
@@ -7295,7 +7144,7 @@
           "count": 12,
           "density": 0.6,
           "level": "red",
-          "avg_reads": 79917,
+          "avg_reads": 80417,
           "sample_titles": [
             "大唐：开局魔丸闺女炮轰长安城",
             "肝肝肝肝肝！往死里肝！",
@@ -7308,7 +7157,7 @@
       "name": "悬疑脑洞",
       "channel": "male",
       "total_books": 20,
-      "blue_count": 15,
+      "blue_count": 14,
       "red_count": 1,
       "tags": [
         {
@@ -7367,6 +7216,16 @@
           ]
         },
         {
+          "tag": "无敌",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 82000,
+          "sample_titles": [
+            "诡异商店：邪神算什么，肥羊罢了"
+          ]
+        },
+        {
           "tag": "群像",
           "count": 1,
           "density": 0.05,
@@ -7381,7 +7240,7 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 75667,
+          "avg_reads": 76000,
           "sample_titles": [
             "祖上十八鬼帝，你让我恐怖求生？",
             "诡异商店：邪神算什么，肥羊罢了",
@@ -7424,7 +7283,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 68500,
+          "avg_reads": 67500,
           "sample_titles": [
             "盗墓：沉睡半世纪，被吴邪挖出",
             "诸天渡厄：九叔带我闯诸天"
@@ -7435,40 +7294,19 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 66000,
+          "avg_reads": 64000,
           "sample_titles": [
             "诸天渡厄：九叔带我闯诸天"
           ]
         },
         {
-          "tag": "无敌",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 63500,
-          "sample_titles": [
-            "诡异商店：邪神算什么，肥羊罢了",
-            "你抢劫诡异良心不会痛吗？"
-          ]
-        },
-        {
-          "tag": "杀伐果断",
+          "tag": "修仙",
           "count": 1,
           "density": 0.05,
           "level": "blue",
           "avg_reads": 45000,
           "sample_titles": [
-            "你抢劫诡异良心不会痛吗？"
-          ]
-        },
-        {
-          "tag": "校园",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 45000,
-          "sample_titles": [
-            "你抢劫诡异良心不会痛吗？"
+            "九叔：末法时代？我直接挂机修仙"
           ]
         },
         {
@@ -7484,27 +7322,27 @@
           ]
         },
         {
-          "tag": "穿越",
-          "count": 6,
-          "density": 0.3,
-          "level": "normal",
-          "avg_reads": 76833,
-          "sample_titles": [
-            "盗墓手法太熟练，惊呆校花学姐！",
-            "盗墓：背棺送葬，奖励龙象般若功",
-            "我在诡异副本女装直播后爆火了"
-          ]
-        },
-        {
           "tag": "副本",
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 72750,
+          "avg_reads": 72500,
           "sample_titles": [
             "祖上十八鬼帝，你让我恐怖求生？",
             "我在诡异副本女装直播后爆火了",
             "诸天渡厄：九叔带我闯诸天"
+          ]
+        },
+        {
+          "tag": "穿越",
+          "count": 7,
+          "density": 0.35,
+          "level": "normal",
+          "avg_reads": 71857,
+          "sample_titles": [
+            "盗墓手法太熟练，惊呆校花学姐！",
+            "盗墓：背棺送葬，奖励龙象般若功",
+            "我在诡异副本女装直播后爆火了"
           ]
         },
         {
@@ -7521,14 +7359,14 @@
         },
         {
           "tag": "诡异",
-          "count": 10,
-          "density": 0.5,
+          "count": 9,
+          "density": 0.45,
           "level": "red",
-          "avg_reads": 69900,
+          "avg_reads": 72778,
           "sample_titles": [
-            "诡异国运：开局扮演鬼眼杨间",
             "祖上十八鬼帝，你让我恐怖求生？",
-            "后室重生：我是顶级探索者"
+            "诡异国运：开局扮演鬼眼杨间",
+            "诡异商店：邪神算什么，肥羊罢了"
           ]
         }
       ]
@@ -7537,11 +7375,11 @@
       "name": "都市脑洞",
       "channel": "male",
       "total_books": 20,
-      "blue_count": 16,
+      "blue_count": 15,
       "red_count": 0,
       "tags": [
         {
-          "tag": "重生",
+          "tag": "病娇",
           "count": 1,
           "density": 0.05,
           "level": "blue",
@@ -7551,13 +7389,24 @@
           ]
         },
         {
-          "tag": "病娇",
+          "tag": "总裁",
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 615000,
+          "avg_reads": 451000,
           "sample_titles": [
-            "抑郁少女总想自杀？那就恶堕吧！"
+            "我老婆有白月光？她怎么不知道"
+          ]
+        },
+        {
+          "tag": "重生",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 363500,
+          "sample_titles": [
+            "抑郁少女总想自杀？那就恶堕吧！",
+            "美警：开局逮到局长千金酒驾超速"
           ]
         },
         {
@@ -7592,18 +7441,6 @@
           ]
         },
         {
-          "tag": "总裁",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 220667,
-          "sample_titles": [
-            "我老婆有白月光？她怎么不知道",
-            "霸道女总裁爱上离婚带娃的我",
-            "开局一家职介所，国家求我发人才"
-          ]
-        },
-        {
           "tag": "清冷",
           "count": 1,
           "density": 0.05,
@@ -7618,7 +7455,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 200000,
+          "avg_reads": 203000,
           "sample_titles": [
             "高考后，我每天一亿美金零花钱"
           ]
@@ -7659,30 +7496,30 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 143000,
+          "avg_reads": 145000,
           "sample_titles": [
             "人在向往：何老师是我老舅",
             "女装：听劝扮演知更鸟，美哭全网"
           ]
         },
         {
-          "tag": "战神",
+          "tag": "模拟器",
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 106000,
+          "avg_reads": 113000,
           "sample_titles": [
-            "开局一家职介所，国家求我发人才"
+            "游戏制作：从我的世界风靡全球"
           ]
         },
         {
-          "tag": "赘婿",
+          "tag": "诡异",
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 105000,
+          "avg_reads": 112000,
           "sample_titles": [
-            "霸道女总裁爱上离婚带娃的我"
+            "让你暑假实习，你去地府当鬼差！"
           ]
         },
         {
@@ -7690,19 +7527,9 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 105000,
+          "avg_reads": 112000,
           "sample_titles": [
-            "霸道女总裁爱上离婚带娃的我"
-          ]
-        },
-        {
-          "tag": "豪门",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 105000,
-          "sample_titles": [
-            "霸道女总裁爱上离婚带娃的我"
+            "让你暑假实习，你去地府当鬼差！"
           ]
         },
         {
@@ -7710,7 +7537,7 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 249250,
+          "avg_reads": 251000,
           "sample_titles": [
             "说好造桥游戏，打穿天山什么鬼？",
             "人在潮汕，开局连抛十八圣杯",
@@ -7722,7 +7549,7 @@
           "count": 7,
           "density": 0.35,
           "level": "normal",
-          "avg_reads": 230143,
+          "avg_reads": 231143,
           "sample_titles": [
             "我老婆有白月光？她怎么不知道",
             "说好造桥游戏，打穿天山什么鬼？",
@@ -7735,18 +7562,29 @@
       "name": "玄幻脑洞",
       "channel": "male",
       "total_books": 20,
-      "blue_count": 19,
-      "red_count": 1,
+      "blue_count": 17,
+      "red_count": 2,
       "tags": [
         {
           "tag": "诸天",
-          "count": 2,
-          "density": 0.1,
+          "count": 3,
+          "density": 0.15,
           "level": "blue",
-          "avg_reads": 260500,
+          "avg_reads": 202333,
           "sample_titles": [
             "刚证道混沌天帝，让我身化禁区？",
-            "同学苦求宗门，我西游拜师道祖"
+            "同学苦求宗门，我西游拜师道祖",
+            "洪荒：我盘古第四清，帮场通天！"
+          ]
+        },
+        {
+          "tag": "病娇",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 197000,
+          "sample_titles": [
+            "师尊嫌我肮脏？反手退师帖送上"
           ]
         },
         {
@@ -7780,26 +7618,6 @@
           ]
         },
         {
-          "tag": "强制爱",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 148000,
-          "sample_titles": [
-            "玄幻：我堕魔后把绝美师尊抓回来"
-          ]
-        },
-        {
-          "tag": "清冷",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 148000,
-          "sample_titles": [
-            "玄幻：我堕魔后把绝美师尊抓回来"
-          ]
-        },
-        {
           "tag": "反派",
           "count": 1,
           "density": 0.05,
@@ -7817,17 +7635,6 @@
           "avg_reads": 147000,
           "sample_titles": [
             "开局寿尽准帝，竟被蝼蚁打上门"
-          ]
-        },
-        {
-          "tag": "病娇",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 141000,
-          "sample_titles": [
-            "师尊嫌我肮脏？反手退师帖送上",
-            "死遁逃离病娇，结果她把世界焊死"
           ]
         },
         {
@@ -7862,18 +7669,6 @@
           ]
         },
         {
-          "tag": "杀伐果断",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 112333,
-          "sample_titles": [
-            "开局模拟被打爆，金丹爆星什么鬼",
-            "诸界归一，还好我早已成仙",
-            "词条：开局万倍天赋，你要退婚？"
-          ]
-        },
-        {
           "tag": "诡异",
           "count": 1,
           "density": 0.05,
@@ -7881,6 +7676,18 @@
           "avg_reads": 111000,
           "sample_titles": [
             "开局流落皇子，可我已经人间无敌"
+          ]
+        },
+        {
+          "tag": "杀伐果断",
+          "count": 3,
+          "density": 0.15,
+          "level": "blue",
+          "avg_reads": 110333,
+          "sample_titles": [
+            "开局模拟被打爆，金丹爆星什么鬼",
+            "诸界归一，还好我早已成仙",
+            "词条：开局万倍天赋，你要退婚？"
           ]
         },
         {
@@ -7908,7 +7715,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 90000,
+          "avg_reads": 95000,
           "sample_titles": [
             "快穿：谁死不重要，他包活"
           ]
@@ -7918,7 +7725,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 90000,
+          "avg_reads": 95000,
           "sample_titles": [
             "快穿：谁死不重要，他包活"
           ]
@@ -7928,21 +7735,9 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 90000,
+          "avg_reads": 95000,
           "sample_titles": [
             "快穿：谁死不重要，他包活"
-          ]
-        },
-        {
-          "tag": "修仙",
-          "count": 7,
-          "density": 0.35,
-          "level": "normal",
-          "avg_reads": 155714,
-          "sample_titles": [
-            "站中间抽两边，什么叫霸之意志呀",
-            "轮回修仙：从考科举开始",
-            "说好扶贫，你怎么一直给仙子放贷"
           ]
         },
         {
@@ -7959,10 +7754,10 @@
         },
         {
           "tag": "洪荒",
-          "count": 4,
-          "density": 0.2,
+          "count": 5,
+          "density": 0.25,
           "level": "normal",
-          "avg_reads": 135750,
+          "avg_reads": 121800,
           "sample_titles": [
             "同学们都选阐教，我选截教杀疯了",
             "代管截教，瞎编功法的我万倍返还",
@@ -7971,10 +7766,10 @@
         },
         {
           "tag": "无敌",
-          "count": 6,
-          "density": 0.3,
+          "count": 7,
+          "density": 0.35,
           "level": "normal",
-          "avg_reads": 117000,
+          "avg_reads": 111143,
           "sample_titles": [
             "开局寿尽准帝，竟被蝼蚁打上门",
             "开局模拟被打爆，金丹爆星什么鬼",
@@ -7983,14 +7778,26 @@
         },
         {
           "tag": "穿越",
-          "count": 13,
-          "density": 0.65,
+          "count": 14,
+          "density": 0.7,
           "level": "red",
-          "avg_reads": 166846,
+          "avg_reads": 160357,
           "sample_titles": [
             "刚证道混沌天帝，让我身化禁区？",
             "站中间抽两边，什么叫霸之意志呀",
             "同学们都选阐教，我选截教杀疯了"
+          ]
+        },
+        {
+          "tag": "修仙",
+          "count": 8,
+          "density": 0.4,
+          "level": "red",
+          "avg_reads": 149250,
+          "sample_titles": [
+            "站中间抽两边，什么叫霸之意志呀",
+            "轮回修仙：从考科举开始",
+            "开局模拟被打爆，金丹爆星什么鬼"
           ]
         }
       ]
@@ -8037,7 +7844,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 43000,
+          "avg_reads": 45000,
           "sample_titles": [
             "老九门：从融合白麒麟开始破局"
           ]
@@ -8047,11 +7854,11 @@
           "count": 3,
           "density": 0.15,
           "level": "blue",
-          "avg_reads": 41667,
+          "avg_reads": 41333,
           "sample_titles": [
             "老九门：从融合白麒麟开始破局",
-            "我在警局抓鬼",
-            "相亲现场画符！警花老婆三观崩了"
+            "相亲现场画符！警花老婆三观崩了",
+            "我在警局抓鬼"
           ]
         },
         {
@@ -8059,7 +7866,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 39000,
+          "avg_reads": 40000,
           "sample_titles": [
             "老九门：从融合白麒麟开始破局",
             "盗墓：开局拜入茅山，破千年诅咒"
@@ -8070,7 +7877,7 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 39000,
+          "avg_reads": 39500,
           "sample_titles": [
             "炼祭我女儿？我成为僵神天灾",
             "一个民间阴阳先生的真实经历"
@@ -8084,6 +7891,16 @@
           "avg_reads": 34000,
           "sample_titles": [
             "上综艺，你成犯罪教科书了？"
+          ]
+        },
+        {
+          "tag": "豪门",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 34000,
+          "sample_titles": [
+            "女公安局长：扫黑行动"
           ]
         },
         {
@@ -8111,20 +7928,10 @@
           "count": 2,
           "density": 0.1,
           "level": "blue",
-          "avg_reads": 33000,
+          "avg_reads": 31000,
           "sample_titles": [
             "惊天大案：六省大追凶",
             "乡野道人"
-          ]
-        },
-        {
-          "tag": "豪门",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 33000,
-          "sample_titles": [
-            "女公安局长：扫黑行动"
           ]
         },
         {
@@ -8132,7 +7939,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 31000,
+          "avg_reads": 30000,
           "sample_titles": [
             "乡野道人"
           ]
@@ -8175,11 +7982,11 @@
           "count": 5,
           "density": 0.25,
           "level": "normal",
-          "avg_reads": 39200,
+          "avg_reads": 39800,
           "sample_titles": [
             "九叔：糟糕！邪门大徒弟又闯祸了",
             "老九门：从融合白麒麟开始破局",
-            "盗墓：你们把我弟扔哪了？！"
+            "盗墓：开局征服张海琪佛爷赢麻了"
           ]
         },
         {
@@ -8187,11 +7994,11 @@
           "count": 4,
           "density": 0.2,
           "level": "normal",
-          "avg_reads": 38000,
+          "avg_reads": 38500,
           "sample_titles": [
             "老九门：从融合白麒麟开始破局",
-            "盗墓：开局拜入茅山，破千年诅咒",
-            "上综艺，你成犯罪教科书了？"
+            "盗墓：开局征服张海琪佛爷赢麻了",
+            "盗墓：开局拜入茅山，破千年诅咒"
           ]
         }
       ]
@@ -8204,6 +8011,16 @@
       "red_count": 1,
       "tags": [
         {
+          "tag": "群像",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 241000,
+          "sample_titles": [
+            "东北往事•关东娘们儿与土匪"
+          ]
+        },
+        {
           "tag": "傲娇",
           "count": 1,
           "density": 0.05,
@@ -8211,17 +8028,6 @@
           "avg_reads": 176000,
           "sample_titles": [
             "一战：我成了白毛德皇的治国轮椅"
-          ]
-        },
-        {
-          "tag": "群像",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 139000,
-          "sample_titles": [
-            "东北往事•关东娘们儿与土匪",
-            "我俾斯麦，从近卫军团到重建帝国"
           ]
         },
         {
@@ -8246,17 +8052,6 @@
           ]
         },
         {
-          "tag": "重生",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 89500,
-          "sample_titles": [
-            "民国：张家逆子，我才是东北王",
-            "四合院：李云龙上司，傻柱亲叔叔"
-          ]
-        },
-        {
           "tag": "架空历史",
           "count": 1,
           "density": 0.05,
@@ -8275,6 +8070,18 @@
           "sample_titles": [
             "抗战：这个系统不正经",
             "谍战杀神：暗鸦所至皆地狱"
+          ]
+        },
+        {
+          "tag": "重生",
+          "count": 3,
+          "density": 0.15,
+          "level": "blue",
+          "avg_reads": 73000,
+          "sample_titles": [
+            "民国：张家逆子，我才是东北王",
+            "四合院：李云龙上司，傻柱亲叔叔",
+            "抗战：长征开局，打出强国"
           ]
         },
         {
@@ -8318,15 +8125,15 @@
           "sample_titles": [
             "东北往事•关东娘们儿与土匪",
             "民国：张家逆子，我才是东北王",
-            "亮剑：李云龙十四岁入黄埔一期"
+            "魂穿民国成为教导总队中校参谋"
           ]
         },
         {
           "tag": "抗战",
-          "count": 5,
-          "density": 0.25,
+          "count": 6,
+          "density": 0.3,
           "level": "normal",
-          "avg_reads": 117600,
+          "avg_reads": 104667,
           "sample_titles": [
             "东北往事•关东娘们儿与土匪",
             "抗战：从湘江开始一路横推",
@@ -8338,19 +8145,19 @@
           "count": 6,
           "density": 0.3,
           "level": "normal",
-          "avg_reads": 87833,
+          "avg_reads": 89000,
           "sample_titles": [
             "一战：我成了白毛德皇的治国轮椅",
             "民国：张家逆子，我才是东北王",
-            "魂穿民国成为教导总队中校参谋"
+            "要当总统了，你跟我说系统来了？"
           ]
         },
         {
           "tag": "穿越",
-          "count": 13,
-          "density": 0.65,
+          "count": 14,
+          "density": 0.7,
           "level": "red",
-          "avg_reads": 106846,
+          "avg_reads": 102071,
           "sample_titles": [
             "别人穿四合院，我为啥上战场",
             "你管这叫警察？重炮都架租界口了",
@@ -8367,17 +8174,6 @@
       "red_count": 1,
       "tags": [
         {
-          "tag": "无敌",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 86000,
-          "sample_titles": [
-            "王者：你的天赋很好现在我也有了",
-            "年龄差契约系统？补药电我啊啊啊"
-          ]
-        },
-        {
           "tag": "直播",
           "count": 1,
           "density": 0.05,
@@ -8385,6 +8181,17 @@
           "avg_reads": 86000,
           "sample_titles": [
             "洲：质检打手，你五分钟诛仙清图"
+          ]
+        },
+        {
+          "tag": "无敌",
+          "count": 2,
+          "density": 0.1,
+          "level": "blue",
+          "avg_reads": 84500,
+          "sample_titles": [
+            "王者：你的天赋很好现在我也有了",
+            "年龄差契约系统？补药电我啊啊啊"
           ]
         },
         {
@@ -8412,7 +8219,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 65000,
+          "avg_reads": 56000,
           "sample_titles": [
             "网球没落？飞燕还巢了解一下！"
           ]
@@ -8428,33 +8235,34 @@
           ]
         },
         {
+          "tag": "种田",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 44000,
+          "sample_titles": [
+            "全民县令：多子多福，娶妻就变强"
+          ]
+        },
+        {
+          "tag": "种田",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 44000,
+          "sample_titles": [
+            "全民县令：多子多福，娶妻就变强"
+          ]
+        },
+        {
           "tag": "末日",
-          "count": 1,
-          "density": 0.05,
+          "count": 2,
+          "density": 0.1,
           "level": "blue",
-          "avg_reads": 45000,
+          "avg_reads": 42000,
           "sample_titles": [
-            "全民公路求生，开局一辆基地车"
-          ]
-        },
-        {
-          "tag": "种田",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 44000,
-          "sample_titles": [
-            "全民县令：多子多福，娶妻就变强"
-          ]
-        },
-        {
-          "tag": "种田",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 44000,
-          "sample_titles": [
-            "全民县令：多子多福，娶妻就变强"
+            "全民公路求生，开局一辆基地车",
+            "全民海洋求生：我的命中百分百"
           ]
         },
         {
@@ -8480,14 +8288,13 @@
         },
         {
           "tag": "领主",
-          "count": 3,
-          "density": 0.15,
+          "count": 2,
+          "density": 0.1,
           "level": "blue",
-          "avg_reads": 37333,
+          "avg_reads": 38500,
           "sample_titles": [
-            "全民求生：我的领民自动转化士兵",
             "领主：神话入侵，开局招募炽天使",
-            "全民领主：我的眷属是娘化监守者"
+            "全民求生：我的领民自动转化士兵"
           ]
         },
         {
@@ -8502,10 +8309,10 @@
         },
         {
           "tag": "求生",
-          "count": 4,
-          "density": 0.2,
+          "count": 5,
+          "density": 0.25,
           "level": "normal",
-          "avg_reads": 50250,
+          "avg_reads": 48000,
           "sample_titles": [
             "无尽海求生：我觉醒双生龙王武魂",
             "航海求生船员数值怪开局熊大熊二",
@@ -8514,10 +8321,10 @@
         },
         {
           "tag": "穿越",
-          "count": 9,
-          "density": 0.45,
+          "count": 8,
+          "density": 0.4,
           "level": "red",
-          "avg_reads": 59111,
+          "avg_reads": 61000,
           "sample_titles": [
             "王者：你的天赋很好现在我也有了",
             "洲：质检打手，你五分钟诛仙清图",
@@ -8530,7 +8337,7 @@
       "name": "动漫衍生",
       "channel": "male",
       "total_books": 20,
-      "blue_count": 9,
+      "blue_count": 8,
       "red_count": 1,
       "tags": [
         {
@@ -8538,7 +8345,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 201000,
+          "avg_reads": 187000,
           "sample_titles": [
             "动物城：开局被大先生捡到"
           ]
@@ -8548,7 +8355,7 @@
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 201000,
+          "avg_reads": 187000,
           "sample_titles": [
             "动物城：开局被大先生捡到"
           ]
@@ -8564,6 +8371,16 @@
           ]
         },
         {
+          "tag": "直播",
+          "count": 1,
+          "density": 0.05,
+          "level": "blue",
+          "avg_reads": 164000,
+          "sample_titles": [
+            "说好送外卖，你当众变身飞影铠甲"
+          ]
+        },
+        {
           "tag": "反派",
           "count": 1,
           "density": 0.05,
@@ -8574,33 +8391,11 @@
           ]
         },
         {
-          "tag": "无敌",
-          "count": 3,
-          "density": 0.15,
-          "level": "blue",
-          "avg_reads": 157000,
-          "sample_titles": [
-            "猪猪侠：什么叫主攻手空手接大？",
-            "一人：我，无敌了，你随意！！",
-            "转生成黑暗艾克斯后，我无敌了"
-          ]
-        },
-        {
-          "tag": "直播",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 150000,
-          "sample_titles": [
-            "说好送外卖，你当众变身飞影铠甲"
-          ]
-        },
-        {
           "tag": "动漫",
           "count": 1,
           "density": 0.05,
           "level": "blue",
-          "avg_reads": 112000,
+          "avg_reads": 129000,
           "sample_titles": [
             "综漫：异种族评鉴指南"
           ]
@@ -8626,139 +8421,27 @@
           ]
         },
         {
+          "tag": "无敌",
+          "count": 4,
+          "density": 0.2,
+          "level": "normal",
+          "avg_reads": 141500,
+          "sample_titles": [
+            "猪猪侠：什么叫主攻手空手接大？",
+            "一人：我，无敌了，你随意！！",
+            "转生成黑暗艾克斯后，我无敌了"
+          ]
+        },
+        {
           "tag": "穿越",
-          "count": 11,
-          "density": 0.55,
+          "count": 9,
+          "density": 0.45,
           "level": "red",
-          "avg_reads": 138000,
+          "avg_reads": 149444,
           "sample_titles": [
             "猪猪侠：什么叫主攻手空手接大？",
             "综漫：捡碎片的我开局拼出虚式茈",
-            "穿越刘备，死后和我说这是型月？"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "男频衍生",
-      "channel": "male",
-      "total_books": 20,
-      "blue_count": 10,
-      "red_count": 1,
-      "tags": [
-        {
-          "tag": "血脉",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 209000,
-          "sample_titles": [
-            "青梅是性转祖国人？可我是大超",
-            "四合院：街溜子开局搬空美军基地"
-          ]
-        },
-        {
-          "tag": "大佬",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 180000,
-          "sample_titles": [
-            "港综：骆天虹亲哥，开局金刚不坏"
-          ]
-        },
-        {
-          "tag": "年代",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 163500,
-          "sample_titles": [
-            "四合院，开局我选入赘",
-            "四合院：我家住隔壁，看众禽互咬"
-          ]
-        },
-        {
-          "tag": "直播",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 140000,
-          "sample_titles": [
-            "龙族：天幕剧透，所有人都疯了"
-          ]
-        },
-        {
-          "tag": "诡异",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 133000,
-          "sample_titles": [
-            "斩神：开局获得月之恶魔权柄"
-          ]
-        },
-        {
-          "tag": "横推",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 133000,
-          "sample_titles": [
-            "斩神：开局获得月之恶魔权柄"
-          ]
-        },
-        {
-          "tag": "远古",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 133000,
-          "sample_titles": [
-            "斩神：开局获得月之恶魔权柄"
-          ]
-        },
-        {
-          "tag": "空间",
-          "count": 2,
-          "density": 0.1,
-          "level": "blue",
-          "avg_reads": 131500,
-          "sample_titles": [
-            "四合院：街溜子开局搬空美军基地",
-            "斩神：开局获得月之恶魔权柄"
-          ]
-        },
-        {
-          "tag": "盗墓",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 130000,
-          "sample_titles": [
-            "四合院：街溜子开局搬空美军基地"
-          ]
-        },
-        {
-          "tag": "战神",
-          "count": 1,
-          "density": 0.05,
-          "level": "blue",
-          "avg_reads": 125000,
-          "sample_titles": [
-            "四合院：我家住隔壁，看众禽互咬"
-          ]
-        },
-        {
-          "tag": "穿越",
-          "count": 11,
-          "density": 0.55,
-          "level": "red",
-          "avg_reads": 178091,
-          "sample_titles": [
-            "青梅是性转祖国人？可我是大超",
-            "四合院：我表哥是神棍",
-            "四合院：从亮剑到人民的名义"
+            "顶级智斗：开局给小天寄石墩子"
           ]
         }
       ]
