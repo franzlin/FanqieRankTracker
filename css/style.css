@@ -2711,6 +2711,25 @@ input:focus-visible {
     margin-top: 16px;
 }
 
+#op-ai p {
+    margin: 0 0 10px;
+    line-height: 1.75;
+}
+#op-ai p:last-child {
+    margin-bottom: 0;
+}
+#op-ai strong {
+    display: block;
+    margin: 0 0 6px;
+    font-size: 1rem;
+    color: var(--text-primary);
+    border-left: 3px solid var(--accent);
+    padding-left: 10px;
+}
+#op-ai p + p {
+    margin-top: 12px;
+}
+
 /* Opening page: full-width single-column layout */
 .market-board-single {
     grid-template-columns: 1fr;
@@ -2722,35 +2741,39 @@ input:focus-visible {
 .op-book-item {
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    padding: 12px 14px;
+    gap: 3px;
+    padding: 10px 12px;
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
     margin-bottom: 8px;
-    transition: border-color 0.18s ease;
+    transition: border-color 0.18s ease, background-color 0.18s ease;
     text-decoration: none;
     color: inherit;
+    background: var(--panel-solid);
 }
 .op-book-item:hover {
     border-color: var(--accent);
+    background: var(--accent-wash);
 }
 .op-book-item .op-book-title {
-    font-weight: 650;
-    font-size: 0.95rem;
+    font-weight: 660;
+    font-size: 0.96rem;
     color: var(--text-primary);
+    line-height: 1.35;
 }
 .op-book-item .op-book-meta {
-    font-size: 0.78rem;
+    font-size: 0.76rem;
     color: var(--text-muted);
+    line-height: 1.3;
 }
 .op-book-item .op-book-intro {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     color: var(--text-muted);
     line-height: 1.5;
-    margin-top: 2px;
+    margin-top: 4px;
     overflow: hidden;
 }
 

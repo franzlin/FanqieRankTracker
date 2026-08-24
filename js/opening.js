@@ -37,8 +37,21 @@ document.addEventListener('DOMContentLoaded', () => {
         let html = escapeHtml(text);
         html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
         html = html.replace(/《(.+?)》/g, '<span class="book-mark">《$1》</span>');
-        html = html.replace(/\n(?=\*\*)/g, '\n\n');
-        html = html.replace(/\n/g, '<br>');
+
+        // Split into paragraphs by blank lines; collapse runs of blank lines.
+        const paragraphs = html
+            .split(/\n{2,}/)
+            .map(p => p.trim())
+            .filter(Boolean);
+
+        html = paragraphs
+            .map(p => {
+                // Convert remaining single newlines within a paragraph to <br>
+                const body = p.replace(/\n/g, '<br>');
+                return `<p>${body}</p>`;
+            })
+            .join('');
+
         els.ai.innerHTML = html;
     }
 
