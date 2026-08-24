@@ -2712,7 +2712,7 @@ input:focus-visible {
 }
 
 #op-ai p {
-    margin: 0 0 10px;
+    margin: 0 0 14px;
     line-height: 1.75;
 }
 #op-ai p:last-child {
@@ -2720,14 +2720,26 @@ input:focus-visible {
 }
 #op-ai strong {
     display: block;
-    margin: 0 0 6px;
-    font-size: 1rem;
+    margin: 0 0 8px;
+    font-size: 1.02rem;
     color: var(--text-primary);
     border-left: 3px solid var(--accent);
     padding-left: 10px;
 }
 #op-ai p + p {
-    margin-top: 12px;
+    margin-top: 16px;
+}
+#op-ai .op-ai-list {
+    margin: 8px 0 0 4px;
+    padding-left: 22px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+#op-ai .op-ai-list li {
+    margin-bottom: 8px;
+}
+#op-ai .op-ai-list li:last-child {
+    margin-bottom: 0;
 }
 
 /* Opening page: full-width single-column layout */

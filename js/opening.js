@@ -38,17 +38,30 @@ document.addEventListener('DOMContentLoaded', () => {
         html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
         html = html.replace(/《(.+?)》/g, '<span class="book-mark">《$1》</span>');
 
-        // Split into paragraphs by blank lines; collapse runs of blank lines.
-        const paragraphs = html
+        // Convert numbered lists like "1. ...\n2. ..." into real ordered lists
+        html = html.replace(/((?:^|\n)\d+\.\s+.+?(?:\n|$))+?/gs, (match) => {
+            // Ensure match starts with newline for easier parsing
+            const items = ('\n' + match.trim())
+                .split(/\n(?=\d+\.\s+)/)
+                .map(line => line.trim())
+                .filter(Boolean);
+            if (items.length < 2) return match;
+            const li = items
+                .map(line => `<li>${line.replace(/^\d+\.\s*/, '')}</li>`)
+                .join('');
+            return `<ol class="op-ai-list">${li}</ol>`;
+        });
+
+        // Split into sections/paragraphs by blank lines.
+        const blocks = html
             .split(/\n{2,}/)
             .map(p => p.trim())
             .filter(Boolean);
 
-        html = paragraphs
+        html = blocks
             .map(p => {
-                // Convert remaining single newlines within a paragraph to <br>
-                const body = p.replace(/\n/g, '<br>');
-                return `<p>${body}</p>`;
+                if (p.startsWith('<ol') || p.startsWith('<ul')) return p;
+                return `<p>${p.replace(/\n/g, '<br>')}</p>`;
             })
             .join('');
 
