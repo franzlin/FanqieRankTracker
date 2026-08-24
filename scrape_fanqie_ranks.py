@@ -63,7 +63,10 @@ def run_scraper(limit=30, sleep_sec=5):
         if os.environ.get("GITHUB_ACTIONS"):
             browser = p.chromium.launch(headless=True)
         else:
-            browser = p.chromium.launch(headless=True, channel="chrome")
+            browser = p.chromium.launch(
+                headless=True,
+                args=["--no-sandbox", "--disable-dev-shm-usage"],
+            )
         # Create a new context with a normal user agent
         context = browser.new_context(
             user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -82,8 +85,8 @@ def run_scraper(limit=30, sleep_sec=5):
 
             # 先访问新书榜的基准前缀页面，以此为入口模拟人工作业
             print(f"[{datetime.now().strftime('%H:%M:%S')}] 正在初始化并访问基础榜单页：{init_url}")
-            page.goto(init_url, wait_until="load", timeout=15000)
-            page.wait_for_selector('a[href^="/page/"]', timeout=5000)
+            page.goto(init_url, wait_until="domcontentloaded", timeout=30000)
+            page.wait_for_selector('a[href^="/page/"]', timeout=10000)
 
             # 动态解析页面左侧拥有的所有类别目录 (通过匹配对应的榜单路由规律)
             categories_js = """
