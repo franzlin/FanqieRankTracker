@@ -2744,7 +2744,6 @@ input:focus-visible {
     color: var(--text-muted);
 }
 .op-book-item .op-book-intro {
-    display: block;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
