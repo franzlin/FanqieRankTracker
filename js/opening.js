@@ -38,34 +38,59 @@ document.addEventListener('DOMContentLoaded', () => {
         html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
         html = html.replace(/《(.+?)》/g, '<span class="book-mark">《$1》</span>');
 
-        // Convert numbered lists like "1. ...\n2. ..." into real ordered lists
-        html = html.replace(/((?:^|\n)\d+\.\s+.+?(?:\n|$))+?/gs, (match) => {
-            // Ensure match starts with newline for easier parsing
-            const items = ('\n' + match.trim())
-                .split(/\n(?=\d+\.\s+)/)
-                .map(line => line.trim())
-                .filter(Boolean);
-            if (items.length < 2) return match;
-            const li = items
-                .map(line => `<li>${line.replace(/^\d+\.\s*/, '')}</li>`)
-                .join('');
-            return `<ol class="op-ai-list">${li}</ol>`;
+        // Process line-by-line: headings, numbered lists, paragraphs
+        const lines = html.split('\n');
+        const blocks = [];
+        let currentParagraph = [];
+        let listItems = [];
+
+        function flushParagraph() {
+            if (currentParagraph.length) {
+                blocks.push(`<p>${currentParagraph.join('<br>')}</p>`);
+                currentParagraph = [];
+            }
+        }
+        function flushList() {
+            if (listItems.length) {
+                const li = listItems.map(item => `<li>${item}</li>`).join('');
+                blocks.push(`<ol class="op-ai-list">${li}</ol>`);
+                listItems = [];
+            }
+        }
+
+        lines.forEach(line => {
+            line = line.trim();
+            if (!line) return; // skip blank lines, they act as separators
+
+            const listMatch = line.match(/^(\d+)\.\s*(.+)$/);
+            if (listMatch) {
+                // Start of a list item
+                if (currentParagraph.length) {
+                    // If previous paragraph only contained a heading, keep it; otherwise flush it.
+                    const prev = currentParagraph.join('<br>');
+                    if (prev.includes('<strong>')) {
+                        // likely a heading, finish the paragraph first
+                        flushParagraph();
+                    } else {
+                        flushParagraph();
+                    }
+                }
+                listItems.push(listMatch[2]);
+            } else if (line.startsWith('<strong>') && line.includes('</strong>')) {
+                // Heading line (starts with bold)
+                flushList();
+                flushParagraph();
+                currentParagraph.push(line);
+            } else {
+                // Regular text
+                flushList();
+                currentParagraph.push(line);
+            }
         });
+        flushList();
+        flushParagraph();
 
-        // Split into sections/paragraphs by blank lines.
-        const blocks = html
-            .split(/\n{2,}/)
-            .map(p => p.trim())
-            .filter(Boolean);
-
-        html = blocks
-            .map(p => {
-                if (p.startsWith('<ol') || p.startsWith('<ul')) return p;
-                return `<p>${p.replace(/\n/g, '<br>')}</p>`;
-            })
-            .join('');
-
-        els.ai.innerHTML = html;
+        els.ai.innerHTML = blocks.join('');
     }
 
     function renderList(container, openings) {
