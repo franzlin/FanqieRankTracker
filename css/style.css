@@ -398,7 +398,8 @@ input:focus-visible {
 .back-link,
 .source-link-btn,
 .hot-type-row,
-.book-copy-btn {
+.book-copy-btn,
+.book-copy-url-btn {
     transition:
         background-color 0.18s ease,
         border-color 0.18s ease,
@@ -904,14 +905,45 @@ input:focus-visible {
     white-space: nowrap;
 }
 
-.book-copy-btn:hover {
+.book-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: auto;
+}
+
+.book-actions .book-copy-btn,
+.book-copy-url-btn {
+    width: max-content;
+    max-width: 100%;
+    margin-top: 0;
+    padding: 6px 10px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--surface-soft);
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 0.74rem;
+    font-weight: 720;
+    white-space: nowrap;
+}
+
+.book-copy-url-btn {
+    background: var(--accent-wash);
+    color: var(--accent-strong);
+    border-color: rgba(240, 79, 56, 0.22);
+}
+
+.book-copy-btn:hover,
+.book-copy-url-btn:hover {
     border-color: rgba(240, 79, 56, 0.28);
     background: var(--accent-wash);
     color: var(--accent-strong);
     transform: translateY(-1px);
 }
 
-.book-copy-btn.copied {
+.book-copy-btn.copied,
+.book-copy-url-btn.copied {
     border-color: rgba(16, 185, 129, 0.24);
     background: var(--green-soft);
     color: #087f5b;

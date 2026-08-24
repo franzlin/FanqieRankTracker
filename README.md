@@ -2,7 +2,7 @@
 
 [![English](https://img.shields.io/badge/lang-English-blue)](README_EN.md)
 
-> 👗👨 专注于**番茄小说男频 + 女频新书榜**，每日自动追踪排行数据并结合 AI 生成趋势分析，部署为精美的在线看板。
+> 👗👨 专注于**番茄小说男频 + 女频新书榜**，每日自动追踪排行数据并结合 AI 生成趋势分析，部署在自建 VPS 看板。
 
 ---
 
@@ -19,75 +19,131 @@
 | 🖥️ 精美看板 | 暗色编辑风格仪表盘，带打字机动画和瀑布流书籍卡片 |
 | 📱 移动适配 | 完整的移动端适配，侧边栏抽屉式菜单 |
 | 🔌 数据接口 | 生成静态 `lastest` JSON 接口，可按类型读取最新数据 |
-| ⚡ 全自动化 | GitHub Actions + GitHub Pages，零服务器运维 |
+| ⚡ VPS 全自动化 | Caddy 静态托管 + cron 定时任务，独立服务器零依赖托管平台 |
 
 ---
 
-## 🚀 食用指南
+## 🚀 VPS 部署指南
 
 ### 前置条件
 
-- **Python 3.9+**
-- **Git**
-- 一个 GitHub 账号
+- **Linux VPS**（已测试 Ubuntu 24.04 ARM 4核/23G）
+- **Python 3.10+** 与 **Node.js 18+**（可选的 Playwright 已在部分环境预装）
+- **Caddy**（自动 HTTPS）或其他静态服务器
 - （可选）一个 OpenAI 兼容 API 的密钥，用于 AI 分析
 
-### 第一步：Fork 仓库
+### 第一步：上传项目到服务器
 
-点击 GitHub 页面右上角的 **Fork** 按钮，将项目 Fork 到你自己的账号下。
+```bash
+# 在项目目录执行（替换为你的服务器信息）
+ssh ubuntu@<服务器IP>
+sudo mkdir -p /opt/fanqie-rank && sudo chown $USER:$USER /opt/fanqie-rank
 
-### 第二步：开启 GitHub Pages
+# 本机打包上传
+tar czf - --exclude='.git' . | ssh ubuntu@<服务器IP> "cat > /tmp/fanqie.tar.gz && sudo tar xzf /tmp/fanqie.tar.gz -C /opt/fanqie-rank"
+```
 
-1. 进入你 Fork 后的仓库 → **Settings** → **Pages**
-2. Source 选择 **Deploy from a branch**
-3. Branch 选择 `main`，目录选择 `/ (root)`
-4. 点击 **Save**
+### 第二步：安装依赖
 
-稍等几分钟，你的看板就会上线：`https://<你的用户名>.github.io/FanqieRankTracker/`
+```bash
+cd /opt/fanqie-rank
+python3 -m venv venv
+./venv/bin/pip install -U pip
+./venv/bin/pip install playwright openai requests
 
-### 第三步：配置 Secrets（可选，开启 AI 分析）
+# 复用服务器已有浏览器，或手动安装
+# 如果 /opt/ms-playwright 已有 chromium，直接指向即可：
+export PLAYWRIGHT_BROWSERS_PATH=/opt/ms-playwright
+# 否则：./venv/bin/playwright install chromium
+```
 
-进入仓库 → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**，添加以下三个 Secret：
+### 第三步：创建每日自动任务脚本
 
-| Secret 名称 | 说明 | 示例 |
-|---|---|---|
-| `API_BASE_URL` | OpenAI 兼容 API 的地址 | `https://api.openai.com/v1` |
-| `API_KEY` | API 密钥 | `sk-xxxxxxxxxxxxx` |
-| `API_MODEL` | 模型名称 | `gpt-4o-mini` |
+将 `run_daily.sh` 写入项目目录：
 
-> **💡 提示：** 任何 OpenAI 兼容接口均可使用（如 Moonshot / DeepSeek / 自建服务等）。如果不配置这三个 Secret，系统将自动使用基于规则的摘要替代 AI 分析，**不影响核心功能**。
+```bash
+cat > /opt/fanqie-rank/run_daily.sh << 'SCRIPT'
+#!/bin/bash
+set -e
+cd /opt/fanqie-rank
+export PLAYWRIGHT_BROWSERS_PATH=/opt/ms-playwright
+export API_BASE_URL='https://你的API地址/v1'
+export API_KEY='你的API密钥'
+export API_MODEL='你的模型名'
+mkdir -p logs
+echo "===== [$(date '+%F %T')] start =====" >> logs/daily.log
+./venv/bin/python scrape_fanqie_ranks.py >> logs/daily.log 2>&1 || echo "SCRAPE FAILED" >> logs/daily.log
+./venv/bin/python scripts/build_latest.py >> logs/daily.log 2>&1 || echo "BUILD FAILED" >> logs/daily.log
+echo "===== [$(date '+%F %T')] done =====" >> logs/daily.log
+SCRIPT
+chmod +x /opt/fanqie-rank/run_daily.sh
+```
 
-### 第四步：手动触发首次运行
+### 第四步：配置 cron 定时任务
 
-1. 进入仓库 → **Actions** → 左侧选择 **Daily Fanqie Rank Scraper**
-2. 点击右上角 **Run workflow** → **Run workflow**
-3. 等待 Workflow 运行完成（约 3–5 分钟）
+```bash
+crontab -e
+# 添加一行：每天北京时间 08:15（UTC 00:15）自动爬取 + 构建
+15 0 * * * /opt/fanqie-rank/run_daily.sh
+```
 
-运行成功后，`data/` 目录下会自动生成数据文件，打开 GitHub Pages 链接即可看到看板。
+### 第五步：配置 Caddy 静态站点
 
-### 第五步：坐等自动更新
+```bash
+# 追加到 /etc/caddy/Caddyfile 并 reload
+```
 
-GitHub Actions 已配置为 **每天 UTC 00:00（北京时间 08:00）** 自动运行。之后无需任何手动操作，数据和看板会每天自动更新。
+```caddy
+fanqie.lylwz.com {
+    tls /etc/caddy/lylwz-origin.crt /etc/caddy/lylwz-origin.key
+    encode gzip
+    header {
+        -Server
+        X-Content-Type-Options nosniff
+        X-Frame-Options SAMEORIGIN
+        Referrer-Policy strict-origin-when-cross-origin
+    }
+    root * /opt/fanqie-rank
+    try_files {path} /index.html
+    file_server
+}
+```
 
-看板右上角的 **风向标** 可进入 `trend.html`，先查看当下火热综合赛道（如古风言情）、具体热门分类和高频题材，再按具体类型查看近 7 / 14 / 30 日或全部周期的趋势分析。全站热点会优先使用 AI 总结，未配置 API 或生成失败时使用规则统计文案兜底。
+```bash
+sudo caddy validate --config /etc/caddy/Caddyfile
+sudo systemctl reload caddy
+```
+
+### 第六步：配置 DNS
+
+在 Cloudflare 面板为你的域名添加 A 记录指向 VPS IP，开启橙色云朵代理。解析生效后即可访问看板。
+
+### 第七步：验证
+
+```bash
+curl -I https://你的域名/
+curl -I https://你的域名/data/latest_ranks.json
+```
+
+> **💡 提示：** 任何 OpenAI 兼容接口均可使用（如 Moonshot / DeepSeek / 自建服务等）。如果不配置 API 环境变量，系统将自动使用基于规则的摘要替代 AI 分析，**不影响核心功能**。
 
 ---
 
 ## 🔌 最新数据接口
 
-构建脚本会同步生成 GitHub Pages 可直接访问的静态 JSON 接口：
+看板目录下会生成静态 JSON 接口：
 
 | 类型 | 路径 | 说明 |
 |---|---|---|
 | 类型索引 | `api/lastest.json` | 返回所有可用类型及对应 URL |
-| 全量数据 | `api/lastest/all.json` | `type=all`，返回全部分类、趋势和书籍 |
+| 全量数据 | `api/lastest/all.json` | 返回全部分类、趋势和书籍 |
 | 单类型数据 | `api/lastest/<类型>.json` | 返回指定类型的数据，例如 `api/lastest/古风世情.json` |
 
 示例：
 
 ```bash
-curl https://<你的用户名>.github.io/FanqieRankTracker/api/lastest/all.json
-curl https://<你的用户名>.github.io/FanqieRankTracker/api/lastest/古风世情.json
+curl https://你的域名/api/lastest/all.json
+curl https://你的域名/api/lastest/古风世情.json
 ```
 
 ---
@@ -105,7 +161,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # 3. 安装依赖
 pip install -r requirements.txt
-playwright install chromium
+export PLAYWRIGHT_BROWSERS_PATH=/opt/ms-playwright  # 复用VPS浏览器，或: playwright install chromium
 
 # 4. 运行爬虫（每个分类抓取 Top 30）
 python scrape_fanqie_ranks.py
@@ -128,8 +184,6 @@ python -m http.server 8000
 
 ```
 FanqieRankTracker/
-├── .github/workflows/
-│   └── scrape.yml              # GitHub Actions 自动化工作流
 ├── css/
 │   └── style.css               # 暗色编辑风格主题样式
 ├── js/
@@ -149,6 +203,7 @@ FanqieRankTracker/
 ├── trend.html                  # 类型风向标趋势分析页
 ├── shorts.html                 # 短篇推荐页
 ├── scrape_fanqie_ranks.py      # 番茄小说爬虫（Playwright）
+├── run_daily.sh                # VPS 每日任务脚本
 ├── requirements.txt            # Python 依赖
 └── README.md                   # 本文件
 ```
@@ -159,19 +214,19 @@ FanqieRankTracker/
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                   GitHub Actions (每日 08:00)                │
+│                    VPS cron (每日 08:15 北京时间)            │
 │                                                             │
 │  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐  │
-│  │  Playwright   │───▶│  build_latest │───▶│  git commit  │  │
-│  │  爬取榜单数据  │    │  趋势对比      │    │  自动提交     │  │
-│  │              │    │  + AI 分析     │    │  到 main     │  │
+│  │  Playwright   │───▶│  build_latest │───▶│  写入 data/  │  │
+│  │  爬取榜单数据  │    │  趋势对比      │    │  目录        │  │
+│  │              │    │  + AI 分析     │    │              │  │
 │  └──────────────┘    └──────────────┘    └──────────────┘  │
 │                                                             │
 └────────────────────────────┬────────────────────────────────┘
                              │
                              ▼
-                    GitHub Pages 自动部署
-                    用户访问在线看板 🌐
+                      Caddy 静态托管
+                      用户访问在线看板 🌐
 ```
 
 ---
@@ -179,16 +234,17 @@ FanqieRankTracker/
 ## 📝 常见问题
 
 <details>
-<summary><b>Q: Workflow 运行失败怎么办？</b></summary>
+<summary><b>Q: 爬虫运行失败怎么办？</b></summary>
 
-检查 Actions 日志中的错误信息。常见原因：
+检查 `logs/daily.log` 中的错误信息。常见原因：
 - 番茄小说页面结构变更 → 需要更新爬虫选择器
-- Playwright 安装超时 → 尝试重新运行
+- Playwright 浏览器未安装 → 检查 `PLAYWRIGHT_BROWSERS_PATH` 指向的浏览器目录
+- 网络波动导致 SPA 书单未渲染 → 爬虫已内置 3 次重试，仍失败可手动重跑
 
 </details>
 
 <details>
-<summary><b>Q: 不配置 AI Secret 也能用吗？</b></summary>
+<summary><b>Q: 不配置 AI API 也能用吗？</b></summary>
 
 可以！系统会自动 fallback 到基于规则的摘要（如"新增3本上榜；《XX》排名上升+5位"）。只是没有 AI 自然语言分析而已。
 

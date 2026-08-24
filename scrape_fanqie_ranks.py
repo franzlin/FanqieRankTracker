@@ -60,13 +60,10 @@ def run_scraper(limit=30, sleep_sec=5):
     # ----------------------------------------
 
     with sync_playwright() as p:
-        if os.environ.get("GITHUB_ACTIONS"):
-            browser = p.chromium.launch(headless=True)
-        else:
-            browser = p.chromium.launch(
-                headless=True,
-                args=["--no-sandbox", "--disable-dev-shm-usage"],
-            )
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox", "--disable-dev-shm-usage"],
+        )
         # Create a new context with a normal user agent
         context = browser.new_context(
             user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"

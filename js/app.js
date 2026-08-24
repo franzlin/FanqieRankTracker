@@ -572,13 +572,51 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span class="book-reads">${escapeHtml(book.reads)}</span>
                     </div>
                     <p class="book-intro">${escapeHtml(book.intro)}</p>
-                    <button class="book-copy-btn" type="button">复制信息</button>
+                    <div class="book-actions">
+                        <button class="book-copy-btn" type="button">复制信息</button>
+                        <button class="book-copy-url-btn" type="button">复制小说地址</button>
+                    </div>
                 </div>
             `;
 
-            // Bind copy button
+            // Bind copy info button
             const copyBtn = card.querySelector('.book-copy-btn');
             copyBtn.addEventListener('click', (e) => copyBookInfo(e, book));
+
+            // Bind copy URL button
+            const copyUrlBtn = card.querySelector('.book-copy-url-btn');
+            copyUrlBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                const url = book.url || '';
+                if (!url) return;
+                navigator.clipboard.writeText(url).then(() => {
+                    copyUrlBtn.classList.add('copied');
+                    copyUrlBtn.textContent = '已复制';
+                    copyToast.textContent = '小说地址已复制';
+                    showCopyToast();
+                    setTimeout(() => {
+                        copyUrlBtn.classList.remove('copied');
+                        copyUrlBtn.textContent = '复制小说地址';
+                    }, 1500);
+                }).catch(() => {
+                    const ta = document.createElement('textarea');
+                    ta.value = url;
+                    ta.style.position = 'fixed';
+                    ta.style.opacity = '0';
+                    document.body.appendChild(ta);
+                    ta.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(ta);
+                    copyUrlBtn.classList.add('copied');
+                    copyUrlBtn.textContent = '已复制';
+                    showCopyToast();
+                    setTimeout(() => {
+                        copyUrlBtn.classList.remove('copied');
+                        copyUrlBtn.textContent = '复制小说地址';
+                    }, 1500);
+                });
+            });
 
             fragment.appendChild(card);
         });
