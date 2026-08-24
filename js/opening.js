@@ -52,9 +52,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const url = item.url || '#';
             return `
                 <a class="op-book-item" href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">
-                    <span class="op-book-title">${escapeHtml(item.title)}</span>
-                    <span class="op-book-meta">${escapeHtml(item.category)} · ${escapeHtml(item.reads)} · ${escapeHtml(item.author)}</span>
-                    <span class="op-book-intro">${escapeHtml(intro)}</span>
+                    <div class="op-book-title">${escapeHtml(item.title)}</div>
+                    <div class="op-book-meta">${escapeHtml(item.category)} · ${escapeHtml(item.reads)} · ${escapeHtml(item.author)}</div>
+                    <div class="op-book-intro">${escapeHtml(intro)}</div>
                 </a>
             `;
         }).join('');
