@@ -1222,6 +1222,22 @@ def main():
     write_json(opening_path, opening_payload)
     print(f"✅ 新上榜开局分析: {opening_path}")
 
+    # 生成 AI 友好资产：llms.txt / daily report / schema / overview
+    ai_result = build_ai_assets(
+        output=output,
+        market_payload=market_payload,
+        opening_payload=opening_payload,
+        keyword_payload=keyword_payload,
+        blueocean_payload=blueocean_payload,
+        trends_dir=trends_dir,
+        data_dir=data_dir,
+        api_dir=api_dir,
+        base_dir=base_dir,
+        trends=trends,
+        prev_date=prev_date,
+    )
+    print(f"✅ AI 友好资产: {ai_result}")
+
 
 # ============================================================
 # 书名关键词分析
@@ -1637,6 +1653,353 @@ def enrich_opening_analysis_with_ai(payload: dict, api_key: str,
         payload["ai_analysis"] = ""
 
     return payload
+
+
+# ============================================================
+# AI 友好资产：llms.txt / daily report / schema / overview
+# ============================================================
+
+def format_reads_str(value) -> str:
+    """把数字阅读量格式化成 AI 易读的字符串（12345 -> 1.2万）。"""
+    try:
+        v = float(value)
+    except (TypeError, ValueError):
+        return str(value)
+    if v >= 10000:
+        return f"{v/10000:.1f}万"
+    return str(int(v)) if v == int(v) else str(v)
+
+
+def build_ai_assets(output: dict, market_payload: dict, opening_payload: dict,
+                    keyword_payload: dict, blueocean_payload: dict,
+                    trends_dir: str, data_dir: str, api_dir: str,
+                    base_dir: str, trends: dict, prev_date: str) -> str:
+    """生成一组面向 LLM/其他 AI 的高可读资产：
+    - data/ai/daily-report.md   今日 Markdown 日报（全文本，AI 直接读）
+    - data/ai/daily-report.json 今日结构化日报
+    - data/ai/schema.md         数据字段字典（教 AI 读懂所有 JSON）
+    - llms.txt                  站点根目录的 LLM 发现入口（llmstxt.org 标准）
+    - llms-full.txt             完整内容快照
+    - api/ai/overview.json      数据资源索引（端点 + 更新时间 + 用途）
+    """
+    date_str = output.get("date", "")
+    ai_dir = os.path.join(data_dir, "ai")
+    os.makedirs(ai_dir, exist_ok=True)
+
+    # ---------- 1. Markdown 日报 ----------
+    md_lines = []
+    md_lines.append(f"# 番茄新书榜日报 · {date_str}")
+    md_lines.append(f"对比 {prev_date}，数据源：番茄小说男频+女频新书榜\n")
+
+    # 全站热点摘要
+    md_lines.append("## 一、全站热点（AI 总结/规则统计）")
+    if market_payload and market_payload.get("periods"):
+        for period_key, period in market_payload["periods"].items():
+            if isinstance(period, dict) and period.get("summary"):
+                md_lines.append(f"### 周期 {period_key}")
+                md_lines.append(period["summary"])
+                md_lines.append("")
+    md_lines.append("")
+
+    # 各分类趋势
+    md_lines.append("## 二、分类趋势对比")
+    for cat in output.get("categories", []):
+        name = cat.get("name", "")
+        channel = cat.get("channel", "")
+        trend = cat.get("trend", {}) or {}
+        summary = trend.get("summary", "")
+        new_count = trend.get("new_count", 0)
+        dropped_count = trend.get("dropped_count", 0)
+        new_books = trend.get("new_books", []) or []
+        risers = trend.get("top_risers", []) or []
+        reads = trend.get("reads_growth", []) or []
+
+        md_lines.append(f"### {channel}·{name}")
+        if summary:
+            md_lines.append(f"**摘要：** {summary}")
+        md_lines.append(f"- 新上榜 {new_count} 本，掉榜 {dropped_count} 本")
+        if new_books:
+            md_lines.append(f"- 新上榜作品：{'；'.join(new_books[:8])}")
+        if risers:
+            riser_text = "；".join(f"{r.get('title','')}（{r.get('change','')}）" for r in risers[:5])
+            md_lines.append(f"- 排名上升：{riser_text}")
+        if reads:
+            reads_top = sorted(reads, key=lambda r: parse_reads_value(r.get('growth', '0')), reverse=True)[:5]
+            reads_text = "；".join(f"{r.get('title','')}（+{r.get('growth','')}）" for r in reads_top)
+            md_lines.append(f"- 阅读增长：{reads_text}")
+        md_lines.append("")
+
+    # 关键词红利
+    md_lines.append("## 三、书名关键词红利（男频）")
+    male_kws = (keyword_payload or {}).get("male_keywords", []) or []
+    if male_kws:
+        for kw in male_kws[:20]:
+            samples = kw.get("sample_books", []) or []
+            sample_text = "、".join(
+                (s.get("title", "") if isinstance(s, dict) else str(s)) for s in samples
+            )[:100]
+            md_lines.append(f"- **{kw.get('keyword','')}**：{kw.get('count',0)} 本，均读 {format_reads_str(kw.get('avg_reads', 0))}（示例：{sample_text}）")
+    else:
+        md_lines.append("- 暂无数据")
+    md_lines.append("")
+
+    # 蓝海探测
+    md_lines.append("## 四、蓝海方向（题材密度分析）")
+    if blueocean_payload and blueocean_payload.get("categories"):
+        male_bo = [c for c in blueocean_payload["categories"] if c.get("channel") == "male"]
+        for cat in male_bo[:10]:
+            blue_tags = [t for t in (cat.get("tags") or []) if t.get("level") == "blue"]
+            if blue_tags:
+                tags_text = "、".join(t.get("tag", "") for t in blue_tags[:6])
+                md_lines.append(f"- {cat.get('name','')}：蓝海题材 {tags_text}")
+    md_lines.append("")
+
+    # 开局分析（AI）
+    md_lines.append("## 五、新上榜开局分析")
+    ai_text = (opening_payload or {}).get("ai_analysis", "") or ""
+    if ai_text:
+        md_lines.append(ai_text)
+    else:
+        md_lines.append("- 暂无 AI 分析")
+    md_lines.append("")
+
+    # 男频新上榜 Top 30
+    md_lines.append("## 六、男频新上榜 Top 30")
+    male_cats = [c for c in output.get("categories", []) if c.get("channel") == "male"]
+    seen_urls = set()
+    top_books = []
+    for cat in male_cats:
+        for b in (cat.get("books") or []):
+            if b.get("url") in seen_urls:
+                continue
+            seen_urls.add(b.get("url"))
+            top_books.append({"title": b.get("title", ""), "reads": b.get("reads", ""), "cat": cat.get("name", "")})
+    top_books.sort(key=lambda b: parse_reads_value(b.get("reads", "0")), reverse=True)
+    for i, b in enumerate(top_books[:30], 1):
+        md_lines.append(f"{i}. 《{b['title']}》[{b['cat']}] 在读 {b['reads']}")
+
+    daily_md = "\n".join(md_lines)
+    daily_md_path = os.path.join(ai_dir, "daily-report.md")
+    with open(daily_md_path, "w", encoding="utf-8") as f:
+        f.write(daily_md)
+
+    # ---------- 2. 结构化日报 JSON ----------
+    male_bo = []
+    if blueocean_payload and blueocean_payload.get("categories"):
+        male_bo = [c for c in blueocean_payload["categories"] if c.get("channel") == "male"]
+    daily_json = {
+        "date": date_str,
+        "prev_date": prev_date,
+        "market": market_payload,
+        "categories": output.get("categories", []),
+        "title_keywords": (keyword_payload or {}).get("male_keywords", []),
+        "blueocean": male_bo,
+        "opening_ai": ai_text,
+    }
+    daily_json_path = os.path.join(ai_dir, "daily-report.json")
+    with open(daily_json_path, "w", encoding="utf-8") as f:
+        json.dump(daily_json, f, ensure_ascii=False, indent=2)
+
+    # ---------- 3. Schema 数据字典 ----------
+    schema_lines = [
+        "# 番茄新书榜 · 数据字段字典（Schema）",
+        "",
+        "这是本站所有数据文件的字段说明，供 AI 解析数据时参考。",
+        "",
+        "## data/latest_ranks.json（主数据）",
+        "```",
+        "{",
+        '  "date": "2026-08-24",            # 榜单日期 YYYY-MM-DD',
+        '  "prev_date": "2026-08-23",       # 对比日期',
+        '  "categories": [                  # 全部分类（男频+女频）',
+        "    {",
+        '      "name": "西方奇幻",           # 分类名',
+        '      "channel": "male",           # 频道: male=男频, female=女频',
+        '      "trend": {                   # 与对比日期相比的趋势',
+        '        "new_count": 3,            # 新上榜数量',
+        '        "dropped_count": 2,        # 掉榜数量',
+        '        "new_books": ["书名1", ...], # 新上榜书名',
+        '        "top_risers": [{"title": "...", "change": "+5"}],  # 排名上升',
+        '        "top_fallers": [...],      # 排名下降',
+        '        "reads_growth": [{"title": "...", "growth": "+3.2万"}],  # 阅读量增长',
+        '        "summary": "AI 生成的趋势摘要文本"',
+        "      },",
+        '      "books": [                   # 该分类 Top 30 书籍',
+        "        {",
+        '          "title": "书名",',
+        '          "author": "作者",',
+        '          "reads": "17.9万",       # 在读人数（字符串，万=万）',
+        '          "intro": "简介文本",',
+        '          "cover": "封面 URL",',
+        '          "url": "https://fanqienovel.com/page/xxx"  # 番茄书页链接',
+        "        }",
+        "      ]",
+        "    }",
+        "  ]",
+        "}",
+        "```",
+        "",
+        "## data/trends/YYYY-MM-DD.json（历史趋势归档）",
+        "键为 `channel:分类名`（如 `male:西方奇幻`），值是上述 trend 结构。",
+        "",
+        "## data/market_summary.json（全站热点）",
+        "```",
+        "{",
+        '  "periods": {',
+        '    "7":  { "summary": "近7日热点文本", "source": "ai"|"rule", "period": "7" },',
+        '    "14": {...}, "30": {...}, "all": {...}',
+        "  }",
+        "}",
+        "```",
+        "",
+        "## data/title_keywords.json（书名关键词红利）",
+        "```",
+        "{",
+        '  "date": "...",',
+        '  "male_keywords": [',
+        "    {",
+        '      "keyword": "系统",           # 关键词（自动 n-gram 提取）',
+        '      "count": 35,                 # 命中本数',
+        '      "avg_reads": 120000,         # 命中书籍平均在读',
+        '      "max_reads": 800000,         # 最高在读',
+        '      "sample_books": ["书名1", ...]',
+        "    }",
+        "  ]",
+        "}",
+        "```",
+        "",
+        "## data/blueocean.json（蓝海探测）",
+        "```",
+        "{",
+        '  "date": "...",',
+        '  "categories": [',
+        "    {",
+        '      "name": "分类名", "channel": "male", "total_books": 20,',
+        '      "tags": [',
+        "        {",
+        '          "tag": "题材词", "count": 3,',
+        '          "density": 0.15,          # 占比 15%',
+        '          "level": "blue"|"red"|"normal",  # blue=蓝海(稀疏) red=红海(扎堆)',
+        '          "avg_reads": 0, "sample_titles": [...]',
+        "        }",
+        "      ]",
+        "    }",
+        "  ]",
+        "}",
+        "```",
+        "",
+        "## data/opening_analysis.json（开局分析）",
+        "```",
+        "{",
+        '  "date": "...",',
+        '  "male_openings": [ {"title": "...", "category": "...", "author": "...", "reads": "...", "intro": "...", "url": "..."} ],',
+        '  "ai_analysis": "AI 生成的开局模式分析 Markdown"',
+        "}",
+        "```",
+        "",
+        "## 阅读量字段说明",
+        "`reads` 是字符串，可能为 `17.9万`、`7962`、`未知`。解析：包含 `万` 时乘以 10000，`未知` 视为 0。",
+        "",
+        "## 频道标识",
+        "- `male` = 男频，`female` = 女频",
+        "- 男频与女频可能存在同名分类（如 科幻末世），必须用 `channel` 字段区分。",
+    ]
+    schema_path = os.path.join(ai_dir, "schema.md")
+    with open(schema_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(schema_lines))
+
+    # ---------- 4. llms.txt（根目录，llmstxt.org 标准） ----------
+    llms_lines = [
+        "# 番茄新书榜（Fanqie Rank Tracker）",
+        "",
+        "> 每日自动追踪番茄小说男频/女频新书榜，AI 生成趋势分析。数据每天北京时间 08:15 自动更新。",
+        "",
+        "## 给 AI 的建议",
+        "如需最新数据和完整字段说明，按顺序读取：",
+        "1. `data/ai/daily-report.md` — 今日完整日报（Markdown，含趋势摘要、蓝海、关键词、开局分析、Top30）",
+        "2. `data/ai/schema.md` — 数据字段字典（教 AI 解析 JSON）",
+        "3. `data/ai/daily-report.json` — 今日结构化数据",
+        "4. `data/latest_ranks.json` — 全量分类+书籍+趋势数据",
+        "5. 历史趋势：`data/trends/YYYY-MM-DD.json`",
+        "",
+        "## 数据端点",
+        f"- 资源索引: `api/ai/overview.json`（{date_str}）",
+        f"- 日报(Markdown): `data/ai/daily-report.md`（{date_str}）",
+        f"- 日报(JSON): `data/ai/daily-report.json`（{date_str}）",
+        f"- 字段字典: `data/ai/schema.md`",
+        f"- 全量数据: `api/lastest/all.json`（{date_str}）",
+        f"- 分类索引: `api/lastest.json`",
+        f"- 单分类: `api/lastest/<分类名>.json`",
+        f"- 主数据: `data/latest_ranks.json`（{date_str}）",
+        "- 历史日期: `data/dates.json`",
+        "",
+        "## 页面",
+        "- 首页: `/`（书单看板）",
+        "- 风向标: `/trend.html`",
+        "- 关键词红利: `/keyword.html`",
+        "- 蓝海探测: `/blueocean.html`",
+        "- 开局分析: `/opening.html`",
+    ]
+    llms_path = os.path.join(base_dir, "llms.txt")
+    with open(llms_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(llms_lines))
+
+    # ---------- 5. llms-full.txt（完整快照） ----------
+    llms_full = "\n".join([
+        "# 番茄新书榜 · 完整数据快照",
+        "",
+        f"> 更新时间：{date_str}。完整日报、分类趋势、关键词、蓝海、开局分析、Top30。",
+        "",
+        daily_md,
+        "",
+        "---",
+        "",
+        "## 数据字典（完整版）",
+        "",
+        "\n".join(schema_lines),
+    ])
+    llms_full_path = os.path.join(base_dir, "llms-full.txt")
+    with open(llms_full_path, "w", encoding="utf-8") as f:
+        f.write(llms_full)
+
+    # ---------- 6. api/ai/overview.json（资源索引） ----------
+    overview = {
+        "site": "番茄新书榜 Fanqie Rank Tracker",
+        "description": "每日自动追踪番茄小说男频/女频新书榜，AI 趋势分析。",
+        "updated": date_str,
+        "recommended_reading_order": [
+            "data/ai/daily-report.md",
+            "data/ai/schema.md",
+            "data/ai/daily-report.json",
+            "data/latest_ranks.json",
+        ],
+        "endpoints": [
+            {"path": "data/ai/daily-report.md", "format": "markdown", "description": "今日完整日报", "date": date_str},
+            {"path": "data/ai/daily-report.json", "format": "json", "description": "今日结构化日报", "date": date_str},
+            {"path": "data/ai/schema.md", "format": "markdown", "description": "数据字段字典"},
+            {"path": "data/latest_ranks.json", "format": "json", "description": "全量分类+书籍+趋势", "date": date_str},
+            {"path": "api/lastest/all.json", "format": "json", "description": "全量接口", "date": date_str},
+            {"path": "api/lastest.json", "format": "json", "description": "分类索引"},
+            {"path": "data/trends/YYYY-MM-DD.json", "format": "json", "description": "历史趋势归档，键=channel:分类名"},
+            {"path": "data/market_summary.json", "format": "json", "description": "全站热点周期总结"},
+            {"path": "data/title_keywords.json", "format": "json", "description": "书名关键词红利分析"},
+            {"path": "data/blueocean.json", "format": "json", "description": "蓝海题材探测"},
+            {"path": "data/opening_analysis.json", "format": "json", "description": "新上榜开局分析"},
+            {"path": "data/dates.json", "format": "json", "description": "历史日期列表"},
+        ],
+        "notes": [
+            "reads 是字符串，含'万'时*10000，'未知'为0",
+            "同名分类跨频道（如科幻末世），必须用 channel 字段区分 male/female",
+        ],
+    }
+    overview_dir = os.path.join(data_dir, "..", "api", "ai")
+    overview_dir = os.path.normpath(overview_dir)
+    os.makedirs(overview_dir, exist_ok=True)
+    overview_path = os.path.join(overview_dir, "overview.json")
+    with open(overview_path, "w", encoding="utf-8") as f:
+        json.dump(overview, f, ensure_ascii=False, indent=2)
+
+    return f"llms.txt, llms-full.txt, data/ai/ (3 files), api/ai/overview.json"
 
 
 if __name__ == "__main__":
